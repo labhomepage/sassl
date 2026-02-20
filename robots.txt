@@ -1,1 +1,1 @@
-Sitemap: https://labhomepage.github.io/lab-homepage/sitemap.xml
+Sitemap: https://labhomepage.github.io/sassl/sitemap.xml
