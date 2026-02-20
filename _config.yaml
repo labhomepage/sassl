@@ -2,7 +2,7 @@
 title: Lab Website Template
 subtitle: by the Greene Lab
 url: "https://labhomepage.github.io"
-baseurl: "/lab-homepage"
+baseurl: "/sassl"
 description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
 header: images/background.jpg
 footer: images/background.jpg
