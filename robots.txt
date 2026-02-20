@@ -1,0 +1,1 @@
+Sitemap: https://labhomepage.github.io/lab-homepage/sitemap.xml
