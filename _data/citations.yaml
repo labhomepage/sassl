@@ -79,6 +79,20 @@
   orcid: 0000-0002-3501-8265
   plugin: orcid.py
   file: orcid.yaml
+- id: doi.org/10.1016/j.istruc.2024.106733
+  title: Inelastic behavior of diagonally reinforced coupling beams confined with steel fibers
+  authors:
+  - Dong-Hee Son
+  - Ji-Yoon Choi
+  - Seonghwi Song
+  - Chang-Sik Choi
+  - Baek-Il Bae
+  publisher: Structures
+  date: '2024-03-01'
+  link: https://doi.org/10.1016/j.istruc.2024.106733
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml  
 - id: doi:10.3390/ma14144052
   title: Deflection Estimation Based on the Thermal Characteristics of Composite Deck
     Slabs Containing Macro-Synthetic Fibers
