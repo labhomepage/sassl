@@ -20,14 +20,14 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="043-841-5217"
+  link="+82-43-841-5217"
 %}
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://www.google.co.kr/maps/place/%ED%95%9C%EA%B5%AD%EA%B5%90%ED%86%B5%EB%8C%80%ED%95%99%EA%B5%90+%EA%B1%B4%EC%B6%95%EA%B4%80+(E12)/data=!3m1!4b1!4m6!3m5!1s0x3564858ad7c001c7:0xc5d1d45d2a769dda!8m2!3d36.9713231!4d127.871814!16s%2Fg%2F11sskrc8cl?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
 %}
 
 {% include section.html %}
