@@ -10,12 +10,10 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
+  email: dhson@ut.ac.kr
   orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  google-scholar: 0Q-GOQMAAAAJ
   github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
 
 ### jekyll settings
 
