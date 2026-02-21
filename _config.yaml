@@ -1,6 +1,6 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
+title: 고성능구조시스템연구실
+subtitle: 국립한국교통대학교
 url: "https://labhomepage.github.io"
 baseurl: "/sassl"
 description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
