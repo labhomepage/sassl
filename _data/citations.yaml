@@ -79,19 +79,6 @@
   orcid: 0000-0002-3501-8265
   plugin: orcid.py
   file: orcid.yaml
-- id: doi.org/10.1016/j.jobe.2022.104468
-  title: Flexural retrofit design of existing reinforced concrete structural walls
-  authors:
-  - Chang-Sik Choi
-  - Baek-Il Bae
-  - Sungchul Bae
-  - Dong-Hee Son
-  publisher: Structures
-  date: '2022-07-15'
-  link: https://doi.org/hbp6sr
-  orcid: 0000-0002-3501-8265
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.3390/ma14144052
   title: Deflection Estimation Based on the Thermal Characteristics of Composite Deck
     Slabs Containing Macro-Synthetic Fibers
