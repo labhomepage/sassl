@@ -7,9 +7,71 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Prof.Son,dong-hee
 
-abcdefg Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Professor
+
+Department of Architectural Engineering, Korea National University of Transportation
+
+
+### experience
+
+Korea National University of Transportation	
+Assistant Professor, Department of Architectural Engineering 	Mar.2025-Present
+
+The Research Institute of Industrial Science, Hanyang University 	
+Postdoctoral researcher, Department of architectural engineering Mar.2024-Feb. 2025
+
+Kyonggi University 	
+Adjunct faculty, Department of Civil and Energy Engineering 	Mar.2024-Feb. 2025
+
+Hanyang University 	
+Adjunct faculty, Department of Architectural Engineering 	Sep.2024-Dec. 2024
+
+Hanyang University 	
+Teaching Fellow, Graduate School of Engineering	Mar.2021-Jun.2021
+
+SEN STRUCTURAL ENGINEERS CO., LTD. 	
+Structural Engineer	Mar.2019-Sep.2020
+
+
+### Awards and Honors
+
+Best Paper Awards	2025
+Spring Annual Conference of KSMI
+
+Outstanding Ph.D. Dissertation Award 	2024
+Hanyang University
+Future Construction Technology Talent Award 	2024
+Korea Construction Engineers Association
+
+Outstanding Research Achievement Award (Outstanding Paper Category) 	2023
+Hanyang University
+
+Best Paper Awards 	2022
+Automn Annual Conference of Architectural Institute of Korea
+
+Best Paper Awards	2021
+Automn Annual Conference of KSMI
+
+Best Paper Awards	2021
+Spring Annual Conference of Architectural Institute of Korea
+
+15th Excellent Graduation Thesis Exhibition Encouragement Award (Master’s Category) 	2019
+Architectural Institute of Korea
+
+Best Paper Awards	2019
+Automn Annual Conference of Korea Concrete Institute
+
+ISAIA 2018 Excellent Research Award (Academic Sessions_Oral Presentation)	2018
+International Symposium on Architectural Interchanges in Asia
+
+Certification of Scholarship 	2018
+Hanyang University Association of Architectural Engineering Alumni
+
+13th Excellent Graduation Thesis Exhibition Encouragement Award (Bachelor’s Category)	2017
+Architectural Institute of Korea
+
+Dean's Award	 2016
+Hanyang Architecture Symposium, Hanyang University
 
 {%
   include button.html
