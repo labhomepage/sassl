@@ -181,6 +181,21 @@
   orcid: 0000-0002-3501-8265
   plugin: orcid.py
   file: orcid.yaml  
+- id: doi:10.1016/j.cscm.2022.e01603
+  title: Mechanical properties of mortar and concrete incorporated with concentrated graphene oxide, functionalized carbon nanotube, nano silica hybrid aqueous solution
+  authors:
+  - Dong-Hee Son
+  - Dongsun Hwangbo
+  - Heongwon Suh
+  - Baek-Il Bae
+  - Sungchul Bae
+  - Chang-Sik Choi
+  publisher: Case Studies in Construction Materials
+  date: '2023-07-01'
+  link: https://www.sciencedirect.com/science/article/pii/S2214509522007355?via%3Dihub
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml  
 - id: doi:10.1016/j.jobe.2022.104468
   title: Flexural retrofit of existing reinforced concrete structural walls with various boundary element details under cyclic loading
   authors:
@@ -194,6 +209,18 @@
   orcid: 0000-0002-3501-8265
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.14359/51734525
+  title: Shear Strength Evaluation of Diagonally Reinforced Concrete Coupling Beams with Steel Fibers
+  authors:
+  - Dong-Hee Son
+  - Baek-Il Bae
+  - Chang-Sik Choi
+  publisher: ACI Structural Journal
+  date: '2022-07-01'
+  link: https://www.concrete.org/publications/internationalconcreteabstractsportal.aspx?m=details&id=51734525
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml 
 - id: doi:10.3390/ma14144052
   title: Deflection Estimation Based on the Thermal Characteristics of Composite Deck
     Slabs Containing Macro-Synthetic Fibers
@@ -206,6 +233,34 @@
   publisher: Materials
   date: '2021-07-20'
   link: https://doi.org/hbp6sx
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/app11s041662
+  title: Flexural strength of composite deck slab with macro synthetic fiber reinforced concrete
+  authors:
+  - Dong-Hee Son
+  - Baek-Il Bae
+  - Moon-Sung Lee
+  - Moon-Seok Lee
+  - Chang-Sik Choi
+  publisher: Applied Sciences
+  date: '2021-02-12'
+  link: https://doi.org/10.3390/app11041662
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/su13010182
+  title: Hysteretic Behavior of Reinforced Concrete Coupling Beams According to Volume Fraction of Steel Fiber
+  authors:
+  - Joo-Hong Chung
+  - Dong-Hee Son
+  - Su-Yong Kim
+  - Baek-Il Bae
+  - Chang-Sik Choi
+  publisher: Sustainability
+  date: '2020-12-27'
+  link: https://doi.org/10.3390/su13010182
   orcid: 0000-0002-3501-8265
   plugin: orcid.py
   file: orcid.yaml
