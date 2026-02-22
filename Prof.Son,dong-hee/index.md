@@ -1,11 +1,11 @@
 ---
-title: Contact
+title: Prof.Son,dong-hee
 nav:
   order: 5
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Prof.Son,dong-hee
 
 abcdefg Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
