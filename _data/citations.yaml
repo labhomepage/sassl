@@ -134,6 +134,53 @@
   orcid: 0000-0002-3501-8265
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.conbuildmat.2023.132856
+  title: Comparative analysis of the synergistic effects of hybrid nanomaterial reinforcement in cementitious Composites: A perspective for pore refinement and thermal resistance
+  authors:
+  - Heongwon Suh
+  - Gyeongryul Kim
+  - Seongmin Cho
+  - Peiqi Li
+  - Dong-Hee Son
+  - Doheon Koo
+  - Jun Lim 
+  - Chang-Sik Choi
+  - Seungwook Seok
+  - Sungchul Bae
+  publisher: Construction and Building Materials
+  date: '2023-10-19'
+  link: https://www.sciencedirect.com/science/article/abs/pii/S0950061823025722?via%3Dihub
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml  
+- id: doi:10.1016/j.jobe.2023.107188
+  title: Stiffness reduction effect of vertically divided reinforced concrete structural walls
+  authors:
+  - Dong-Hee Son
+  - Chang-Sik Choi
+  publisher: Journal of Building Engineering
+  date: '2023-10-01'
+  link: https://www.sciencedirect.com/science/article/abs/pii/S2352710223013682?via%3Dihub
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml
+- id: https://doi.org/10.1016/j.cscm.2023.e02206
+  title: Effect of nanomaterials (carbon nanotubes, nano-silica, graphene oxide) on bond behavior between concrete and reinforcing bars
+  authors:
+  - Dongsun Hwangbo
+  - Dong-Hee Son
+  - Heongwon Suh
+  - Jaebum Sung
+  - Baek-Il Bae
+  - Sungchul Bae
+  - Hongyun So
+  - Chang-Sik Choi
+  publisher: Case Studies in Construction Materials
+  date: '2023-07-01'
+  link: https://www.sciencedirect.com/science/article/pii/S2214509523003868?via%3Dihub
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml  
 - id: doi:10.1016/j.jobe.2022.104468
   title: Flexural retrofit of existing reinforced concrete structural walls with various boundary element details under cyclic loading
   authors:
