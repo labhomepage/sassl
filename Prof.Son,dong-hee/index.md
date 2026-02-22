@@ -5,7 +5,7 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Prof.Son,dong-hee
+# {% include icon.html icon="fa-solid fa-user-graduate" %}Prof.Son,dong-hee
 
 ### Professor
 
