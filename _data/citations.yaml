@@ -79,8 +79,8 @@
   orcid: 0000-0002-3501-8265
   plugin: orcid.py
   file: orcid.yaml
-- id: doi.org/10.1016/j.jobe.2022.104468
-  title: Flexural retrofit design of existing reinforced concrete structural walls
+- id: doi:10.1016/j.jobe.2022.104468
+  title: Flexural retrofit of existing reinforced concrete structural walls with various boundary element details under cyclic loading
   authors:
   - Chang-Sik Choi
   - Baek-Il Bae
@@ -88,7 +88,7 @@
   - Dong-Hee Son
   publisher: Structures
   date: '2022-07-15'
-  link: https://doi.org/hbp6sr
+  link: https://doi.org/10.1016/j.jobe.2022.104468
   orcid: 0000-0002-3501-8265
   plugin: orcid.py
   file: orcid.yaml
