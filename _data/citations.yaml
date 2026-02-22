@@ -79,6 +79,61 @@
   orcid: 0000-0002-3501-8265
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.istruc.2024.107324
+  title: Finite element analysis for axial compressive behavior of CFT columns assembled with rectangular wave-shaped ribs
+  authors:
+  - Seonghwi Song
+  - Dong-Hee Son
+  - Baek-Il Bae
+  - Moon-Seok Lee
+  - Chang-Sik Choi
+  publisher: Structures
+  date: '2024-11-01'
+  link: https://www.sciencedirect.com/science/article/abs/pii/S2352012424014760?via%3Dihub
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.istruc.2024.106733
+  title: Inelastic behavior of diagonally reinforced coupling beams confined with steel fibers
+  authors:
+  - Dong-Hee Son
+  - Ji-Yoon Choi
+  - Seonghwi Song
+  - Chang-Sik Choi
+  - Baek-Il Bae
+  publisher: Structures
+  date: '2024-07-01'
+  link: https://www.sciencedirect.com/science/article/abs/pii/S2352012424008853?via%3Dihub
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.istruc.2024.106027
+  title: Axial load behavior of CFT columns assembled with rectangular wave-shaped ribs
+  authors:
+  - Seonghwi Song
+  - Dong-Hee Son
+  - Baek-Il Bae
+  - Sun-Seop Um
+  - Chang-Sik Choi
+  publisher: Structures
+  date: '2024-03-01'
+  link: https://www.sciencedirect.com/science/article/abs/pii/S2352012424001796?via%3Dihub
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.istruc.2024.105940
+  title: Shear strength of steel fiber reinforced concrete exterior beam-column joints with various anchorage details under cyclic loading
+  authors:
+  - Dong-Hee Son
+  - Baek-Il Bae
+  - Jangjae Lee
+  - Chang-Sik Choi
+  publisher: Structures
+  date: '2024-03-01'
+  link: https://www.sciencedirect.com/science/article/abs/pii/S2352012424000924?via%3Dihub
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.jobe.2022.104468
   title: Flexural retrofit of existing reinforced concrete structural walls with various boundary element details under cyclic loading
   authors:
