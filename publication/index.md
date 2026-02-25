@@ -47,7 +47,7 @@ SCI(E) : ## Paper,
 
 {% assign sorted = site.data.citations | sort: "date" | reverse %} 
 {% assign latest = sorted[0] %} 
-{% include citation.html entry=latest style="rich" %}
+{% include citation.html lookup=latest.id style="rich" %}
 
 {% include section.html %}
 
