@@ -10,6 +10,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+{%
+  include button.html
+  type="github"
+  text="Professor"
+  link="greenelab/lab-website-template"
+%}
+{%
+  include button.html
+  type="github"
+  text="Members"
+  link="greenelab/lab-website-template"
+%}
+{%
+  include button.html
+  type="github"
+  text="Alumni"
+  link="greenelab/lab-website-template"
+%}
+
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}

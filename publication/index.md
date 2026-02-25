@@ -12,13 +12,32 @@ SCI(E) : ## Paper,
 
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  type="github"
+  text="SCI(E)"
+  link="greenelab/lab-website-template"
 %}
 {%
   include button.html
   type="github"
-  text="On GitHub"
+  text="Scopus"
+  link="greenelab/lab-website-template"
+%}
+{%
+  include button.html
+  type="github"
+  text="Domestic"
+  link="greenelab/lab-website-template"
+%}
+{%
+  include button.html
+  type="github"
+  text="International Conference"
+  link="greenelab/lab-website-template"
+%}
+{%
+  include button.html
+  type="github"
+  text="Domestic Conference"
   link="greenelab/lab-website-template"
 %}
 
