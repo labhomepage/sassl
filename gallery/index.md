@@ -4,7 +4,7 @@ nav:
   order: 6
 ---
 
-# {% include icon.html icon="fa-solid fa-user-graduate" %}Gallery
+# {% include icon.html icon="fa-regular fa-image" %}Gallery
 
 ### Professor
 
@@ -12,26 +12,51 @@ Department of Architectural Engineering, Korea National University of Transporta
 
 {% include section.html %}
 
+{% capture col1 %}
 
-### experience
+{%
+  include figure.html
+  image="images/photo.jpg"
+  caption="Lorem ipsum"
+%}
 
-Korea National University of Transportation	
-Assistant Professor, Department of Architectural Engineering 	Mar.2025-Present
+{% endcapture %}
 
-The Research Institute of Industrial Science, Hanyang University 	
-Postdoctoral researcher, Department of architectural engineering Mar.2024-Feb. 2025
+{% capture col2 %}
 
-Kyonggi University 	
-Adjunct faculty, Department of Civil and Energy Engineering 	Mar.2024-Feb. 2025
+{%
+  include figure.html
+  image="images/photo.jpg"
+  caption="Lorem ipsum"
+%}
 
-Hanyang University 	
-Adjunct faculty, Department of Architectural Engineering 	Sep.2024-Dec. 2024
+{% endcapture %}
 
-Hanyang University 	
-Teaching Fellow, Graduate School of Engineering	Mar.2021-Jun.2021
+{% include cols.html col1=col1 col2=col2 %}
 
-SEN STRUCTURAL ENGINEERS CO., LTD. 	
-Structural Engineer	Mar.2019-Sep.2020
+{% include section.html dark=true %}
+
+{% capture col1 %}
+Lorem ipsum dolor sit amet  
+consectetur adipiscing elit  
+sed do eiusmod tempor
+{% endcapture %}
+
+{% capture col2 %}
+Lorem ipsum dolor sit amet  
+consectetur adipiscing elit  
+sed do eiusmod tempor
+{% endcapture %}
+
+{% capture col3 %}
+Lorem ipsum dolor sit amet  
+consectetur adipiscing elit  
+sed do eiusmod tempor
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 col3=col3 %}
 
 {% include section.html %}
+.
+
 

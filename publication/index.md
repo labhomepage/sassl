@@ -4,7 +4,7 @@ nav:
   order: 2
 ---
 
-# {% include icon.html icon="fa-regular fa-file-lines" %}
+# {% include icon.html icon="fa-regular fa-file-lines" %}Publication
 
 총 논문 개수 요약
 SCI(E) : ## Paper,
