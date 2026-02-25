@@ -12,8 +12,18 @@ Department of Architectural Engineering, Korea National University of Transporta
 
 {% include section.html %}
 
-{% capture col1 %}
+{% capture content %}
 
+{%
+  include figure.html
+  image="images/photo.jpg"
+  caption="Lorem ipsum"
+%}
+{%
+  include figure.html
+  image="images/photo.jpg"
+  caption="Lorem ipsum"
+%}
 {%
   include figure.html
   image="images/photo.jpg"
@@ -22,14 +32,4 @@ Department of Architectural Engineering, Korea National University of Transporta
 
 {% endcapture %}
 
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-
+{% include grid.html style="square" content=content %}
