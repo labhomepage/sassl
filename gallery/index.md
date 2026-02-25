@@ -30,4 +30,6 @@ Department of Architectural Engineering, Korea National University of Transporta
   caption="Lorem ipsum"
 %}
 
+{% endcapture %}
+
 {% include grid.html style="square" content=content %}
