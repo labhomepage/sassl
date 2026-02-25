@@ -4,7 +4,8 @@ nav:
   order: 5
 ---
 
-# {% include icon.html icon="fa-solid fa-award" %} # Awards and Honors
+# {% include icon.html icon="fa-solid fa-award" %} 
+# Awards and Honors
 
 Best Paper Awards	2025
 Spring Annual Conference of KSMI
