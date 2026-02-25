@@ -45,7 +45,9 @@ SCI(E) : ## Paper,
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% assign sorted = site.data.citations | sort: "year" | reverse %} 
+{% assign latest = sorted[0] %} 
+{% include citation.html entry=latest style="rich" %}
 
 {% include section.html %}
 
