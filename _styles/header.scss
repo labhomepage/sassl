@@ -9,7 +9,7 @@ $sticky: true;
 
 header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
@@ -132,7 +132,7 @@ header:not([data-big]) {
   }
 }
 
-header {
+header[data-big] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
