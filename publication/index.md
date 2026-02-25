@@ -1,7 +1,7 @@
 ---
 title: Publication
 nav:
-  order: 1
+  order: 2
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
