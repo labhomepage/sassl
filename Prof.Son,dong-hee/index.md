@@ -11,6 +11,8 @@ nav:
 
 Department of Architectural Engineering, Korea National University of Transportation
 
+{% include section.html %}
+
 
 ### experience
 
@@ -31,6 +33,8 @@ Teaching Fellow, Graduate School of Engineering	Mar.2021-Jun.2021
 
 SEN STRUCTURAL ENGINEERS CO., LTD. 	
 Structural Engineer	Mar.2019-Sep.2020
+
+{% include section.html %}
 
 
 ### Awards and Honors
@@ -137,3 +141,5 @@ sed do eiusmod tempor
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
+
+{% include section.html %}
