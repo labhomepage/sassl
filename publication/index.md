@@ -9,6 +9,18 @@ nav:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+{%
+  include button.html
+  type="docs"
+  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+%}
+{%
+  include button.html
+  type="github"
+  text="On GitHub"
+  link="greenelab/lab-website-template"
+%}
+
 {% include section.html %}
 
 ## Highlighted

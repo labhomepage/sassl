@@ -9,18 +9,6 @@ Our laboratory integrates large-scale structural testing, finite element method 
 
 Through this interdisciplinary research approach, SASSL aims to advance sustainable structural systems, contribute to the revision and development of building structural design codes, and cultivate the next generation of leaders in structural engineering.
 
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
-
 {% include section.html %}
 
 ## Highlights
