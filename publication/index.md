@@ -45,9 +45,10 @@ SCI(E) : ## Paper,
 
 ## Highlighted
 
-{% assign sorted = site.data.citations | sort: "date" | reverse %} 
-{% assign latest = sorted[0] %} 
-{% include citation.html entry=latest style="rich" %}
+{% assign dict = site.data.citations %} 
+{% assign entries = dict | map: 1 %} 
+{% assign sorted = entries | sort: "date" | reverse %} 
+{% assign latest = sorted[0] %} {% include citation.html entry=latest style="rich" %}
 
 {% include section.html %}
 
