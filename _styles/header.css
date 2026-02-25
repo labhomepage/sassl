@@ -125,7 +125,7 @@ header[data-big] {
   top: unset;
 }
 header[data-big] .home {
-  flex-direction: row;
+  flex-direction: column;
   flex-grow: 0;
 }
 header[data-big] .logo {
