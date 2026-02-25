@@ -132,7 +132,7 @@ header:not([data-big]) {
   }
 }
 
-header[data-big] {
+header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
