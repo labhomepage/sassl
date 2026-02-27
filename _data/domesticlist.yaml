@@ -1,0 +1,53 @@
+- id: 1-6
+  title: 유한요소해석에 의한 단부파쇄 후 수직철근이 보강된 철근콘크리트 전단벽의 휨 보강설계기법 제안
+  authors:
+  - 손동희
+  publisher: 교통건축 논문집
+  date: '2025-?-?'
+  link: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12537645
+  plugin: orcid.py
+- id: 103-110
+  title: 반복하중을 받는 수직분할된 철근콘크리트 전단벽의 강성저감효과
+  authors:
+  - 황보동선
+  - 손동희
+  - 배백일
+  - 최창식
+  publisher: 한국구조물진단유지관리공학회 논문집
+  date: '2022-06-01'
+  link: https://repository.hanyang.ac.kr/handle/20.500.11754/177071
+  plugin: orcid.py
+- id: 37-45
+  title: 일반 철근 배근 상세를 갖는 강섬유 보강 콘크리트 연결보의 전단강도 평가
+  authors:
+  - 송성휘
+  - 손동희
+  - 배백일
+  - 최창식
+  publisher: 한국구조물진단유지관리공학회 논문집
+  date: '2023-02-01'
+  link: https://scholarworks.bwise.kr/hanyang/handle/2021.sw.hanyang/182471
+  plugin: orcid.py
+- id: 84-91
+  title: 반복하중을 받는 대각보강된 철근콘크리트 연결보의 강섬유 형상비와 혼입률에 따른 이력거동
+  authors:
+  - 최지윤
+  - 손동희
+  - 배백일
+  - 최창식
+  publisher: 한국구조물진단유지관리공학회 논문집
+  date: '2022-06-01'
+  link: https://scholarworks.bwise.kr/hanyang/handle/2021.sw.hanyang/203146
+  plugin: orcid.py
+- id: 76-83
+  title: 이음된 초고강도 강섬유보강콘크리트 보의 휨강도에 관한 실험적 연구
+  authors:
+  - 배백일
+  - 손동희
+  - 최현기
+  - 정형석
+  - 최창식
+  publisher: 한국구조물진단유지관리공학회 논문집
+  date: '2021-12-01'
+  link: https://repository.hanyang.ac.kr/handle/20.500.11754/177076
+  plugin: orcid.py
