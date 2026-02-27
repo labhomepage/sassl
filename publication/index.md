@@ -77,9 +77,13 @@ SCI(E) : ## Paper,
 
 ## International Conference
 
-{% include search-box.html %}
+5. Son, D. H., Jeong, D. U., Choi, C. S., (2024) Mechanical Performance of Concrete Incorporated with Triple Hybrid Nanomaterials: Assessment on the bond Characteristics, 14th International Symposium on Architectural Interchanges in Asia, September
+4. Son, D. H., Bae, B. I., Choi, C. S., (2024) Seismic Retrofitting of Reinforced Concrete Walls through Vertical Division: Evaluating Stiffness Reduction and Load Redistribution Effect, 18th World Conference Earthquake Engineering, July
+3.	Kim, H., Choi, C. S., Seok, S., Son, D. H., Lee, L. H., (2022) Verification of Vertically Divided walls through Finite Element Analysis, 13th International Symposium on Architectural Interchanges in Asia, November
+2. You, B. I., Son, D. H., Bae, B. I., Choi, C. S. (2021). Strength Evaluation of Prefabricated CFTs with saw-toothed Ribs., 11th International Symposium on Steel Structures, November, 2021, Jeju, Korea
+1. Son, D. H., Choi, C. S., Min, N. K., Lee, D. W. (2018). Shear Performance of RC Beam with Integrated Shear Reinforcement, 12th International Symposium on Architectural Interchanges in Asia, October, 2018, Pyeongchang, Korea
 
-{% include search-info.html %}
+## Domestic Conference
 
 56. Son, D. H., (2025) Load Redistribution Effect of Existing Reinforced Concrete Structural Wall System Applying Vertical Division Technique Concrete Research Committee, 2025 Spring Conference of the Korea Concrete Institute.
 55. Son, D. H., (2025) Safety Assurance Strategies for Existing Reinforced Concrete Shear Walls in Vertical Extension Remodeling of Apartment Buildings, Early-Career Researchers Networking Session, 2025 Spring Conference of the Architectural Institute of Korea
