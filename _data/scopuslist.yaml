@@ -22,3 +22,28 @@
   date: '2024-08-01'
   link: https://scholarworks.bwise.kr/hanyang/handle/2021.sw.hanyang/210589
   plugin: orcid.py
+- id: 235-243
+  title: 피복두께와 강섬유 혼입률에 따른 초고성능 콘크리트의 균열거동과 인장증강효과
+  authors:
+  - 주조린
+  - 이문석
+  - 손동희
+  - 최창식
+  - 최현기
+  - 배백일
+  publisher: 대한건축학회 논문집
+  date: '2024-01-01'
+  link: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11698677
+  plugin: orcid.py
+- id: 625-633
+  title: 전단키를 갖는 프리캐스트 콘크리트 합성보의 수평전단강도
+  authors:
+  - 박성준
+  - 손동희
+  - 배백일
+  - 정다운
+  - 최창식
+  publisher: 콘크리트학회 논문집
+  date: '2023-12-01'
+  link: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11642537
+  plugin: orcid.py
