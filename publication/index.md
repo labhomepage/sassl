@@ -51,10 +51,16 @@ SCI(E) : ## Paper,
 
 {% include section.html %}
 
-## All
+## SCI(E)
 
 {% include search-box.html %}
 
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" style="rich" %}
+
+## Scopus
+
+{% include search-info.html %}
+
+{% include list.html data="scopus" component="citation" style="rich" %}
