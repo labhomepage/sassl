@@ -61,6 +61,8 @@ SCI(E) : ## Paper,
 
 ## Scopus
 
+{% include search-box.html %}
+
 {% include search-info.html %}
 
 {% include list.html data="scopus" component="scopus" style="rich" %}
