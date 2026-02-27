@@ -1,4 +1,5 @@
-- title: 분리타설구간에 180도 표준갈고리 철근으로 겹침이음된 슬래브에 대한 이음길이 영향 분석
+- id: 747-755
+  title: 분리타설구간에 180도 표준갈고리 철근으로 겹침이음된 슬래브에 대한 이음길이 영향 분석
   authors:
   - 정유진
   - 이문석
@@ -8,4 +9,16 @@
   publisher: 콘크리트학회 논문집
   date: '2025-12-01'
   link: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12537645
+  plugin: orcid.py
+- id: 367-374
+  title: 크기효과를 고려한 강섬유 콘크리트 보의 전단강도 분석
+  authors:
+  - 오경수
+  - 손동희
+  - 최현기
+  - 배백일
+  - 최창식
+  publisher: 콘크리트학회 논문집
+  date: '2024-08-01'
+  link: https://scholarworks.bwise.kr/hanyang/handle/2021.sw.hanyang/210589
   plugin: orcid.py
