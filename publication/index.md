@@ -65,4 +65,4 @@ SCI(E) : ## Paper,
 
 {% include search-info.html %}
 
-{% include scopus.html data="scopus" component="scopus" style="rich" %}
+{% include list.html data="scopuslist" component="citation" style="rich" %}
