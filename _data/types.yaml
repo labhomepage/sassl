@@ -193,8 +193,6 @@ manubot:
 
 docs:
   icon: fa-solid fa-book
-  text: Documentation
-  tooltip: Documentation
 
 source:
   icon: fa-solid fa-code
@@ -220,3 +218,6 @@ package:
   icon: fa-solid fa-box
   text: Package
   tooltip: Package
+
+people:
+  icon: fa-solid fa-users

@@ -12,19 +12,19 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include button.html
-  type="docs"
+  type="people"
   text="Professor"
   link="team/#professor"
 %}
 {%
   include button.html
-  type="docs"
+  type="people"
   text="Members"
   link="team/#members"
 %}
 {%
   include button.html
-  type="docs"
+  type="people"
   text="Alumni"
   link="team/#alumni"
 %}
