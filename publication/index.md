@@ -9,19 +9,18 @@ nav:
 <div class="center-text">
 
 SCI(E) : 19 
-
+<br>
 
 Scopus : 13 Paper
-
+<br>
 
 Domestic : 5 Paper
-
+<br>
 
 International Conference : 5 Paper
-
+<br>
 
 Domestic Conference : 56 Paper
-
 
 </div>
 
