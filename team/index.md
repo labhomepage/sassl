@@ -12,19 +12,19 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include button.html
-  type="github"
+  type="docs"
   text="Professor"
   link="team/#professor"
 %}
 {%
   include button.html
-  type="github"
+  type="docs"
   text="Members"
   link="team/#members"
 %}
 {%
   include button.html
-  type="github"
+  type="docs"
   text="Alumni"
   link="team/#alumni"
 %}
