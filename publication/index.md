@@ -28,15 +28,11 @@ Domestic Conference : 56 Paper
 </div>
  
 
-<h2 id="domestic">Domestic</h2>
-<h2 id="intlconf">International Conference</h2>
-<h2 id="domconf">Domestic Conference</h2>
-
 {%
   include button.html
   type="docs"
   text="SCI(E)"
-  link="#scie"
+  link="publications/#scie"
 %}
 {%
   include button.html
@@ -73,7 +69,7 @@ Domestic Conference : 56 Paper
 
 {% include section.html %}
 
-<h2 id="scie">SCI(E)</h2>
+## SCI(E) {#scie}
 
 {% include search-box.html %}
 
@@ -81,7 +77,7 @@ Domestic Conference : 56 Paper
 
 {% include list.html data="citations" component="citation" style="rich" %}
 
-<h2 id="scopus">Scopus</h2>
+## Scopus {#scopus}
 
 {% include search-box.html %}
 
