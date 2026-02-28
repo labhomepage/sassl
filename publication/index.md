@@ -38,25 +38,25 @@ Domestic Conference : 56 Paper
   include button.html
   type="docs"
   text="Scopus"
-  link="#scopus"
+  link="publication/#scopus"
 %}
 {%
   include button.html
   type="docs"
   text="Domestic"
-  link="#domestic"
+  link="publication/#domestic"
 %}
 {%
   include button.html
   type="docs"
   text="International Conference"
-  link="#intlconf"
+  link="publication/#intlconf"
 %}
 {%
   include button.html
   type="docs"
   text="Domestic Conference"
-  link="#domconf"
+  link="publication/#domconf"
 %}
 
 {% include section.html %}
