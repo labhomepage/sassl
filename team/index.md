@@ -44,6 +44,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% capture alumni %} 
 {% include figure.html image="images/alumni.jpg" %} 
 {% endcapture %} 
+
 {% include grid.html style="square" content=professor %} 
 {% include grid.html style="square" content=members %} 
 {% include grid.html style="square" content=alumni %}
