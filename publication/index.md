@@ -8,15 +8,20 @@ nav:
 
 <div class="center-text">
 
-SCI(E) : 19 Paper
+SCI(E) : 19 
+
 
 Scopus : 13 Paper
 
+
 Domestic : 5 Paper
+
 
 International Conference : 5 Paper
 
+
 Domestic Conference : 56 Paper
+
 
 </div>
 
