@@ -14,32 +14,32 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   include button.html
   type="github"
   text="Professor"
-  link="greenelab/lab-website-template"
+  link="team/#professor"
 %}
 {%
   include button.html
   type="github"
   text="Members"
-  link="greenelab/lab-website-template"
+  link="team/#members"
 %}
 {%
   include button.html
   type="github"
   text="Alumni"
-  link="greenelab/lab-website-template"
+  link="team/#alumni"
 %}
 
 {% include section.html %}
 
 
-## Professor 
+## Professor {#professor}
 
 {% capture professor %} 
 {% include figure.html image="images/professor.jpg" caption="손동희" %} 
 {% endcapture %} 
 {% include grid.html style="square" content=professor %} 
 
-## Members 
+## Members {#members}
 
 {% capture members %} 
 {% include figure.html image="images/members.jpg" caption="정성훈" %} 
@@ -55,8 +55,9 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% endcapture %} 
 {% include grid.html style="square" content=members %} 
 
-## Alumni {% capture alumni %} 
+## Alumni {#alumni}
 
+{% capture alumni %} 
 {% include figure.html image="images/alumni.jpg" caption="Alumni 1" %} 
 {% include figure.html image="images/alumni.jpg" caption="Alumni 2" %} 
 {% include figure.html image="images/alumni.jpg" caption="Alumni 3" %} 
