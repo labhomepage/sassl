@@ -33,14 +33,19 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
 ## Professor
+
 {% capture professor %} 
 {% include figure.html image="images/professor.jpg" %} 
 {% endcapture %} 
+
 ## Members 
+
 {% capture members %} 
 {% include figure.html image="images/members.jpg" %} 
 {% endcapture %} 
+
 ## Alumni 
+
 {% capture alumni %} 
 {% include figure.html image="images/alumni.jpg" %} 
 {% endcapture %} 
