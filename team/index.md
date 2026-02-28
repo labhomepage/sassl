@@ -34,11 +34,15 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## Professor
 
+{% capture content %}
 {% include figure.html image="images/photo.jpg" %}
+{% endcapture %}
 
 ## Members
 
+{% capture content %}
 {% include figure.html image="images/photo.jpg" %}
+{% endcapture %}
 
 ## Alumni
 
