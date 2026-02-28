@@ -25,7 +25,6 @@ Domestic Conference : 56 Paper
 
 </div>
  
-<br>
 
 {%
   include button.html
