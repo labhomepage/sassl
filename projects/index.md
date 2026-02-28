@@ -55,17 +55,3 @@ nav:
 
 18. 인천검단 AA13-1BL, 2BL 공동주택 특별정밀안전진단
 (연구보조원, 대한건축학회, 2023.05.25 ~ 2023.10.13)
-
-{% include search-info.html %}
-
-{% include section.html %}
-
-## Featured
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
