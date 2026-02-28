@@ -6,11 +6,6 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-image" %}Gallery
 
-### Professor
-
-Department of Architectural Engineering, Korea National University of Transportation
-
-{% include section.html %}
 
 {% capture content %}
 
