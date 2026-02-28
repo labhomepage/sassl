@@ -27,8 +27,7 @@ Domestic Conference : 56 Paper
 <br>
 </div>
  
-<h2 id="scie">SCI(E)</h2>
-<h2 id="scopus">Scopus</h2>
+
 <h2 id="domestic">Domestic</h2>
 <h2 id="intlconf">International Conference</h2>
 <h2 id="domconf">Domestic Conference</h2>
@@ -74,7 +73,7 @@ Domestic Conference : 56 Paper
 
 {% include section.html %}
 
-## SCI(E) {#scie}
+<h2 id="scie">SCI(E)</h2>
 
 {% include search-box.html %}
 
@@ -82,7 +81,7 @@ Domestic Conference : 56 Paper
 
 {% include list.html data="citations" component="citation" style="rich" %}
 
-## Scopus {#scopus}
+<h2 id="scopus">Scopus</h2>
 
 {% include search-box.html %}
 
