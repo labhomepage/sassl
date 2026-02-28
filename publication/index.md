@@ -32,7 +32,7 @@ Domestic Conference : 56 Paper
   include button.html
   type="docs"
   text="SCI(E)"
-  link="publications/#scie"
+  link="publication/#scie"
 %}
 {%
   include button.html
