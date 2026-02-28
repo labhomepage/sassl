@@ -4,9 +4,9 @@ nav:
   order: 2
 ---
 
-<div style="text-align: center;">
-
 # {% include icon.html icon="fa-regular fa-file-lines" %}Publication
+
+<div class="center-text">
 
 SCI(E) : 19 Paper
 
@@ -19,7 +19,6 @@ International Conference : 5 Paper
 Domestic Conference : 56 Paper
 
 </div>
-
 
 
 {%
