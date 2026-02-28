@@ -7,8 +7,12 @@ nav:
 # {% include icon.html icon="fa-regular fa-file-lines" %}Publication
 
 총 논문 개수 요약
-SCI(E) : ## Paper,
- Scopus : ##
+SCI(E) : 19 Paper
+Scopus : 13 Paper
+Domestic : 5 Paper
+International Conference : 5 Paper
+Domestic Conference : 56 Paper
+
 
 {%
   include button.html
