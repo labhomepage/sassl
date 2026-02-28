@@ -32,31 +32,31 @@ Domestic Conference : 56 Paper
   include button.html
   type="docs"
   text="SCI(E)"
-  link="greenelab/lab-website-template"
+  link="#scie"
 %}
 {%
   include button.html
   type="docs"
   text="Scopus"
-  link="greenelab/lab-website-template"
+  link="#scopus"
 %}
 {%
   include button.html
   type="docs"
   text="Domestic"
-  link="greenelab/lab-website-template"
+  link="#domestic"
 %}
 {%
   include button.html
   type="docs"
   text="International Conference"
-  link="greenelab/lab-website-template"
+  link="#intlconf"
 %}
 {%
   include button.html
   type="docs"
   text="Domestic Conference"
-  link="greenelab/lab-website-template"
+  link="#domconf"
 %}
 
 {% include section.html %}
