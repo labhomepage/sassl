@@ -42,11 +42,22 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ## Members {% capture members %} 
 
 {% include figure.html image="images/members.jpg" %} 
+{% include figure.html image="images/members.jpg" %} 
+{% include figure.html image="images/members.jpg" %} 
+{% include figure.html image="images/members.jpg" %} 
+{% include figure.html image="images/members.jpg" %} 
+{% include figure.html image="images/members.jpg" %} 
+{% include figure.html image="images/members.jpg" %} 
+{% include figure.html image="images/members.jpg" %} 
+{% include figure.html image="images/members.jpg" %} 
+{% include figure.html image="images/members.jpg" %} 
 {% endcapture %} 
 {% include grid.html style="square" content=members %} 
 
 ## Alumni {% capture alumni %} 
 
+{% include figure.html image="images/alumni.jpg" %} 
+{% include figure.html image="images/alumni.jpg" %} 
 {% include figure.html image="images/alumni.jpg" %} 
 {% endcapture %} 
 {% include grid.html style="square" content=alumni %}
