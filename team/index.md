@@ -32,7 +32,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include section.html %}
 
 
-## Professor
+## Professor 
 
 {% capture professor %} 
 {% include figure.html image="images/professor.jpg" %} 
