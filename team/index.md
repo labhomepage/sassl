@@ -50,7 +50,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include figure.html image="images/members.jpg" caption="Member 6" %} 
 {% include figure.html image="images/members.jpg" caption="Member 7" %} 
 {% include figure.html image="images/members.jpg" caption="백종우" %} 
-{% include figure.html image="images/members.jpg" caption="이성수" %} 
+{% include figure.html image="images/members.jpg" caption="윤성수" %} 
 {% include figure.html image="images/members.jpg" caption="금승우" %} 
 {% endcapture %} 
 {% include grid.html style="square" content=members %} 
