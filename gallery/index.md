@@ -11,22 +11,22 @@ nav:
 
 {%
   include figure.html
-  image="images/photo.jpg"
+  image="images/gallery1.png"
   caption="2025년 봄 학술대회"
 %}
 {%
   include figure.html
-  image="images/photo.jpg"
+  image="images/gallery2.png"
   caption="2025년 가을 학술대회"
 %}
 {%
   include figure.html
-  image="images/photo.jpg"
+  image="images/gallery3.png"
   caption="교내 캡스톤디자인 경진대회"
 %}
 {%
   include figure.html
-  image="images/photo.jpg"
+  image="images/gallery4.png"
   caption="구조물 내진설계경진대회"
 %}
 
