@@ -37,19 +37,16 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% capture professor %} 
 {% include figure.html image="images/professor.jpg" %} 
 {% endcapture %} 
+{% include grid.html style="square" content=professor %} 
 
-## Members 
+## Members {% capture members %} 
 
-{% capture members %} 
 {% include figure.html image="images/members.jpg" %} 
 {% endcapture %} 
+{% include grid.html style="square" content=members %} 
 
-## Alumni 
+## Alumni {% capture alumni %} 
 
-{% capture alumni %} 
 {% include figure.html image="images/alumni.jpg" %} 
 {% endcapture %} 
-
-{% include grid.html style="square" content=professor %} 
-{% include grid.html style="square" content=members %} 
 {% include grid.html style="square" content=alumni %}
