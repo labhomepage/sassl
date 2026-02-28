@@ -33,22 +33,17 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
 ## Professor
-
-{% capture content %}
-{% include figure.html image="images/photo.jpg" %}
-{% endcapture %}
-
-## Members
-
-{% capture content %}
-{% include figure.html image="images/photo.jpg" %}
-{% endcapture %}
-
-## Alumni
-
-{% capture content %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+{% capture professor %} 
+{% include figure.html image="images/professor.jpg" %} 
+{% endcapture %} 
+## Members 
+{% capture members %} 
+{% include figure.html image="images/members.jpg" %} 
+{% endcapture %} 
+## Alumni 
+{% capture alumni %} 
+{% include figure.html image="images/alumni.jpg" %} 
+{% endcapture %} 
+{% include grid.html style="square" content=professor %} 
+{% include grid.html style="square" content=members %} 
+{% include grid.html style="square" content=alumni %}
