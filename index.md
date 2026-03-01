@@ -2,11 +2,8 @@
 ---
 
 # 고성능구조시스템연구실
-
 The Sustainable and Advanced Structural System Laboratory (SASSL) conducts research on improving the structural performance of aging buildings and developing high-performance concrete and seismic design technologies to realize a sustainable and safe built environment.
-
 Our laboratory integrates large-scale structural testing, finite element method (FEM)–based numerical analysis, and artificial intelligence (AI)–based structural design techniques to analyze the behavior of building structures from multiple perspectives, with the goal of enhancing structural performance and developing advanced design methodologies.
-
 Through this interdisciplinary research approach, SASSL aims to advance sustainable structural systems, contribute to the revision and development of building structural design codes, and cultivate the next generation of leaders in structural engineering.
 
 지속가능하고 안전한 건축 환경을 구현하기 위해 노후 건축물의 구조 성능 향상과 고성능 콘크리트 및 내진설계기술 개발에 대한 연구를 수행합니다.
