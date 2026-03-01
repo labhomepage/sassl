@@ -1,5 +1,5 @@
 ---
-title: Prof. Son, Dong-Hee
+title: Professor
 nav:
   order: 3
 ---
