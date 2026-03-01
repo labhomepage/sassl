@@ -3,7 +3,7 @@
 
 $logo-big: 80px;
 $logo: 40px;
-$big-padding: 100px;
+$big-padding: 60px;
 $collapse: 700px;
 $sticky: true;
 
@@ -101,7 +101,7 @@ nav {
   flex-wrap: wrap;
   gap: 10px;
   font-family: var(--heading);
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 nav > a {
