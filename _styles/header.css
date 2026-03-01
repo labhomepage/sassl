@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   display: flex;
   justify-content: space-between;
@@ -122,6 +123,10 @@ header[data-big] {
   align-items: center;
   flex-direction: column;
   padding: 60px 20px;
+  /* 이 부분이 핵심입니다! 기존 $big-padding 대신 직접 숫자를 넣으세요 */
+  padding: 20px 20px !important;
+  min-height: 0 !important;
+  height: auto !important;
   top: unset;
 }
 header[data-big] .home {
