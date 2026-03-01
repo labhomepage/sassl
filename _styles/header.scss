@@ -137,6 +137,10 @@ header[data-big] {
   align-items: center;
   flex-direction: column;
   padding: $big-padding 20px;
+/* 이 부분이 핵심입니다! 기존 $big-padding 대신 직접 숫자를 넣으세요 */
+  padding: 20px 20px !important; // 위아래 여백을 20px로 최소화
+  min-height: 0 !important;      // 테마가 잡고 있는 최소 높이 강제 해제
+  height: auto !important;       // 높이를 내용물에 맞게 자동으로 설정
 
   @if $sticky {
     top: unset;
