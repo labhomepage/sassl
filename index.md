@@ -1,6 +1,6 @@
 ---
 ---
-## 첨단 융합 기술을 통한 지속가능하고 안전한 건축구조시스템 구현
+# 첨단 융합 기술을 통한 지속가능하고 안전한 건축구조시스템 구현
 <div style="font-family: Arial, sans-serif;">
 **The Sustainable and Advanced Structural System Laboratory (SASSL)** conducts research on improving the structural performance of aging buildings and developing high-performance concrete and seismic design technologies to realize a sustainable and safe built environment.<br>
 Our laboratory integrates large-scale structural testing, finite element method (FEM)–based numerical analysis, and artificial intelligence (AI)–based structural design techniques to analyze the behavior of building structures from multiple perspectives, with the goal of enhancing structural performance and developing advanced design methodologies.<br>
