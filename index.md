@@ -1,7 +1,3 @@
----
-layout: home
----
-
 # **첨단 융합 기술을 통한 지속가능하고 안전한 건축구조시스템 구현**
 {% capture text %}
 <div style="font-family: Arial, sans-serif; text-align: left; line-height: 1.6;">
