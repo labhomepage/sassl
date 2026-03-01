@@ -1,7 +1,7 @@
 ---
 title: Gallery
 nav:
-  order: 6
+  order: 8
 ---
 
 # {% include icon.html icon="fa-regular fa-image" %}Gallery

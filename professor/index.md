@@ -1,10 +1,10 @@
 ---
-title: research
+title: professor
 nav:
-  order: 2
+  order: 3
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Professor
 
 ### Current research topics(주요 연구 분야)
 

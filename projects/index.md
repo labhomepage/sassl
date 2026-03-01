@@ -1,7 +1,7 @@
 ---
 title: Projects
 nav:
-  order: 3
+  order: 6
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects

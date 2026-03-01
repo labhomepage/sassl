@@ -1,7 +1,7 @@
 ---
 title: Award
 nav:
-  order: 5
+  order: 7
 ---
 
 # {% include icon.html icon="fa-solid fa-award" %}Awards and Honors
