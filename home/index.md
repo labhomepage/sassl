@@ -2,6 +2,9 @@
 title: Home
 nav:
   order: 1
-layout: redirect
-redirect_to: https://labhomepage.github.io/sassl/
 ---
+
+<html>
+  <meta http-equiv="refresh" content="0; url=https://labhomepage.github.io/sassl/">
+</html>
+
