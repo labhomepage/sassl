@@ -1,6 +1,6 @@
 # **첨단 융합 기술을 통한 지속가능하고 안전한 건축구조시스템 구현**
 
-<div style="font-family: Arial, sans-serif; text-align: left; line-height: 1.6; margin-top: -30px;">
+<div style="font-family: Arial, sans-serif; text-align: left; line-height: 1.0; margin-top: -30px;">
 
 <p><b>The Sustainable and Advanced Structural System Laboratory (SASSL)</b> conducts research on improving the structural performance of aging buildings and developing high-performance concrete and seismic design technologies to realize a sustainable and safe built environment.</p>
 
