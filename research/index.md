@@ -23,3 +23,14 @@ nav:
    finite element analysis
 
 - Structural design methods using artificial intelligence
+
+
+### Research Areas(연구 수행 내용)
+
+- Development of remodeling and seismic retrofitting technologies for aging buildings
+
+- Development of high-performance concrete and evaluation of seismic performance
+
+- Finite element–based computer simulation for structural analysis
+
+- Development of artificial intelligence–based structural design methodologies
