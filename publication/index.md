@@ -92,7 +92,7 @@ Domestic Conference : 56 Paper
 {% include list.html data="domesticlist" component="citation" style="rich" %}
 
 </div>
-<div id="section-intlconfl" class="pub-content" style="display:none;">
+<div id="section-intl" class="pub-content" style="display:none;">
 ## International Conference {#intlconf}
 
 \5. Son, D. H., Jeong, D. U., Choi, C. S., (2024) Mechanical Performance of Concrete Incorporated with Triple Hybrid Nanomaterials: Assessment on the bond Characteristics, 14th International Symposium on Architectural Interchanges in Asia, September
