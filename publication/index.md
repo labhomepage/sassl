@@ -28,36 +28,29 @@ Domestic Conference : 56 Paper
 </div>
  
 
-{%
-  include button.html
-  type="docs"
-  text="SCI(E)"
-  link="publication/#scie"
-%}
-{%
-  include button.html
-  type="docs"
-  text="Scopus"
-  link="publication/#scopus"
-%}
-{%
-  include button.html
-  type="docs"
-  text="Domestic"
-  link="publication/#domestic"
-%}
-{%
-  include button.html
-  type="docs"
-  text="International Conference"
-  link="publication/#intlconf"
-%}
-{%
-  include button.html
-  type="docs"
-  text="Domestic Conference"
-  link="publication/#domconf"
-%}
+<div class="center-text" style="margin-bottom: 20px;">
+  <button onclick="showPub('scie')" class="custom-btn">SCI(E)</button>
+  <button onclick="showPub('scopus')" class="custom-btn">Scopus</button>
+  <button onclick="showPub('domestic')" class="custom-btn">Domestic</button>
+  <button onclick="showPub('intl')" class="custom-btn">International Conf.</button>
+  <button onclick="showPub('domconf')" class="custom-btn">Domestic Conf.</button>
+</div>
+
+<style>
+  .custom-btn {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    border-radius: 5px;
+  }
+  .custom-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+</style>
 
 {% include section.html %}
 
@@ -69,6 +62,7 @@ Domestic Conference : 56 Paper
 
 {% include section.html %}
 
+<div id="section-scie" class="pub-content">
 ## SCI(E) {#scie}
 
 {% include search-box.html %}
@@ -77,6 +71,8 @@ Domestic Conference : 56 Paper
 
 {% include list.html data="citations" component="citation" style="rich" %}
 
+</div>
+<div id="section-scopus" class="pub-content" style="display:none;">
 ## Scopus {#scopus}
 
 {% include search-box.html %}
@@ -85,6 +81,8 @@ Domestic Conference : 56 Paper
 
 {% include list.html data="scopuslist" component="citation" style="rich" %}
 
+</div>
+<div id="section-domestic" class="pub-content" style="display:none;">
 ## Domestic {#domestic}
 
 {% include search-box.html %}
@@ -93,6 +91,8 @@ Domestic Conference : 56 Paper
 
 {% include list.html data="domesticlist" component="citation" style="rich" %}
 
+</div>
+<div id="section-intlconfl" class="pub-content" style="display:none;">
 ## International Conference {#intlconf}
 
 \5. Son, D. H., Jeong, D. U., Choi, C. S., (2024) Mechanical Performance of Concrete Incorporated with Triple Hybrid Nanomaterials: Assessment on the bond Characteristics, 14th International Symposium on Architectural Interchanges in Asia, September
@@ -105,6 +105,8 @@ Domestic Conference : 56 Paper
 
 \1. Son, D. H., Choi, C. S., Min, N. K., Lee, D. W. (2018). Shear Performance of RC Beam with Integrated Shear Reinforcement, 12th International Symposium on Architectural Interchanges in Asia, October, 2018, Pyeongchang, Korea
 
+</div>
+<div id="section-domconf" class="pub-content" style="display:none;">
 ## Domestic Conference {#domconf}
 
 \56. Son, D. H., (2025) Load Redistribution Effect of Existing Reinforced Concrete Structural Wall System Applying Vertical Division Technique Concrete Research Committee, 2025 Spring Conference of the Korea Concrete Institute.
@@ -218,3 +220,20 @@ Domestic Conference : 56 Paper
 \2. Son, D. H., Bae, B. I., Lee, L.H., Choi, C. S. (2021). Behavior Characteristics of Steel Fiber Reinforced Concrete Conventional Coupling Beams. Proceedings of Architectural Institute of Korea, 41(1), 398-399.
 
 \1. You, B. I., Son, D. H., Bae, B. I., Choi, C. S. (2021). Analysis of Effective Width Considering Rib Length of Prefabricated CFT Columns. Proceedings of Architectural Institute of Korea, 41(1), 400-400.
+</div>
+
+<script>
+function showPub(targetId) {
+  // 모든 섹션을 숨깁니다.
+  const sections = document.querySelectorAll('.pub-content');
+  sections.forEach(section => {
+    section.style.display = 'none';
+  });
+
+  // 클릭한 섹션만 보여줍니다.
+  const target = document.getElementById('section-' + targetId);
+  if (target) {
+    target.style.display = 'block';
+  }
+}
+</script>
