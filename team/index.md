@@ -6,25 +6,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-{%
-  include button.html
-  type="people"
-  text="Professor"
-  link="team/#professor"
-%}
-{%
-  include button.html
-  type="people"
-  text="Members"
-  link="team/#members"
-%}
-{%
-  include button.html
-  type="people"
-  text="Alumni"
-  link="team/#alumni"
-%}
-
 {% include section.html %}
 
 
