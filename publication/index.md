@@ -75,7 +75,7 @@ Domestic Conference : 56 Paper
 
 {% include search-info.html %}
 
-{% include list.html date="citations" component="ciation" style="rich" %}
+{% include list.html date="citations" component="citation" style="rich" %}
 
 ## Scopus {#scopus}
 
