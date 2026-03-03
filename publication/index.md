@@ -89,7 +89,7 @@ Domestic Conference : 56 Paper
 {% include list.html data="domesticlist" component="citation" style="rich" %}
 
 </div>
-<div id="section-intl" class="pub-content pub-list" style="display:none;">
+<div id="section-intl" class="pub-content pub-left" style="display:none;">
 
 \5. Son, D. H., Jeong, D. U., Choi, C. S., (2024) Mechanical Performance of Concrete Incorporated with Triple Hybrid Nanomaterials: Assessment on the bond Characteristics, 14th International Symposium on Architectural Interchanges in Asia, September
 <br><br>
@@ -108,7 +108,7 @@ Domestic Conference : 56 Paper
 
 </div>
 
-<div id="section-domconf" class="pub-content" style="display:none;">
+<div id="section-domconf" class="pub-content pub-left" style="display:none;">
 ## Domestic Conference {#domconf}
 
 \56. Son, D. H., (2025) Load Redistribution Effect of Existing Reinforced Concrete Structural Wall System Applying Vertical Division Technique Concrete Research Committee, 2025 Spring Conference of the Korea Concrete Institute.
