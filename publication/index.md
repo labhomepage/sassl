@@ -89,22 +89,58 @@ Domestic Conference : 56 Paper
 {% include list.html data="domesticlist" component="citation" style="rich" %}
 
 </div>
-<div id="section-intl" class="pub-content pub-left" style="display:none;">
+<div id="section-intl" style="display:none;">
 
-\5. Son, D. H., Jeong, D. U., Choi, C. S., (2024) Mechanical Performance of Concrete Incorporated with Triple Hybrid Nanomaterials: Assessment on the bond Characteristics, 14th International Symposium on Architectural Interchanges in Asia, September
-<br><br>
+<div style="display:flex; align-items:flex-start; margin-bottom:15px;">
+  <div style="width:20px;">5.</div>
+  <div>
+    Son, D. H., Jeong, D. U., Choi, C. S., (2024)
+    Mechanical Performance of Concrete Incorporated with Triple Hybrid Nanomaterials:
+    Assessment on the bond Characteristics,
+    14th International Symposium on Architectural Interchanges in Asia, September
+  </div>
+</div>
 
-\4. Son, D. H., Bae, B. I., Choi, C. S., (2024) Seismic Retrofitting of Reinforced Concrete Walls through Vertical Division: Evaluating Stiffness Reduction and Load Redistribution Effect, 18th World Conference Earthquake Engineering, July
-<br><br>
+<div style="display:flex; align-items:flex-start; margin-bottom:15px;">
+  <div style="width:20px;">4.</div>
+  <div>
+    Son, D. H., Bae, B. I., Choi, C. S., (2024)
+    Seismic Retrofitting of Reinforced Concrete Walls through Vertical Division:
+    Evaluating Stiffness Reduction and Load Redistribution Effect,
+    18th World Conference Earthquake Engineering, July
+  </div>
+</div>
 
-\3. Kim, H., Choi, C. S., Seok, S., Son, D. H., Lee, L. H., (2022) Verification of Vertically Divided walls through Finite Element Analysis, 13th International Symposium on Architectural Interchanges in Asia, November
-<br><br>
+<div style="display:flex; align-items:flex-start; margin-bottom:15px;">
+  <div style="width:20px;">3.</div>
+  <div>
+    Kim, H., Choi, C. S., Seok, S., Son, D. H., Lee, L. H., (2022)
+    Verification of Vertically Divided walls through Finite Element Analysis,
+    13th International Symposium on Architectural Interchanges in Asia, November
+  </div>
+</div>
 
-\2. You, B. I., Son, D. H., Bae, B. I., Choi, C. S. (2021). Strength Evaluation of Prefabricated CFTs with saw-toothed Ribs., 11th International Symposium on Steel Structures, November, 2021, Jeju, Korea
-<br><br>
+<div style="display:flex; align-items:flex-start; margin-bottom:15px;">
+  <div style="width:20px;">2.</div>
+  <div>
+    You, B. I., Son, D. H., Bae, B. I., Choi, C. S. (2021)
+    Strength Evaluation of Prefabricated CFTs with saw-toothed Ribs.,
+    11th International Symposium on Steel Structures, November, 2021, Jeju, Korea
+  </div>
+</div>
 
-\1. Son, D. H., Choi, C. S., Min, N. K., Lee, D. W. (2018). Shear Performance of RC Beam with Integrated Shear Reinforcement, 12th International Symposium on Architectural Interchanges in Asia, October, 2018, Pyeongchang, Korea
-<br>
+<div style="display:flex; align-items:flex-start; margin-bottom:15px;">
+  <div style="width:20px;">1.</div>
+  <div>
+    Son, D. H., Choi, C. S., Min, N. K., Lee, D. W. (2018)
+    Shear Performance of RC Beam with Integrated Shear Reinforcement,
+    12th International Symposium on Architectural Interchanges in Asia,
+    October, 2018, Pyeongchang, Korea
+  </div>
+</div>
+
+</div>
+
 
 </div>
 
