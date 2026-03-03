@@ -14,6 +14,10 @@ nav:
   caption="Dong-hee Son(손동희)"
 %}
 
+{% endcapture %}
+
+{% include grid.html style="square" content=content %}
+
 ### Professor
 
 - Department of Architectural Engineering, Korea National University of Transportation
