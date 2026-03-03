@@ -10,17 +10,18 @@ nav:
 
 {% capture col1 %}
 
-{%
-  include figure.html
-  image="professor.jpg"
-  caption="Dong-hee Son(손동희)"
-%}
+<div style="text-align:center;">
+  {% include figure.html
+     image="professor.jpg"
+     caption="Dong-hee Son(손동희)"
+  %}
+</div>
 
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
 
-### Professor
+{% include section.html %}
 
 Department of Architectural Engineering, Korea National University of Transportation  
 
