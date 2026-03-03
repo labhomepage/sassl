@@ -7,19 +7,27 @@ main {
   flex-grow: 1;
 }
 
-.pub-left {
+#section-intl {
   text-align: left !important;
 }
 
 #section-intl {
-  text-align: left !important;
-  padding-left: 1.8rem;   /* 전체 들여쓰기 */
-  text-indent: -1.8rem;   /* 첫 줄만 내어쓰기 → 숫자 부분 튀어나오게 */
-  line-height: 1.6;       /* 줄 간격 */
-}
-
-#section-intl br {
-  line-height: 2;
-  content: "";
   display: block;
 }
+
+#section-intl > span,
+#section-intl > div,
+#section-intl > p {
+  display: block;
+}
+
+#section-intl {
+  white-space: pre-line;
+}
+
+#section-intl {
+  padding-left: 2.2rem;
+  text-indent: -2.2rem;
+  line-height: 1.6;
+}
+
