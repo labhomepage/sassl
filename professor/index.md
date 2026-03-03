@@ -25,8 +25,6 @@ nav:
   Tel: 043-841-5217
   <br><br><br>   
   Address: (27469) 충북 충주시 대소원면 대학로 50, 한국교통대학교 건축학부 216호 / 50 Daehak-ro, Daesowon-myeon Chungju-si, Korea National University of Transportation 
-
-
   </div>
 
 </div>
