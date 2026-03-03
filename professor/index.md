@@ -4,14 +4,14 @@ nav:
   order: 3
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Professor
+# {% include icon.html icon="fa-solid fa-user-tie" %} Professor
 
 {% capture col1 %}
 <div style="display:flex; align-items:flex-start; gap:40px;">
 
   <!-- 왼쪽: 사진 -->
   <div style="flex:0 0 240px; text-align:center;">
-    {% include figure.html image="images/professor.jpg" caption="Dong-hee Son" %}
+    {% include figure.html image="images/professor.jpg" caption="Dong-hee Son(손동희)" %}
   </div>
 
   <!-- 오른쪽: 텍스트 -->
