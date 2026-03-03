@@ -4,21 +4,31 @@ nav:
   order: 3
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Professor
+<div style="display:flex; align-items:flex-start; gap:40px;">
 
-{% capture content %}
+  <!-- 왼쪽 텍스트 영역 -->
+  <div style="flex:1;">
 
-{%
-  include figure.html
-  image="images/professor.jpg"
-  caption="Dong-hee Son(손동희)"
-%}
+### Dong-hee Son (손동희)
 
-{% endcapture %}
+Department of Architectural Engineering, Korea National University of Transportation
 
-{% include grid.html style="square" content=content %}
+Email: dhson@ut.ac.kr 
 
-<div style="text-align:center;">
+Tel: 043-841-5217
+
+Address: (27469) 충북 충주시 대소원면 대학로 50, 한국교통대학교 건축학부 216호 / 50 Daehak-ro, Daesowon-myeon, Chungju-si, Korea National University of Transportation
+
+  </div>
+
+  <!-- 오른쪽 사진 영역 -->
+  <div style="flex:0 0 260px; text-align:center;">
+    <img src="images/professor.jpg" style="width:100%; border-radius:6px;" alt="Professor photo">
+  </div>
+
+</div>
+
+{% include section.html %}
 
 ### Professor
 
@@ -50,4 +60,3 @@ Teaching Fellow, Graduate School of Engineering — Mar.2021–Jun.2021
 SEN STRUCTURAL ENGINEERS CO., LTD.  
 Structural Engineer — Mar.2019–Sep.2020  
 
-</div>
