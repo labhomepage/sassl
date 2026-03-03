@@ -7,16 +7,16 @@ nav:
 # {% include icon.html icon="fa-solid fa-microscope" %}Professor
 
 {% capture content %}
-
-{%
-  include figure.html
-  image="images/professor.jpg"
-  caption="Dong-hee Son(손동희)"
-%}
-
+<div style="text-align:center;">
+  {% include figure.html
+     image="images/professor.jpg"
+     caption="<span style='font-family: Arial, sans-serif;'>Dong-hee Son(손동희)</span>"
+  %}
+</div>
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
+
 
 <div style="text-align:center;">
 
