@@ -4,28 +4,4 @@ main {
   flex-grow: 1;
 }
 
-#section-intl {
-  text-align: left !important;
-}
-
-#section-intl {
-  display: block;
-}
-
-#section-intl > span,
-#section-intl > div,
-#section-intl > p {
-  display: block;
-}
-
-#section-intl {
-  white-space: pre-line;
-}
-
-#section-intl {
-  padding-left: 2.2rem;
-  text-indent: -2.2rem;
-  line-height: 1.6;
-}
-
 /*# sourceMappingURL=main.css.map */
