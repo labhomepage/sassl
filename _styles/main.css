@@ -4,4 +4,8 @@ main {
   flex-grow: 1;
 }
 
+.pub-left {
+  text-align: left !important;
+}
+
 /*# sourceMappingURL=main.css.map */
