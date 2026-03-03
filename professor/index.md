@@ -6,8 +6,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Professor
 
-{% include section.html %}
-
 {% capture col1 %}
 <div style="display:flex; align-items:flex-start; gap:40px;">
 
