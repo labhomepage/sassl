@@ -12,18 +12,8 @@ nav:
 
 {%
   include figure.html
-  image="professor/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="professor.jpg"
+  caption="Dong-hee Son(손동희)"
 %}
 
 {% endcapture %}
