@@ -6,6 +6,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Professor
 
+
 {% capture content %}
 
 {%
