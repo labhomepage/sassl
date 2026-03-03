@@ -10,12 +10,11 @@ nav:
 
 {% capture col1 %}
 
-<div style="text-align:center;">
-  {% include figure.html
-     image="professor.jpg"
-     caption="Dong-hee Son(손동희)"
-  %}
-</div>
+{% include figure.html
+   image="professor.jpg"
+   caption="Dong-hee Son(손동희)"
+   class="center-figure"
+%}
 
 {% endcapture %}
 
