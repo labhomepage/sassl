@@ -8,10 +8,10 @@ nav:
 
 {% capture col1 %}
 
-{%
-  include figure.html
-  image="professor/photo.jpg"
-  caption="Dong-hee Son (손동희)"
+{% include figure.html
+   image="professor/photo.jpg"
+   caption="Dong-hee Son (손동희)"
+   image_class="professor-photo-small"
 %}
 
 {% endcapture %}
