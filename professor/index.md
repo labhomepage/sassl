@@ -6,6 +6,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Professor
 
+{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
+
 {% capture content %}
 
 {%
