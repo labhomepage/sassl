@@ -3,4 +3,13 @@ img {
   max-height: 100%;
 }
 
+.center-figure {
+  text-align: center !important;
+}
+
+.center-figure img {
+  display: block;
+  margin: 0 auto !important;
+}
+
 /*# sourceMappingURL=image.css.map */
