@@ -20,11 +20,6 @@ nav:
 
 {% include cols.html col1=col1 col2=col2 %}
 
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
-
 ### Professor
 
 Department of Architectural Engineering, Korea National University of Transportation  
