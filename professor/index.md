@@ -16,6 +16,8 @@ nav:
 
 {% endcapture %}
 
+{% include cols.html col1=col1 %}
+
 
 ### Professor
 
