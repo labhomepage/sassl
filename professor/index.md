@@ -14,7 +14,7 @@ nav:
   <!-- 왼쪽: 사진 -->
   <div style="flex:0 0 240px; text-align:center;">
     {% include figure.html
-       image="professor.jpg"
+       image="images/members.jpg"
        caption="Dong-hee Son(손동희)"
     %}
   </div>
