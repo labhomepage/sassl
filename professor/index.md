@@ -6,43 +6,40 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Professor
 
-### Current research topics(주요 연구 분야)
+{% capture content %}
 
-- Best Paper Awards	2025
-  Spring Annual Conference of KSMI
+{%
+  include figure.html
+  image="images/professor.jpg"
+  caption="Dong-hee Son(손동희)"
+%}
 
-- Outstanding Ph.D. Dissertation Award 	2024
-  Hanyang University
-  
-- Future Construction Technology Talent Award 	2024
-  Korea Construction Engineers Association
+### Professor
 
-- Outstanding Research Achievement Award (Outstanding Paper Category) 	2023
-  Hanyang University
+- Department of Architectural Engineering, Korea National University of Transportation
 
-- Best Paper Awards 	2022
-  Automn Annual Conference of Architectural Institute of Korea
+- Email: dhson@ut.ac.kr 
 
-- Best Paper Awards	2021
-  Automn Annual Conference of KSMI
+- Tel: 043-841-5217
 
-- Best Paper Awards	2021
-  Spring Annual Conference of Architectural Institute of Korea
+- Address: (27469) 충북 충주시 대소원면 대학로 50, 한국교통대학교 건축학부 216호 / 50 Daehak-ro, Daesowon-myeon, Chungju-si, Korea National University of Transportation
 
-- 15th Excellent Graduation Thesis Exhibition Encouragement Award (Master’s Category) 	2019
-  Architectural Institute of Korea
+### Experience
 
-- Best Paper Awards	2019
-  Automn Annual Conference of Korea Concrete Institute
+- Korea National University of Transportation	
+Assistant Professor, Department of Architectural Engineering 	Mar.2025-Present
 
-- ISAIA 2018 Excellent Research Award (Academic Sessions_Oral Presentation)	2018
-  International Symposium on Architectural Interchanges in Asia
+- The Research Institute of Industrial Science, Hanyang University 	
+Postdoctoral researcher, Department of architectural engineering Mar.2024-Feb. 2025
 
-- Certification of Scholarship 	2018
-  Hanyang University Association of Architectural Engineering Alumni
+- Kyonggi University 	
+Adjunct faculty, Department of Civil and Energy Engineering 	Mar.2024-Feb. 2025
 
-- 13th Excellent Graduation Thesis Exhibition Encouragement Award (Bachelor’s Category)	2017
-  Architectural Institute of Korea
+- Hanyang University 	
+Adjunct faculty, Department of Architectural Engineering 	Sep.2024-Dec. 2024
 
-- 학장상 Dean's Award	 2016
-  한양대학교 Hanyang University
+- Hanyang University 	
+Teaching Fellow, Graduate School of Engineering	Mar.2021-Jun.2021
+
+- SEN STRUCTURAL ENGINEERS CO., LTD. 	
+Structural Engineer	Mar.2019-Sep.2020
