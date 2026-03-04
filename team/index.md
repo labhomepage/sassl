@@ -52,7 +52,9 @@ nav:
  
 </style> 
 
-<style> /* member1~member10을 모두 3열 카드 레이아웃으로 설정 */ .member1, .member2, .member3, .member4, .member5, .member6, .member7, .member8, .member9, .member10 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 20px; } /* figure 세팅 */ .member1 .figure, .member2 .figure, .member3 .figure, .member4 .figure, .member5 .figure, .member6 .figure, .member7 .figure, .member8 .figure, .member9 .figure, .member10 .figure { display: flex; flex-direction: column; align-items: center; gap: 12px; } /* 이미지 크기 고정 */ .member1 .figure-image img, .member2 .figure-image img, .member3 .figure-image img, .member4 .figure-image img, .member5 .figure-image img, .member6 .figure-image img, .member7 .figure-image img, .member8 .figure-image img, .member9 .figure-image img, .member10 .figure-image img { width: 180px; height: 220px; object-fit: cover; object-position: center; border-radius: var(--rounded); box-shadow: var(--shadow); } .member1 .figure-caption, .member2 .figure-caption, .member3 .figure-caption, .member4 .figure-caption, .member5 .figure-caption, .member6 .figure-caption, .member7 .figure-caption, .member8 .figure-caption, .member9 .figure-caption, .member10 .figure-caption { text-align: center; line-height: 1.4; } </style>
+<style> /* member1~member10을 모두 3열 카드 레이아웃으로 설정 */ .member1, .member2, .member3, .member4, .member5, .member6, .member7, .member8, .member9, .member10 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 20px; } /* figure 세팅 */ .member1 .figure, .member2 .figure, .member3 .figure, .member4 .figure, .member5 .figure, .member6 .figure, .member7 .figure, .member8 .figure, .member9 .figure, .member10 .figure { display: flex; flex-direction: column; align-items: center; gap: 12px; } /* 이미지 크기 고정 */ .member1 .figure-image img, .member2 .figure-image img, .member3 .figure-image img, .member4 .figure-image img, .member5 .figure-image img, .member6 .figure-image img, .member7 .figure-image img, .member8 .figure-image img, .member9 .figure-image img, .member10 .figure-image img { width: 180px; height: 220px; object-fit: cover; object-position: center; border-radius: var(--rounded); box-shadow: var(--shadow); } .member1 .figure-caption, .member2 .figure-caption, .member3 .figure-caption, .member4 .figure-caption, .member5 .figure-caption, .member6 .figure-caption, .member7 .figure-caption, .member8 .figure-caption, .member9 .figure-caption, .member10 .figure-caption { text-align: center; line-height: 1.4; } 
+
+</style>
 
 
 ## Professor {#professor} 
@@ -86,19 +88,19 @@ nav:
 {% include figure.html image="images/members6.jpg" caption="Member 6<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 </div>
 
-<div class="members7-card"> 
+<div class="member7"> 
 {% include figure.html image="images/members7.jpg" caption="Member 7<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 </div>
 
-<div class="members8-card"> 
+<div class="member8"> 
 {% include figure.html image="images/members8.jpg" caption="백종우<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 </div>
 
-<div class="members9-card"> 
+<div class="member9"> 
 {% include figure.html image="images/members9.jpg" caption="윤성수<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 </div>
 
-<div class="members10-card"> 
+<div class="member10"> 
 {% include figure.html image="images/members10.jpg" caption="금승우<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 </div>
 
