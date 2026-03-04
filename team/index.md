@@ -18,6 +18,11 @@ nav:
 
 {% include grid.html style="square" content=professor %} 
 
+<br>
+<br>
+<br>
+<br>
+
 ## Members {#members}
 
 {% capture members %} 
