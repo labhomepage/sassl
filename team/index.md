@@ -8,6 +8,8 @@ nav:
 
 {% include section.html %}
 
+<style> #professor figure img { width: 180px; height: 220px; object-fit: cover; } </style>
+
 ## Professor {#professor}
 
 {% capture professor %} 
@@ -17,11 +19,6 @@ nav:
 {% endcapture %}
 
 {% include grid.html style="square" content=professor %} 
-
-<br>
-<br>
-<br>
-<br>
 
 ## Members {#members}
 
