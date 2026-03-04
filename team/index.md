@@ -13,10 +13,15 @@ nav:
 
 </style>
 
+
 <style> /* alumni 전체를 3열 grid 로 */ #alumni-wrapper { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 30px; } /* 이미지 */ #alumni-wrapper .figure-image img { width: 180px; height: 220px; object-fit: cover; object-position: center; border-radius: var(--rounded); box-shadow: var(--shadow); } /* 캡션 */ #alumni-wrapper .figure-caption { text-align: center; line-height: 1.4; } 
 
 </style>
 
+
+<style> .professor-card { display: flex; align-items: flex-start; gap: 20px; margin-top: 20px; } .professor-card img { width: 180px !important; height: 220px !important; object-fit: cover !important; object-position: center !important; flex-shrink: 0 !important; /* 이미지 크기 절대로 줄어들지 않음 */ } .professor-card figcaption { text-align: left !important; line-height: 1.5; } 
+
+</style>
 
 ## Professor {#professor} 
 
