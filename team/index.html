@@ -550,6 +550,10 @@
 
 </style>
 
+<style> /* alumni 전체를 3열 grid 로 */ #alumni-wrapper { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 30px; } /* 이미지 */ #alumni-wrapper .figure-image img { width: 180px; height: 220px; object-fit: cover; object-position: center; border-radius: var(--rounded); box-shadow: var(--shadow); } /* 캡션 */ #alumni-wrapper .figure-caption { text-align: center; line-height: 1.4; } 
+
+</style>
+
 <h2 id="professor">Professor</h2>
 
 <div class="professor-card"> 
@@ -567,13 +571,14 @@
     </figcaption>
   
 </figure>
- </div>
+ 
+</div>
 
 <h2 id="members">Members</h2>
 <div id="members-wrapper"> 
 <figure class="figure">
   <a class="figure-image" aria-label="정성훈 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
-    <img src="/sassl/images/members1.jpg" style="
+    <img src="/sassl/images/professor.jpg" style="
         width: auto;
         max-height: unset;
       " alt="정성훈 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6" loading="lazy" onerror="this.src = '/sassl/images/fallback.svg'; this.onerror = null;">
@@ -588,7 +593,7 @@
  
 <figure class="figure">
   <a class="figure-image" aria-label="Member 2 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
-    <img src="/sassl/images/members2.jpg" style="
+    <img src="/sassl/images/professor.jpg" style="
         width: auto;
         max-height: unset;
       " alt="Member 2 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6" loading="lazy" onerror="this.src = '/sassl/images/fallback.svg'; this.onerror = null;">
@@ -603,7 +608,7 @@
  
 <figure class="figure">
   <a class="figure-image" aria-label="Member 3 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
-    <img src="/sassl/images/members3.jpg" style="
+    <img src="/sassl/images/professor.jpg" style="
         width: auto;
         max-height: unset;
       " alt="Member 3 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6" loading="lazy" onerror="this.src = '/sassl/images/fallback.svg'; this.onerror = null;">
@@ -725,6 +730,8 @@
 </div>
 
 <h2 id="alumni">Alumni</h2>
+<div id="alumni-wrapper"> 
+ 
 
 <div class="grid" data-style="square">
   
@@ -758,6 +765,10 @@
   
 </figure>
 
+<p>&lt;/div&gt;</p>
+
+
+</div>
 
 </div>
   </section>
