@@ -546,7 +546,7 @@
   <size></size>
 -->
 
-<style> /* Members 전체를 3열 grid로 정렬 */ #members { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 30px; } /* 이미지 공통 스타일 */ #members .figure-image img { width: 180px; height: 220px; object-fit: cover; object-position: center; border-radius: var(--rounded); box-shadow: var(--shadow); } /* 캡션 스타일 */ #members .figure-caption { text-align: center; line-height: 1.4; } 
+<style> /* Members 전체를 3열 grid 로 */ #members-wrapper { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 30px; } /* 이미지 */ #members-wrapper .figure-image img { width: 180px; height: 220px; object-fit: cover; object-position: center; border-radius: var(--rounded); box-shadow: var(--shadow); } /* 캡션 */ #members-wrapper .figure-caption { text-align: center; line-height: 1.4; } 
 
 </style>
 
@@ -570,7 +570,7 @@
  </div>
 
 <h2 id="members">Members</h2>
-
+<div id="members-wrapper"> 
 <figure class="figure">
   <a class="figure-image" aria-label="정성훈 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members1.jpg" style="
@@ -585,7 +585,7 @@
     </figcaption>
   
 </figure>
-
+ 
 <figure class="figure">
   <a class="figure-image" aria-label="Member 2 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members2.jpg" style="
@@ -600,7 +600,7 @@
     </figcaption>
   
 </figure>
-
+ 
 <figure class="figure">
   <a class="figure-image" aria-label="Member 3 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members3.jpg" style="
@@ -615,7 +615,7 @@
     </figcaption>
   
 </figure>
-
+ 
 <figure class="figure">
   <a class="figure-image" aria-label="Member 4 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members4.jpg" style="
@@ -630,7 +630,7 @@
     </figcaption>
   
 </figure>
-
+ 
 <figure class="figure">
   <a class="figure-image" aria-label="Member 5 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members5.jpg" style="
@@ -645,7 +645,7 @@
     </figcaption>
   
 </figure>
-
+ 
 <figure class="figure">
   <a class="figure-image" aria-label="Member 6 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members6.jpg" style="
@@ -660,7 +660,7 @@
     </figcaption>
   
 </figure>
-
+ 
 <figure class="figure">
   <a class="figure-image" aria-label="Member 7 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members7.jpg" style="
@@ -675,7 +675,7 @@
     </figcaption>
   
 </figure>
-
+ 
 <figure class="figure">
   <a class="figure-image" aria-label="백종우 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members8.jpg" style="
@@ -690,7 +690,7 @@
     </figcaption>
   
 </figure>
-
+ 
 <figure class="figure">
   <a class="figure-image" aria-label="윤성수 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members9.jpg" style="
@@ -705,7 +705,7 @@
     </figcaption>
   
 </figure>
-
+ 
 <figure class="figure">
   <a class="figure-image" aria-label="금승우 br 텍스트2 br 텍스트3 br 텍스트4 br 텍스트5 br 텍스트6">
     <img src="/sassl/images/members10.jpg" style="
@@ -720,6 +720,9 @@
     </figcaption>
   
 </figure>
+ 
+
+</div>
 
 <h2 id="alumni">Alumni</h2>
 
