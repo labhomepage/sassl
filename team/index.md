@@ -12,7 +12,7 @@ nav:
 
 {% capture professor %} 
 
-{% include figure.html image="images/professor.jpg" caption="손동희" %}
+{% include figure.html image="images/professor.jpg" caption="손동희<br>텍스트2" %}
 
 {% endcapture %}
 
