@@ -11,9 +11,13 @@ nav:
 ## Professor {#professor}
 
 {% capture professor %} 
-{% include figure.html image="images/professor.jpg" caption="<div style="font-family: Arial, sans-serif; text-align: justify; line-height: 1.6; margin-top: -30px; font-size: 16px;">
-<div style="margin-bottom: 12px;">
-<b>손동희</b><br> 텍스트2<br></div>" %}
+{% include figure.html 
+  image="images/professor.jpg" 
+  caption="<div style="font-family: Arial, sans-serif; text-align: justify; line-height: 1.6; margin-top: -30px font-size: 16px;">
+
+  <div style="margin-bottom: 12px;">
+  <b>손동희</b><br> 텍스트2<br></div>"
+%}
 
 {% endcapture %}
 
