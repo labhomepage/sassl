@@ -8,7 +8,7 @@ nav:
 
 {% include section.html %}
 
-## Professor {#professor}
+## Professor
 
 {% capture professor %}
 {% include figure.html 
@@ -19,7 +19,7 @@ nav:
 
 {% include grid.html style="square" content=professor %} 
 
-## Members {#members}
+## Members
 
 {% capture members %} 
 {% include figure.html image="images/members.jpg" caption="정성훈" %} 
@@ -35,7 +35,7 @@ nav:
 {% endcapture %} 
 {% include grid.html style="square" content=members %} 
 
-## Alumni {#alumni}
+## Alumni
 
 {% capture alumni %} 
 {% include figure.html image="images/alumni.jpg" caption="Alumni 1" %} 
