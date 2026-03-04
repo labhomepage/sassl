@@ -40,13 +40,11 @@ nav:
 </div>
 
 ## Alumni {#alumni}
-
 <div id="alumni-wrapper"> 
-{% include figure.html image="images/alumni1.jpg" caption="<b>Alumni1</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
-{% include figure.html image="images/alumni2.jpg" caption="<b>Alumni</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
+
+{% include figure.html image="images/alumni1.jpg" caption="Alumni 1<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
+{% include figure.html image="images/alumni2.jpg" caption="Alumni 2<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 
 </div>
-
-{% endcapture %} 
 
 {% include grid.html style="square" content=alumni %}
