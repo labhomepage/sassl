@@ -27,12 +27,12 @@ nav:
 ## Members 
 <div id="members-wrapper"> 
 {% include figure.html image="images/members1.jpg" caption="<b>정성훈</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
-{% include figure.html image="images/members2.jpg" caption="<b>Member2</b>  2<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
-{% include figure.html image="images/members3.jpg" caption="<b>Member2</b> 3<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
-{% include figure.html image="images/members4.jpg" caption="<b>Member2</b> 4<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
-{% include figure.html image="images/members5.jpg" caption="<b>Member2</b> 5<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
-{% include figure.html image="images/members6.jpg" caption="<b>Member2</b> 6<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
-{% include figure.html image="images/members7.jpg" caption="<b>Member2</b> 7<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
+{% include figure.html image="images/members2.jpg" caption="<b>Member2</b>  <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
+{% include figure.html image="images/members3.jpg" caption="<b>Member2</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
+{% include figure.html image="images/members4.jpg" caption="<b>Member2</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
+{% include figure.html image="images/members5.jpg" caption="<b>Member2</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
+{% include figure.html image="images/members6.jpg" caption="<b>Member2</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
+{% include figure.html image="images/members7.jpg" caption="<b>Member2</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 {% include figure.html image="images/members8.jpg" caption="<b>백종우</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 {% include figure.html image="images/members9.jpg" caption="<b>윤성수</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 {% include figure.html image="images/members10.jpg" caption="<b>금승우</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
