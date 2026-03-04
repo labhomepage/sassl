@@ -12,7 +12,7 @@ nav:
 ## Professor {#professor}
 
 {% capture professor %} 
-{% include figure.html image="images/professor.jpg" caption=" PhD Student<br> Chanseo JUNG<br> Hankyong National University<br> Lab Manager<br><br> Master Thesis (Feb. 2026)<br> Performance of Reinforced Concrete Beams Strengthened with Fabric Reinforced Cementitious Matrix in Shear<br><br> Research Topic<br> • Shear and Torsion Analysis<br> • FRCM Strengthening<br> • Parametric Study with FEA " %}
+{% include figure.html image="images/professor.jpg" caption=" PhD Student Chanseo JUNG Hankyong National University Lab Manager Master Thesis (Feb. 2026) Performance of Reinforced Concrete Beams Strengthened with Fabric Reinforced Cementitious Matrix in Shear Research Topic • Shear and Torsion Analysis • FRCM Strengthening • Parametric Study with FEA " %}
 {% endcapture %} 
 {% include grid.html style="square" content=professor %} 
 
