@@ -40,4 +40,6 @@ nav:
 {% include figure.html image="images/alumni.jpg" caption="Alumni 2" %} 
 {% include figure.html image="images/alumni.jpg" caption="Alumni 3" %} 
 
+{% endcapture %}
+
 </div>
