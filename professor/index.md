@@ -9,12 +9,12 @@ nav:
 {% capture col1 %}
 <div style="display:flex; align-items:flex-start; gap:40px;">
 
-  <!-- 왼쪽: 사진 -->
+
   <div style="flex:0 0 240px; text-align:center;">
     {% include figure.html image="images/professor.jpg" caption="Dong-hee Son(손동희)" %}
   </div>
 
-  <!-- 오른쪽: 텍스트 -->
+
   <div style="flex:1;">
    
   <br><br>  
