@@ -8,30 +8,17 @@ nav:
 
 {% include section.html %}
 
-## Professor
+## Professor {#professor}
 
-{% capture professor %}
-{% include figure.html 
-    image="images/professor.jpg"
-    caption="<div style='max-height:180px; overflow-y:auto;'>
-PhD Student<br>
-Chanseo JUNG<br>
-Hankyong National University<br>
-Lab Manager<br><br>
-Master Thesis (Feb. 2026)<br>
-Performance of Reinforced Concrete Beams Strengthened with Fabric Reinforced Cementitious Matrix in Shear<br><br>
-Research Topic<br>
-• Shear and Torsion Analysis<br>
-• FRCM Strengthening<br>
-• Parametric Study with FEA
-</div>"
-%}
+{% capture professor %} 
+
+{% include figure.html image="images/professor.jpg" caption="손동희" %}
 
 {% endcapture %}
 
 {% include grid.html style="square" content=professor %} 
 
-## Members
+## Members {#members}
 
 {% capture members %} 
 {% include figure.html image="images/members.jpg" caption="정성훈" %} 
@@ -47,7 +34,7 @@ Research Topic<br>
 {% endcapture %} 
 {% include grid.html style="square" content=members %} 
 
-## Alumni
+## Alumni {#alumni}
 
 {% capture alumni %} 
 {% include figure.html image="images/alumni.jpg" caption="Alumni 1" %} 
