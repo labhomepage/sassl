@@ -13,8 +13,20 @@ nav:
 {% capture professor %}
 {% include figure.html 
     image="images/professor.jpg"
-    caption="PhD Student<br><br>Chanseo JUNG<br>Hankyong National University<br><br><em>Lab Manager</em><br><br>Master Thesis (Feb. 2026)<br>Performance of Reinforced Concrete Beams Strengthened with Fabric Reinforced Cementitious Matrix in Shear<br><br><strong>Research Topic</strong><br>• Shear and Torsion Analysis<br>• FRCM Strengthening<br>• Parametric Study with FEA"
+    caption="<div style='max-height:180px; overflow-y:auto;'>
+PhD Student<br>
+Chanseo JUNG<br>
+Hankyong National University<br>
+Lab Manager<br><br>
+Master Thesis (Feb. 2026)<br>
+Performance of Reinforced Concrete Beams Strengthened with Fabric Reinforced Cementitious Matrix in Shear<br><br>
+Research Topic<br>
+• Shear and Torsion Analysis<br>
+• FRCM Strengthening<br>
+• Parametric Study with FEA
+</div>"
 %}
+
 {% endcapture %}
 
 {% include grid.html style="square" content=professor %} 
