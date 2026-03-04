@@ -17,10 +17,6 @@ nav:
 
 </style>
 
-<style> .professor-card { display: flex; align-items: flex-start; gap: 20px; margin-top: 20px; } .professor-card img { width: 180px !important; height: 220px !important; object-fit: cover !important; object-position: center !important; flex-shrink: 0 !important; /* 이미지 크기 절대로 줄어들지 않음 */ } .professor-card figcaption { text-align: left !important; line-height: 1.5; } </style> ## Professor {#professor} <div class="professor-card"> {% include figure.html image="images/professor.jpg" caption="손동희<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6<br>텍스트7" %} 
-
-</div>
-
 
 ## Professor {#professor} 
 
