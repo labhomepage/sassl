@@ -8,7 +8,7 @@ nav:
 
 {% include section.html %}
 
-<style> #professor figure img { width: 180px; height: 220px; object-fit: cover; } </style>
+<style> .professor-img img { width: 180px; height: 220px; object-fit: cover; object-position: center; } </style>
 
 ## Professor {#professor}
 
