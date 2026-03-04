@@ -10,15 +10,11 @@ nav:
 
 ## Professor {#professor}
 
-{% capture professor %} 
+{% capture professor %}
 {% include figure.html 
-  image="images/professor.jpg" 
-  caption="<div style="font-family: Arial, sans-serif; text-align: justify; line-height: 1.6; margin-top: -30px font-size: 16px;">
-
-  <div style="margin-bottom: 12px;">
-  <b>손동희</b><br> 텍스트2<br></div>"
+    image="images/professor.jpg"
+    caption="PhD Student<br><br>Chanseo JUNG<br>Hankyong National University<br><br><em>Lab Manager</em><br><br>Master Thesis (Feb. 2026)<br>Performance of Reinforced Concrete Beams Strengthened with Fabric Reinforced Cementitious Matrix in Shear<br><br><strong>Research Topic</strong><br>• Shear and Torsion Analysis<br>• FRCM Strengthening<br>• Parametric Study with FEA"
 %}
-
 {% endcapture %}
 
 {% include grid.html style="square" content=professor %} 
