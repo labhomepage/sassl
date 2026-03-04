@@ -12,13 +12,14 @@ nav:
 
 ## Professor {#professor}
 
-{% capture professor %} 
+<style> .professor-img img { width: 180px; height: 220px; object-fit: cover; object-position: center; } </style> 
 
-{% include figure.html image="images/professor.jpg" caption="손동희<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6<br>텍스트7<br>텍스트8" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=professor %} 
+<div class="professor-img"> 
+  {% capture professor %} 
+  {% include figure.html image="images/professor.jpg" caption="손동희<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6<br>텍스트7<br>텍스트8" %} 
+  {% endcapture %} 
+  {% include grid.html style="square" content=professor %} 
+</div>
 
 ## Members {#members}
 
