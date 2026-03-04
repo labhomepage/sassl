@@ -13,7 +13,7 @@ nav:
 ## Professor {#professor} 
 <div class="professor-img"> 
 {% capture professor %} 
-{% include figure.html image="images/professor.jpg" caption="손동희<br>텍스트2" %} 
+{% include figure.html image="images/professor.jpg" caption="손동희<br>텍스트2<br>dd<br>dd<br>dd" %} 
 {% endcapture %} 
 {% include grid.html style="square" content=professor %} 
 </div>
