@@ -8,12 +8,14 @@ nav:
 
 {% include section.html %}
 
-<style> div.professor-img div.grid figure img { width: 180px !important; height: 220px !important; object-fit: cover !important; object-position: center !important; } </style> 
+<style> .professor-img img { width: 180px !important; height: 220px !important; min-width: 180px !important; min-height: 220px !important; max-width: 180px !important; max-height: 220px !important; object-fit: cover !important; object-position: center !important; display: block !important; } 
+ 
+</style> 
 
 ## Professor {#professor} 
 <div class="professor-img"> 
 {% capture professor %} 
-{% include figure.html image="images/professor.jpg" caption="손동희<br>텍스트2<br>dd<br>dd<br>dd" %} 
+{% include figure.html image="images/professor.jpg" caption="손동희<br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6<br>텍스트7" %} 
 {% endcapture %} 
 {% include grid.html style="square" content=professor %} 
 </div>
