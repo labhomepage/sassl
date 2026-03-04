@@ -4,16 +4,6 @@ nav:
   order: 4
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
-
-{% include section.html %}
-
-## Professor {#professor}
-
-{% capture professor %} 
-{% include figure.html image="images/professor.jpg" caption="손동희" %}
-{% endcapture %}
-{% include grid.html style="square" content=professor %} 
 
 ## Members {#members}
 
