@@ -34,3 +34,21 @@ nav:
 - Finite element–based computer simulation for structural analysis
 
 - Development of artificial intelligence–based structural design methodologies
+
+### Research Topics(연구 주제)
+
+<br><br>
+
+<img src="{{ '/sass/images/screenshot#1.png' | relative_url }}" width="100%">
+
+<br><br>
+
+<img src="{{ '/sass/images/screenshot2.png' | relative_url }}" width="100%">
+
+<br><br>
+
+<img src="{{ '/sass/images/screenshot3.png' | relative_url }}" width="100%">
+
+<br><br>
+
+<img src="{{ '/sass/images/screenshot4.png' | relative_url }}" width="100%">
