@@ -36,7 +36,6 @@ nav:
 - Development of artificial intelligence–based structural design methodologies
 
 ### Research Topics(연구 주제)
-
 <br><br>
 
 <img src="{{ '/images/jpg1.png' | relative_url }}" width="100%">
