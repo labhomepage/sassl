@@ -8,7 +8,7 @@ nav:
 
 <div class="center-text">
 
-SCI(E) : 19 
+SCI(E) : 19 Paper
 <br>
 
 Scopus : 13 Paper
