@@ -39,7 +39,7 @@ nav:
 
 <br><br>
 
-<img src="{{ '/images/screenshot#1.png' | relative_url }}" width="100%">
+<img src="{{ '/images/screenshot1.png' | relative_url }}" width="100%">
 
 <br><br>
 
