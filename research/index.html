@@ -580,16 +580,51 @@
 
 <h3 id="research-topics연구-주제">Research Topics(연구 주제)</h3>
 
-<style> .image-row { display: flex; justify-content: space-between; /* 사진 사이 간격 자동 */ gap: 20px; /* 사진 사이 여백 */ } .image-row img { width: 100%; max-width: 24%; /* 4개가 한 줄에 들어가도록 */ height: auto; object-fit: cover; } 
+<style> .gallery-row { display: flex; justify-content: space-between; gap: 20px; } .gallery-row .figure { width: 100%; max-width: 24%; /* 사진 4개가 한 줄에 정렬되도록 */ } 
 
 </style>
 
-<div class="image-row"> 
-<img src="/sassl/images/jpg1.png"> 
-<img src="/sassl/images/jpg2.png">
-<img src="/sassl/images/jpg3.png">
-<img src="/sassl/images/jpg4.png">
-
+<div class="gallery-row"> 
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/sassl/images/jpg1.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/sassl/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+ 
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/sassl/images/jpg2.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/sassl/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+ 
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/sassl/images/jpg3.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/sassl/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+ 
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/sassl/images/jpg4.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/sassl/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+ 
 </div>
   </section>
 
