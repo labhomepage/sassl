@@ -39,16 +39,16 @@ nav:
 
 <br><br>
 
-<img src="{{ '/images/screenshot1.png' | relative_url }}" width="100%">
+<img src="{{ '/images/jpg1.png' | relative_url }}" width="100%">
 
 <br><br>
 
-<img src="{{ '/images/screenshot2.png' | relative_url }}" width="100%">
+<img src="{{ '/images/jpg2.png' | relative_url }}" width="100%">
 
 <br><br>
 
-<img src="{{ '/images/screenshot3.png' | relative_url }}" width="100%">
+<img src="{{ '/images/jpg3.png' | relative_url }}" width="100%">
 
 <br><br>
 
-<img src="{{ '/images/screenshot4.png' | relative_url }}" width="100%">
+<img src="{{ '/images/jpg4.png' | relative_url }}" width="100%">
