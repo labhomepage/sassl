@@ -37,14 +37,13 @@ nav:
 
 ### Research Topics(연구 주제)
 
-<style> .image-row { display: flex; justify-content: space-between; /* 사진 사이 간격 자동 */ gap: 20px; /* 사진 사이 여백 */ } .image-row img { width: 100%; max-width: 24%; /* 4개가 한 줄에 들어가도록 */ height: auto; object-fit: cover; } 
+<style> .gallery-row { display: flex; justify-content: space-between; gap: 20px; } .gallery-row .figure { width: 100%; max-width: 24%; /* 사진 4개가 한 줄에 정렬되도록 */ } 
 
 </style> 
 
-<div class="image-row"> 
-<img src="{{ '/images/jpg1.png' | relative_url }}"> 
-<img src="{{ '/images/jpg2.png' | relative_url }}">
-<img src="{{ '/images/jpg3.png' | relative_url }}">
-<img src="{{ '/images/jpg4.png' | relative_url }}">
-
+<div class="gallery-row"> 
+{% include figure.html image="images/jpg1.png" %} 
+{% include figure.html image="images/jpg2.png" %} 
+{% include figure.html image="images/jpg3.png" %} 
+{% include figure.html image="images/jpg4.png" %} 
 </div>
