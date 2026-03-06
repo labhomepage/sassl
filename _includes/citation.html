@@ -26,6 +26,7 @@
           src="{{ img_path | relative_url | uri_escape }}"
           alt="{{ citation.title | default: 'citation image' | regex_strip }}"
           loading="lazy"
+          style="width: 140px; height: auto;"
           {% include fallback.html %}
         >
       </a>
