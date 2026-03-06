@@ -64,7 +64,8 @@
 
 - id: doi:10.3390/app11041662
   corresponding: "Chang-Sik Choi"
- 
+  image: /images/MDPI_Deck_Flexural.jpg
+  
 - id: doi:10.3390/su13010182
   corresponding: "Chang-Sik Choi"
   image: /images/MDPI_CCB.jpg
