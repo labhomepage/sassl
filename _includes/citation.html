@@ -18,6 +18,7 @@
           href="{{ citation.link | relative_url | uri_escape }}"
         {% endif %}
         class="citation-image"
+        style="margin-left: 12px;"
         aria-label="{{ citation.title | default: 'citation link' | regex_strip }}"
       >
         {% assign img_path = source_entry.image | default: citation.image %}
