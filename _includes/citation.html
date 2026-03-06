@@ -15,9 +15,19 @@
     
     <div class="citation-image" style="flex-shrink: 0;">
       <a {% if citation.link %}href="{{ citation.link | relative_url }}"{% endif %}>
-        <img src="{{ source_entry.image | default: citation.image | relative_url }}" 
-             alt="paper image" 
-             style="width: 160px; border-radius: 4px; border: 1px solid #eee;">
+        {% if source_entry.image %}
+          <img src="{{ source_entry.image | relative_url }}" 
+               style="width: 160px; border-radius: 4px; border: 1px solid #eee;" 
+               alt="publication image">
+        {% elsif citation.image %}
+          <img src="{{ citation.image | relative_url }}" 
+               style="width: 160px; border-radius: 4px; border: 1px solid #eee;" 
+               alt="publication image">
+        {% else %}
+          <div style="width: 120px; height: 120px; background: #f9f9f9; display: flex; align-items: center; justify-content: center; border-radius: 4px;">
+            <i class="fas fa-flask" style="color: #ddd; font-size: 2em;"></i>
+          </div>
+        {% endif %}
       </a>
     </div>
 
