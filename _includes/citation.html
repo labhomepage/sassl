@@ -68,7 +68,7 @@
         {% for j in site.data.journals %}
           {% assign j_name = j.name | downcase %}
           {% if j_name == pub_lower %}
-            <span style="margin-left: 6px; color: #b03a2e; font-weight: 600; font-style: normal;">
+            <span style="margin-left: 8px; color: #b03a2e; font-weight: 600; font-style: normal;">
               [IF: {{ j.if }} ({{ j.quartile }})]
             </span>
           {% endif %}
