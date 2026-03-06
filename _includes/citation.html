@@ -9,25 +9,9 @@
 {% endif %}
 
 <div class="citation-container" style="font-family: Arial, sans-serif;">
-  <div class="citation">
-    {% if include.style == "rich" %}
-      <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | uri_escape }}"
-        {% endif %}
-        class="citation-image"
-        aria-label="{{ citation.title | default: 'citation link' | regex_strip }}"
-      >
-        <img
-          src="{{ citation.image | relative_url | uri_escape }}"
-          alt="{{ citation.title | default: 'citation image' | regex_strip }}"
-          loading="lazy"
-          {% include fallback.html %}
-        >
-      </a>
-    {% endif %}
-
-    <div class="citation-text">
+  <div class="citation" style="display: flex; align-items: flex-start; gap: 25px; padding: 20px; text-align: left;">
+    
+    <div class="citation-text" style="flex: 1;">
       {% assign type = site.data.types[citation.type] %}
       {% include icon.html icon=type.icon %}
 
@@ -109,5 +93,25 @@
         {% endif %}
       {% endif %}
     </div>
+
+    {% if include.style == "rich" %}
+      <a
+        {% if citation.link %}
+          href="{{ citation.link | relative_url | uri_escape }}"
+        {% endif %}
+        class="citation-image"
+        style="margin-left: auto; flex-shrink: 0;"
+        aria-label="{{ citation.title | default: 'citation link' | regex_strip }}"
+      >
+        <img
+          src="{{ citation.image | relative_url | uri_escape }}"
+          alt="{{ citation.title | default: 'citation image' | regex_strip }}"
+          style="max-width: 180px; border-radius: 4px;"
+          loading="lazy"
+          {% include fallback.html %}
+        >
+      </a>
+    {% endif %}
+
   </div>
 </div>
