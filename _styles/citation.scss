@@ -1,7 +1,7 @@
 ---
 ---
 
-$thumb-size: 180px;
+$thumb-size: 200px;
 $wrap: 800px;
 
 .citation-container {
@@ -10,6 +10,7 @@ $wrap: 800px;
 
 .citation {
   display: flex;
+  align-items: center;
   margin: 20px 0;
   border-radius: var(--rounded);
   background: var(--background);
@@ -20,6 +21,7 @@ $wrap: 800px;
 .citation-image {
   position: relative;
   width: $thumb-size;
+  height: 140px;
   flex-shrink: 0;
   // box-shadow: var(--shadow);
 }
