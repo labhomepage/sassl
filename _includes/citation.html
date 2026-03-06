@@ -13,35 +13,27 @@
 <div class="citation-container" style="font-family: Arial, sans-serif;">
   <div class="citation" style="display: flex; align-items: flex-start; gap: 20px; padding: 20px; text-align: left;">
     
-    <a
-      {% if citation.link %}
-        href="{{ citation.link | relative_url | uri_escape }}"
+    <a {% if citation.link %}href="{{ citation.link | relative_url }}"{% endif %} class="citation-image" style="flex-shrink: 0;">
+      {% if source_entry.image %}
+        <img src="{{ source_entry.image | relative_url }}" alt="paper image" style="max-width: 160px; border-radius: 4px; border: 1px solid #eee;">
+      {% elsif citation.image %}
+        <img src="{{ citation.image | relative_url }}" alt="paper image" style="max-width: 160px; border-radius: 4px; border: 1px solid #eee;">
+      {% else %}
+        <div style="width: 100px; height: 100px; background: #f9f9f9; display: flex; align-items: center; justify-content: center; border-radius: 4px;">
+          <i class="fas fa-flask" style="color: #ddd; font-size: 2em;"></i>
+        </div>
       {% endif %}
-      class="citation-image"
-      style="flex-shrink: 0;"
-    >
-      <img
-        src="{{ source_entry.image | default: citation.image | relative_url | uri_escape }}"
-        alt="{{ citation.title | default: 'citation image' | regex_strip }}"
-        style="max-width: 160px; border-radius: 4px; border: 1px solid #eee;"
-        loading="lazy"
-        {% include fallback.html %}
-      >
     </a>
 
     <div class="citation-text" style="flex: 1;">
       {% assign type = site.data.types[citation.type] %}
       {% include icon.html icon=type.icon %}
 
-      <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | xml_escape }}"
-        {% endif %}
-        class="citation-title"
-        style="font-size: 1.15em; font-weight: 700; color: #222; text-decoration: none; transition: color 0.2s;"
-        onmouseover="this.style.color='#007bff'"
-        onmouseout="this.style.color='#222'"
-      >
+      <a {% if citation.link %}href="{{ citation.link | relative_url }}"{% endif %}
+         class="citation-title"
+         style="font-size: 1.15em; font-weight: 700; color: #222; text-decoration: none; transition: color 0.2s;"
+         onmouseover="this.style.color='#007bff'"
+         onmouseout="this.style.color='#222'">
         {{ citation.title | default: "[no title info]" }}
       </a>
 
@@ -60,33 +52,16 @@
       </div>
 
       <div class="citation-details" style="margin-top: 5px; font-size: 0.95em; color: #666;">
-        <span class="citation-publisher" style="font-style: italic;">
-          {{- citation.publisher | default: "[no publisher info]" -}}
-        </span>
-
+        <span class="citation-publisher" style="font-style: italic;">{{ citation.publisher }}</span>
         {% assign pub_lower = citation.publisher | downcase %}
         {% for j in site.data.journals %}
           {% assign j_name = j.name | downcase %}
           {% if j_name == pub_lower %}
-            <span style="margin-left: 8px; color: #b03a2e; font-weight: 600; font-style: normal;">
-              [IF: {{ j.if }} ({{ j.quartile }})]
-            </span>
+            <span style="margin-left: 6px; color: #b03a2e; font-weight: 600;">[IF: {{ j.if }} ({{ j.quartile }})]</span>
           {% endif %}
         {% endfor %}
-
-        &nbsp;·&nbsp;
-        <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
-        </span>
+        &nbsp;·&nbsp; {{ citation.date | date: "%d %b %Y" }}
       </div>
-
-      {% if citation.buttons.size > 0 %}
-        <div class="citation-buttons" style="margin-top: 10px;">
-          {% for button in citation.buttons %}
-            {% include button.html type=button.type icon=button.icon text=button.text link=button.link style="bare" %}
-          {% endfor %}
-        </div>
-      {% endif %}
     </div>
 
   </div>
