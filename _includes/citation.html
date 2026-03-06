@@ -11,8 +11,7 @@
 {% assign source_entry = site.data.sources | where: "id", citation.id | first %}
 
 <div class="citation-container" style="font-family: Arial, sans-serif;">
-  <div class="citation" style="display: flex; align-items: flex-start; gap: 25px; padding: 15px 25px;">
-    
+  <div class="citation">
     {% if include.style == "rich" %}
       <a
         {% if citation.link %}
@@ -20,11 +19,12 @@
         {% endif %}
         class="citation-image"
         aria-label="{{ citation.title | default: 'citation link' | regex_strip }}"
-        style="flex-shrink: 0;"
+        /* 이미지를 왼쪽 벽에서 살짝(15px) 떼어내는 코드 */
+        style="margin-left: 15px; display: inline-block;"
       >
-        {% assign img_path = source_entry.image | default: citation.image %}
         <img
-          src="{{ img_path | relative_url | uri_escape }}"
+          /* 2. sources.yaml의 image를 먼저 가져오도록 수정 */
+          src="{{ source_entry.image | default: citation.image | relative_url | uri_escape }}"
           alt="{{ citation.title | default: 'citation image' | regex_strip }}"
           style="width: 160px; border-radius: 4px; border: 1px solid #eee;"
           loading="lazy"
@@ -33,7 +33,7 @@
       </a>
     {% endif %}
 
-    <div class="citation-text" style="flex: 1;">
+    <div class="citation-text">
       {% assign type = site.data.types[citation.type] %}
       {% include icon.html icon=type.icon %}
 
@@ -42,26 +42,32 @@
           href="{{ citation.link | relative_url | xml_escape }}"
         {% endif %}
         class="citation-title"
-        style="font-size: 1.15em; font-weight: 700; text-decoration: none; color: #222;"
+        style="font-size: 1.15em; font-weight: 700; text-decoration: none; color: inherit;"
       >
         {{ citation.title | default: "[no title info]" }}
       </a>
 
-      <div class="citation-authors" style="margin-top: 5px;">
+      <div class="citation-authors"
+        {% if citation.authors.size > 10 %}
+          data-tooltip="{{ citation.authors | join: ', ' | xml_escape }}"
+        {% endif %}
+        tabindex="0">
+        
         {% assign cor_name = source_entry.corresponding %}
+      
         {% for author in citation.authors %}
-          {%- assign d_name = author -%}
+          {%- assign display_name = author -%}
           {%- if author contains "Dong-Hee Son" -%}
-            {%- assign d_name = "<strong><u>" | append: author | append: "</u></strong>" -%}
+            {%- assign display_name = "<strong><u>" | append: author | append: "</u></strong>" -%}
           {%- endif -%}
           {%- if cor_name and author contains cor_name -%}
-            {%- assign d_name = d_name | append: "*" -%}
+            {%- assign display_name = display_name | append: "*" -%}
           {%- endif -%}
-          {{ d_name }}{% unless forloop.last %}, {% endunless %}
+          {{ display_name }}{% unless forloop.last %}, {% endunless %}
         {% endfor %}
       </div>
 
-      <div class="citation-details" style="margin-top: 5px;">
+      <div class="citation-details">
         <span class="citation-publisher" style="font-style: italic;">
           {{- citation.publisher | default: "[no publisher info]" -}}
         </span>
@@ -70,7 +76,7 @@
         {% for j in site.data.journals %}
           {% assign j_name = j.name | downcase %}
           {% if j_name == pub_lower %}
-            <span style="margin-left: 8px; color: #b03a2e; font-weight: 600;">
+            <span style="margin-left: 5px; color: #b03a2e; font-weight: bold; font-style: normal;">
               [IF: {{ j.if }} ({{ j.quartile }})]
             </span>
           {% endif %}
@@ -80,15 +86,29 @@
         <span class="citation-date">
           {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
         </span>
+        &nbsp;·&nbsp;
+        <span class="citation-id">
+          {{- citation.id | default: "[no id info]" -}}
+        </span>
       </div>
 
       {% if include.style == "rich" %}
+        {% if citation.description %}
+          <div class="citation-description">
+            {{ citation.description | markdownify | remove: "<p>" | remove: "</p>" }}
+          </div>
+        {% endif %}
+
         {% if citation.buttons.size > 0 %}
-          <div class="citation-buttons" style="margin-top: 10px;">
+          <div class="citation-buttons">
             {% for button in citation.buttons %}
               {% include button.html type=button.type icon=button.icon text=button.text link=button.link style="bare" %}
             {% endfor %}
           </div>
+        {% endif %}
+
+        {% if citation.tags.size > 0 or citation.repo %}
+          {% include tags.html tags=citation.tags repo=citation.repo %}
         {% endif %}
       {% endif %}
     </div>
