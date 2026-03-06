@@ -220,7 +220,10 @@
 - id: doi:10.14359/51734525
   title: Shear Strength Evaluation of Diagonally Reinforced Concrete Coupling Beams
     with Steel Fibers
-  authors: []
+  authors:
+  - Dong-Hee Son
+  - Baek-Il Bae
+  - Chang-Sik Choi
   publisher: ACI Structural Journal
   date: '2022-07-01'
   link: https://doi.org/hbqg85
@@ -228,10 +231,6 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Chang-Sik Choi
-  auther:
-  - Dong-Hee Son
-  - Baek-Il Bae
-  - Chang-Sik Choi
 - id: doi:10.1016/j.jobe.2022.104468
   title: Flexural retrofit of existing reinforced concrete structural walls with various
     boundary element details under cyclic loading
