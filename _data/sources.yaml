@@ -44,6 +44,10 @@
 
 - id: doi:10.14359/51734525
   corresponding: "Chang-Sik Choi"
+  auther: 
+    - Dong-Hee Son
+    - Baek-Il Bae
+    - Chang-Sik Choi
  
 - id: doi:10.1016/j.jobe.2022.104468
   corresponding: "Dong-Hee Son"
@@ -56,6 +60,6 @@
  
 - id: doi:10.3390/su13010182
   corresponding: "Chang-Sik Choi"
- 
+  
 
   file: sources.yaml
