@@ -43,11 +43,12 @@
   corresponding:  "Chang-Sik Choi"
 
 - id: doi:10.14359/51734525
-  corresponding: "Chang-Sik Choi"
   authors: 
     - Dong-Hee Son
     - Baek-Il Bae
     - Chang-Sik Choi
+  corresponding: "Chang-Sik Choi"
+
  
 - id: doi:10.1016/j.jobe.2022.104468
   corresponding: "Dong-Hee Son"
