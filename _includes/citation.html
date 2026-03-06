@@ -15,7 +15,7 @@
     
     <div class="citation-image" style="flex-shrink: 0;">
       <a {% if citation.link %}href="{{ citation.link | relative_url }}"{% endif %}>
-        <img src="{{ source_entry.image | relative_url }}" 
+        <img src="{{ source_entry.image | default: citation.image | relative_url }}" 
              alt="paper image" 
              style="width: 160px; border-radius: 4px; border: 1px solid #eee;">
       </a>
@@ -58,6 +58,14 @@
         {% endfor %}
         &nbsp;·&nbsp; {{ citation.date | date: "%d %b %Y" }}
       </div>
+
+      {% if citation.buttons.size > 0 %}
+        <div class="citation-buttons" style="margin-top: 10px;">
+          {% for button in citation.buttons %}
+            {% include button.html type=button.type icon=button.icon text=button.text link=button.link style="bare" %}
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
 
   </div>
