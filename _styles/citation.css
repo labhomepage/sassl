@@ -4,6 +4,7 @@
 
 .citation {
   display: flex;
+  align-items: center;
   margin: 20px 0;
   border-radius: var(--rounded);
   background: var(--background);
@@ -13,7 +14,8 @@
 
 .citation-image {
   position: relative;
-  width: 180px;
+  width: 200px;
+  height: 140px;
   flex-shrink: 0;
 }
 
@@ -90,7 +92,7 @@
   }
   .citation-image {
     width: unset;
-    height: 180px;
+    height: 200px;
   }
 }
 
