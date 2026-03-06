@@ -21,7 +21,6 @@
       style="flex-shrink: 0;"
     >
       <img
-        /* source_entry.image가 있으면 그것을 쓰고, 없으면 기본 citations.yaml의 값을 씀 */
         src="{{ source_entry.image | default: citation.image | relative_url | uri_escape }}"
         alt="{{ citation.title | default: 'citation image' | regex_strip }}"
         style="max-width: 160px; border-radius: 4px; border: 1px solid #eee;"
