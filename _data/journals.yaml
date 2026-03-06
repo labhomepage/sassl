@@ -6,34 +6,34 @@
   if: "4.3"
   quartile: "Q1"
 
-  - name: "ACI Structural Journal"
+- name: "ACI Structural Journal"
   if: "1.5"
   quartile: "Q3"
 
-  - name: "Structural Concrete"
+- name: "Structural Concrete"
   if: "3.3"
   quartile: "Q2"
 
-  - name: "International Journal of Concrete Structures and Materials"
+- name: "International Journal of Concrete Structures and Materials"
   if: "3.6"
   quartile: "Q2"
 
-  - name: "Case Studies in Construction Materials"
+- name: "Case Studies in Construction Materials"
   if: "6.6"
   quartile: "Q1"
 
-  - name: "Construction and Building Materials"
+- name: "Construction and Building Materials"
   if: "8.0"
   quartile: "Q1"
 
-  - name: "Applied Sciences"
+- name: "Applied Sciences"
   if: "2.5"
   quartile: "Q3"
 
-  - name: "Materials"
+- name: "Materials"
   if: "3.2"
   quartile: "Q3"
 
-  - name: "Sustainability"
+- name: "Sustainability"
   if: "3.3"
   quartile: "Q3"
