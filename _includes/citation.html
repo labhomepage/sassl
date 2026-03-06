@@ -11,14 +11,14 @@
 {% assign source_entry = site.data.sources | where: "id", citation.id | first %}
 
 <div class="citation-container" style="font-family: Arial, sans-serif;">
-  <div class="citation" style="display: flex; align-items: flex-start; gap: 25px; padding: 20px; text-align: left;">
+  <div class="citation" style="display: flex; align-items: flex-start; gap: 20px; padding: 20px; text-align: left;">
     
     <div class="citation-image" style="flex-shrink: 0;">
-      {% assign img_src = source_entry.image | default: citation.image %}
+      {% assign img_path = source_entry.image | default: citation.image %}
       <a {% if citation.link %}href="{{ citation.link | relative_url }}"{% endif %}>
-        {% if img_src %}
-          <img src="{{ img_src | relative_url }}" 
-               alt="paper image" 
+        {% if img_path %}
+          <img src="{{ img_path | relative_url }}" 
+               alt="publication image" 
                style="width: 160px; border-radius: 4px; border: 1px solid #eee;">
         {% else %}
           <div style="width: 120px; height: 120px; background: #f9f9f9; display: flex; align-items: center; justify-content: center; border-radius: 4px;">
