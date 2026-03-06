@@ -19,14 +19,11 @@
         {% endif %}
         class="citation-image"
         aria-label="{{ citation.title | default: 'citation link' | regex_strip }}"
-        /* 이미지를 왼쪽 벽에서 살짝(15px) 떼어내는 코드 */
-        style="margin-left: 15px; display: inline-block;"
       >
+        {% assign img_path = source_entry.image | default: citation.image %}
         <img
-          /* 2. sources.yaml의 image를 먼저 가져오도록 수정 */
-          src="{{ source_entry.image | default: citation.image | relative_url | uri_escape }}"
+          src="{{ img_path | relative_url | uri_escape }}"
           alt="{{ citation.title | default: 'citation image' | regex_strip }}"
-          style="width: 160px; border-radius: 4px; border: 1px solid #eee;"
           loading="lazy"
           {% include fallback.html %}
         >
