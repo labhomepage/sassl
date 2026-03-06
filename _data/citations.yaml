@@ -228,6 +228,10 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Chang-Sik Choi
+  auther:
+  - Dong-Hee Son
+  - Baek-Il Bae
+  - Chang-Sik Choi
 - id: doi:10.1016/j.jobe.2022.104468
   title: Flexural retrofit of existing reinforced concrete structural walls with various
     boundary element details under cyclic loading
