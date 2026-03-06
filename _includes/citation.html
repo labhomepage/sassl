@@ -27,12 +27,7 @@
         {{ citation.title | default: "[no title info]" }}
       </a>
 
-      <div class="citation-authors"
-        {% if citation.authors.size > 10 %}
-          data-tooltip="{{ citation.authors | join: ', ' | xml_escape }}"
-        {% endif %}
-        tabindex="0">
-        
+      <div class="citation-authors" style="margin-top: 8px;">
         {% assign source_entry = site.data.sources | where: "id", citation.id | first %}
         {% assign cor_name = source_entry.corresponding %}
       
@@ -48,7 +43,7 @@
         {% endfor %}
       </div>
 
-      <div class="citation-details">
+      <div class="citation-details" style="margin-top: 8px;">
         <span class="citation-publisher" style="font-style: italic;">
           {{- citation.publisher | default: "[no publisher info]" -}}
         </span>
@@ -67,51 +62,38 @@
         <span class="citation-date">
           {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
         </span>
-        &nbsp;·&nbsp;
-        <span class="citation-id">
-          {{- citation.id | default: "[no id info]" -}}
-        </span>
       </div>
 
-      {% if include.style == "rich" %}
-        {% if citation.description %}
-          <div class="citation-description">
-            {{ citation.description | markdownify | remove: "<p>" | remove: "</p>" }}
-          </div>
-        {% endif %}
+      {% if citation.description %}
+        <div class="citation-description" style="margin-top: 10px;">
+          {{ citation.description | markdownify | remove: "<p>" | remove: "</p>" }}
+        </div>
+      {% endif %}
 
-        {% if citation.buttons.size > 0 %}
-          <div class="citation-buttons">
-            {% for button in citation.buttons %}
-              {% include button.html type=button.type icon=button.icon text=button.text link=button.link style="bare" %}
-            {% endfor %}
-          </div>
-        {% endif %}
-
-        {% if citation.tags.size > 0 or citation.repo %}
-          {% include tags.html tags=citation.tags repo=citation.repo %}
-        {% endif %}
+      {% if citation.buttons.size > 0 %}
+        <div class="citation-buttons" style="margin-top: 12px;">
+          {% for button in citation.buttons %}
+            {% include button.html type=button.type icon=button.icon text=button.text link=button.link style="bare" %}
+          {% endfor %}
+        </div>
       {% endif %}
     </div>
 
-    {% if include.style == "rich" %}
-      <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | uri_escape }}"
-        {% endif %}
-        class="citation-image"
-        style="margin-left: auto; flex-shrink: 0;"
-        aria-label="{{ citation.title | default: 'citation link' | regex_strip }}"
+    <a
+      {% if citation.link %}
+        href="{{ citation.link | relative_url | uri_escape }}"
+      {% endif %}
+      class="citation-image"
+      style="margin-left: auto; flex-shrink: 0;"
+    >
+      <img
+        src="{{ citation.image | relative_url | uri_escape }}"
+        alt="{{ citation.title | default: 'citation image' | regex_strip }}"
+        style="max-width: 180px; border-radius: 4px; border: 1px solid #eee;"
+        loading="lazy"
+        {% include fallback.html %}
       >
-        <img
-          src="{{ citation.image | relative_url | uri_escape }}"
-          alt="{{ citation.title | default: 'citation image' | regex_strip }}"
-          style="max-width: 180px; border-radius: 4px;"
-          loading="lazy"
-          {% include fallback.html %}
-        >
-      </a>
-    {% endif %}
+    </a>
 
   </div>
 </div>
