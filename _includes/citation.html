@@ -36,7 +36,9 @@
           href="{{ citation.link | relative_url | xml_escape }}"
         {% endif %}
         class="citation-title"
-        style="font-size: 1.15em; font-weight: 700; text-decoration: none; color: inherit;"
+        style="font-size: 1.2em; font-weight: 700; color: #222; text-decoration: none; transition: color 0.2s;"
+        onmouseover="this.style.color='#007bff'"
+        onmouseout="this.style.color='#222'"
       >
         {{ citation.title | default: "[no title info]" }}
       </a>
