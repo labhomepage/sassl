@@ -47,6 +47,7 @@
 
 - id: doi:10.1016/j.cscm.2022.e01603
   corresponding:  "Chang-Sik Choi"
+  image: /images/CSCM_Nano_mortar and concrete.jpg
 
 - id: doi:10.14359/51734525
   authors: 
@@ -54,13 +55,15 @@
     - Baek-Il Bae
     - Chang-Sik Choi
   corresponding: "Chang-Sik Choi"
-
+  image: /images/ACI_DCB.jpg
  
 - id: doi:10.1016/j.jobe.2022.104468
   corresponding: "Dong-Hee Son"
+  image: /images/JBE_wall Flexural retrofit.jpg
 
 - id: doi:10.3390/ma14144052
   corresponding: "Chang-Sik Choi"
+  image: /images/MDPI_Deck_Fire.jpg
 
 - id: doi:10.3390/app11041662
   corresponding: "Chang-Sik Choi"
