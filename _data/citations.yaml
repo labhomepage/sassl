@@ -278,6 +278,7 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Chang-Sik Choi
+  image: /images/MDPI_Deck_Flexural.jpg
 - id: doi:10.3390/su13010182
   title: Hysteretic Behavior of Reinforced Concrete Coupling Beams According to Volume
     Fraction of Steel Fiber
