@@ -40,23 +40,31 @@
         {{ citation.title | default: "[no title info]" }}
       </a>
 
-      <div
-        class="citation-authors"
+      <div class="citation-authors"
         {% if citation.authors.size > 10 %}
           data-tooltip="{{ citation.authors | join: ", " | xml_escape }}"
         {% endif %}
-        tabindex="0"
-      >
-        {{
-          citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
-          | join: ", "
-          | markdownify
-          | remove: "<p>" | remove: "</p>"
-          | default: "[no author info]"
-        }}
+        tabindex="0">
+        
+        {% comment %} 1. 현재 논문 ID와 일치하는 source 데이터를 가져와 교신저자 확인 {% endcomment %}
+        {% assign source_entry = site.data.sources | where: "id", citation.id | first %}
+        {% assign corresponding_name = source_entry.corresponding %}
+      
+        {% for author in citation.authors %}
+          {%- assign display_name = author -%}
+          
+          {%- comment -%} 2. Dong-Hee Son 강조 (Bold + Underline) {%- endcomment -%}
+          {%- if author contains "Dong-Hee Son" -%}
+            {%- assign display_name = "<strong><u>" | append: author | append: "</u></strong>" -%}
+          {%- endif -%}
+      
+          {%- comment -%} 3. 교신저자 이름 뒤에 * 추가 {%- endcomment -%}
+          {%- if corresponding_name and author contains corresponding_name -%}
+            {%- assign display_name = display_name | append: "*" -%}
+          {%- endif -%}
+      
+          {{ display_name }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
       </div>
 
       <div class="citation-details">
