@@ -217,6 +217,7 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Chang-Sik Choi
+  image: /images/CSCM_Nano_mortar and concrete.jpg
 - id: doi:10.14359/51734525
   title: Shear Strength Evaluation of Diagonally Reinforced Concrete Coupling Beams
     with Steel Fibers
@@ -231,6 +232,7 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Chang-Sik Choi
+  image: /images/ACI_DCB.jpg
 - id: doi:10.1016/j.jobe.2022.104468
   title: Flexural retrofit of existing reinforced concrete structural walls with various
     boundary element details under cyclic loading
@@ -246,6 +248,7 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Dong-Hee Son
+  image: /images/JBE_wall Flexural retrofit.jpg
 - id: doi:10.3390/ma14144052
   title: Deflection Estimation Based on the Thermal Characteristics of Composite Deck
     Slabs Containing Macro-Synthetic Fibers
@@ -262,6 +265,7 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Chang-Sik Choi
+  image: /images/MDPI_Deck_Fire.jpg
 - id: doi:10.3390/app11041662
   title: Flexural Strength of Composite Deck Slab with Macro Synthetic Fiber Reinforced
     Concrete
