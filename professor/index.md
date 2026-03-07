@@ -48,17 +48,17 @@ nav:
 
 {% include section.html %}
 
-## **Education**
+## Education
 
-- Ph.D. in Architectural Engineering, Hanyang University
-  Ph.D. Dissertation: Stiffness Reduction Model of Vertically Divided Reinforced Concrete Structural Walls Under Lateral Loading 
-횡하중을 받는 수직분할된 철근콘크리트 구조벽체의 강성저감모델
+- **Ph.D. in Architectural Engineering**, Hanyang University  
+  Dissertation: *Stiffness Reduction Model of Vertically Divided Reinforced Concrete Structural Walls Under Lateral Loading*  
+  <span style="color:#666;">횡하중을 받는 수직분할된 철근콘크리트 구조벽체의 강성저감모델</span>
 
-- M.S. in Architectural Engineering, Hanyang University
-  M.S. Thesis: Evaluation of Shear Strength of Reinforced Concrete Beam with Steel Plate Type Shear Reinforcement
-강판형 전단보강재로 보강된 철근콘크리트 보의 전단강도 평가
-  
-- B.S. in Architectural Engineering, Hanyang University
+- **M.S. in Architectural Engineering**, Hanyang University  
+  Thesis: *Evaluation of Shear Strength of Reinforced Concrete Beam with Steel Plate Type Shear Reinforcement*  
+  <span style="color:#666;">강판형 전단보강재로 보강된 철근콘크리트 보의 전단강도 평가</span>
+
+- **B.S. in Architectural Engineering**, Hanyang University
 
 
 
