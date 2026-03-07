@@ -14,11 +14,11 @@ nav:
 
   <div style="flex:1; text-align:left; line-height:1.7;">
 
-    <div style="font-size:2rem; font-weight:800; margin-bottom:8px;">
-      Prof. Son, Dong-Hee <span style="font-weight:600;">(손동희)</span>
+    <div style="font-size:1.5rem; font-weight:800; margin-bottom:8px;">
+      Prof. Son, Dong-Hee <span style="font-weight:600;">(손 동 희)</span>
     </div>
 
-    <div style="font-size:1.15rem; font-weight:600; color:#333; margin-bottom:16px;">
+    <div style="font-size:1.15rem; font-weight:600; color:#333; margin-bottom:8px;">
       Assistant Professor
     </div>
 
