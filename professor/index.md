@@ -53,12 +53,12 @@ nav:
 - **Ph.D. in Architectural Engineering**, Hanyang University  
   Sep. 2020 – Feb. 2024  
   Dissertation: *Stiffness Reduction Model of Vertically Divided Reinforced Concrete Structural Walls Under Lateral Loading*  
-  횡하중을 받는 수직분할된 철근콘크리트 구조벽체의 강성저감모델
+  <span style="color:#666;">횡하중을 받는 수직분할된 철근콘크리트 구조벽체의 강성저감모델
 
 - **M.S. in Architectural Engineering**, Hanyang University  
   Mar. 2017 – Feb. 2019  
   Thesis: *Evaluation of Shear Strength of Reinforced Concrete Beam with Steel Plate Type Shear Reinforcement*  
-  강판형 전단보강재로 보강된 철근콘크리트 보의 전단강도 평가
+  <span style="color:#666;">강판형 전단보강재로 보강된 철근콘크리트 보의 전단강도 평가
 
 - **B.S. in Architectural Engineering**, Hanyang University  
   Mar. 2010 – Feb. 2017
@@ -94,6 +94,97 @@ nav:
   Structural Engineer  
   Mar. 2019 – Sep. 2020
 
-  {% include section.html %}
+ {% include section.html %}
 
+## Technical Activity
+
+- **충청북도 건설기술심의위원회 위원**  
+  Feb. 2026 – Feb. 2028
+
+- **한국토지주택공사(LH) 기술자문위원**  
+  Mar. 2026 – Mar. 2027
+
+- **한국전력공사(KEPCO) 전력건축분야 기술자문위원**  
+  Jun. 2025 – May. 2027
+
+- **한국콘크리트학회(KCI) 대의원**  
+  Jul. 2025 – Jun. 2028
+
+- **한국콘크리트학회(KCI) 회원**  
+  Jul. 2017 – Present
+
+- **대한건축학회(AIK) 회원**  
+  Jul. 2017 – Present
+
+- **한국구조물진단유지관리공학회(KSMI) 회원**  
+  Jul. 2017 – Present
+
+
+{% include section.html %}
+
+## Honors and Awards
+
+- **Excellence Award in 2025 KNUT Rise Capstone X-Road Design Competition**  
+  Korea National University of Transportation, 2025
+
+- **Idea Excellence Award in Seismic Design Competition**  
+  Pusan National University Seismic Research and Test Center, 2025
+
+- **Bronze Award in Coursework Portfolio Competition**  
+  Korea National University of Transportation, 2025
+
+- **Best Paper Award**  
+  Spring Annual Conference of KSMI, 2025
+
+- **Outstanding Ph.D. Dissertation Award**  
+  Hanyang University, 2024
+
+- **Future Construction Technology Talent Award**  
+  Korea Construction Engineers Association, 2024
+
+- **Outstanding Research Achievement Award (Outstanding Paper Category)**  
+  Hanyang University, 2023
+
+- **Best Paper Award**  
+  Autumn Annual Conference of Architectural Institute of Korea, 2022
+
+- **Best Paper Award**  
+  Autumn Annual Conference of KSMI, 2021
+
+- **Best Paper Award**  
+  Spring Annual Conference of Architectural Institute of Korea, 2021
+
+- **15th Excellent Graduation Thesis Exhibition Encouragement Award (Master’s Category)**  
+  Architectural Institute of Korea, 2019
+
+- **Best Paper Award**  
+  Autumn Annual Conference of Korea Concrete Institute, 2019
+
+- **ISAIA 2018 Excellent Research Award (Academic Sessions, Oral Presentation)**  
+  International Symposium on Architectural Interchanges in Asia, 2018
+
+- **Certification of Scholarship**  
+  Hanyang University Association of Architectural Engineering Alumni, 2018
+
+- **13th Excellent Graduation Thesis Exhibition Encouragement Award (Bachelor’s Category)**  
+  Architectural Institute of Korea, 2017
+
+- **Dean's Award**  
+  Hanyang Architecture Symposium, Hanyang University, 2016
+
+
+{% include section.html %}
+
+## Journal Reviewer
+
+- *ACI Structural Journal* — American Concrete Institute (ACI)
+- *Journal of Computing in Civil Engineering* — American Society of Civil Engineering (ASCE)
+- *Journal of Building Engineering* — Elsevier
+- *Case Studies in Construction Materials* — Elsevier
+- *International Journal of Concrete Structures and Materials* — Springer
+- *Scientific Reports* — Springer
+- *Materials* — MDPI
+- *Buildings* — MDPI
+- *Journal of Korea Concrete Institute* — Korea Koncrete Institute (KCI)
+- *Journal of Korea Institute for Structural Maintenance and Inspection* — Korea Institute for Structural Maintenance and Inspection(KSMI)
   
