@@ -48,18 +48,24 @@ nav:
 
 {% include section.html %}
 
-## Education
+## **Education**
 
 - Ph.D. in Architectural Engineering, Hanyang University
+  Ph.D. Dissertation: Stiffness Reduction Model of Vertically Divided Reinforced Concrete Structural Walls Under Lateral Loading 
+횡하중을 받는 수직분할된 철근콘크리트 구조벽체의 강성저감모델
+
 - M.S. in Architectural Engineering, Hanyang University
-- B.S. in Architectural Engineering, [University Name]
+  M.S. Thesis: Evaluation of Shear Strength of Reinforced Concrete Beam with Steel Plate Type Shear Reinforcement
+강판형 전단보강재로 보강된 철근콘크리트 보의 전단강도 평가
+  
+- B.S. in Architectural Engineering, Hanyang University
 
 
 
 
 {% include section.html %}
 
-## Experience
+## **Experience**
 
 - **Korea National University of Transportation**  
   Assistant Professor, Department of Architectural Engineering  
@@ -84,3 +90,7 @@ nav:
 - **SEN Structural Engineers Co., Ltd.**  
   Structural Engineer  
   Mar. 2019 – Sep. 2020
+
+  {% include section.html %}
+
+  
