@@ -11,14 +11,15 @@ nav:
 
 
   <div style="flex:0 0 240px; text-align:center;">
-    {% include figure.html image="images/professor.jpg" caption="Dong-hee Son(손동희)" %}
   </div>
 
 
   <div style="flex:1;">
    
-  <br><br>  
-  Department of Architectural Engineering, Korea National University of Transportation
+  <br><br>
+  Prof. Son, Dong-Hee (손 동 희) 
+  Department of Architectural Engineering
+  Korea National University of Transportation
   <br><br><br>   
   Email: dhson@ut.ac.kr  
   <br><br><br> 
