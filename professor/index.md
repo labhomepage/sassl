@@ -8,17 +8,17 @@ nav:
 {% capture col1 %}
 <div style="display:flex; align-items:flex-start; gap:40px; margin-top:20px;">
 
-  <div style="flex:0 0 240px; text-align:center;">
+  <div style="flex:0 0 300px; text-align:center;">
     {% include figure.html image="images/professor.jpg" %}
   </div>
 
   <div style="flex:1; text-align:left; line-height:1.7;">
 
-    <div style="font-size:1.5rem; font-weight:800; margin-bottom:8px;">
+    <div style="font-size:2rem; font-weight:800; margin-bottom:8px;">
       Prof. Son, Dong-Hee <span style="font-weight:600;">(손 동 희)</span>
     </div>
 
-    <div style="font-size:1.15rem; font-weight:600; color:#333; margin-bottom:8px;">
+    <div style="font-size:1.15rem; font-weight:600; color:#333; margin-bottom:4px;">
       Assistant Professor
     </div>
 
@@ -48,18 +48,18 @@ nav:
 
 {% include section.html %}
 
-## Education
+## **Education**
 
-**Ph.D. in Architectural Engineering**  
+**Ph.D. in Architectural Structural Engineering**  
 Hanyang University
 
-**M.S. in Architectural Engineering**  
+**M.S. in Architectural Structural Engineering**  
 Hanyang University
 
 **B.S. in Architectural Engineering**  
 Hanyang University
 
-## Experience
+## **Experience**
 
 - **Korea National University of Transportation**  
   Assistant Professor, Department of Architectural Engineering  
