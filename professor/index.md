@@ -68,7 +68,7 @@ nav:
 
 {% include section.html %}
 
-## **Experience**
+## Experience
 
 - **Korea National University of Transportation**  
   Assistant Professor, Department of Architectural Engineering  
