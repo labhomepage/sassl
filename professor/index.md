@@ -8,7 +8,7 @@ nav:
 {% capture col1 %}
 <div style="display:flex; align-items:flex-start; gap:40px; margin-top:30px;">
 
-  <div style="flex:0 0 300px; text-align:center;margin-top:-35px;">
+  <div style="flex:0 0 300px; text-align:center;margin-top:-40px;">
     {% include figure.html image="images/professor.jpg" %}
   </div>
 
