@@ -11,7 +11,9 @@ nav:
 
 
   <div style="flex:0 0 240px; text-align:center;">
+    {% include figure.html image="images/professor.jpg" %}
   </div>
+
 
 
   <div style="flex:1;">
