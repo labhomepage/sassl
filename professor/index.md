@@ -69,7 +69,7 @@ nav:
 {% include section.html %}
 
 ## Experience
-
+<div style="line-height:1.45;">
 - **Korea National University of Transportation**  
   Assistant Professor, Department of Architectural Engineering  
   Mar. 2025 – Present
@@ -95,6 +95,7 @@ nav:
   Mar. 2019 – Sep. 2020
 
  {% include section.html %}
+</div>
 
 ## Technical Activity
 
