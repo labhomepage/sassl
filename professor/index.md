@@ -69,33 +69,38 @@ nav:
 {% include section.html %}
 
 ## Experience
-<div style="line-height:1.45;">
-- **Korea National University of Transportation**  
-  Assistant Professor, Department of Architectural Engineering  
-  Mar. 2025 – Present
-
-- **The Research Institute of Industrial Science, Hanyang University**  
-  Postdoctoral Researcher, Department of Architectural Engineering  
-  Mar. 2024 – Feb. 2025
-
-- **Kyonggi University**  
-  Adjunct Faculty, Department of Civil and Energy Engineering  
-  Mar. 2024 – Feb. 2025
-
-- **Hanyang University**  
-  Adjunct Faculty, Department of Architectural Engineering  
-  Sep. 2024 – Dec. 2024
-
-- **Hanyang University**  
-  Teaching Fellow, Graduate School of Engineering  
-  Mar. 2021 – Jun. 2021
-
-- **SEN Structural Engineers Co., Ltd.**  
-  Structural Engineer  
-  Mar. 2019 – Sep. 2020
-
- {% include section.html %}
-</div>
+<ul style="margin-top:0; margin-bottom:0; padding-left:22px; line-height:1.45;">
+  <li style="margin-bottom:10px;">
+    <strong>Korea National University of Transportation</strong><br>
+    Assistant Professor, Department of Architectural Engineering<br>
+    Mar. 2025 – Present
+  </li>
+  <li style="margin-bottom:10px;">
+    <strong>The Research Institute of Industrial Science, Hanyang University</strong><br>
+    Postdoctoral Researcher, Department of Architectural Engineering<br>
+    Mar. 2024 – Feb. 2025
+  </li>
+  <li style="margin-bottom:10px;">
+    <strong>Kyonggi University</strong><br>
+    Adjunct Faculty, Department of Civil and Energy Engineering<br>
+    Mar. 2024 – Feb. 2025
+  </li>
+  <li style="margin-bottom:10px;">
+    <strong>Hanyang University</strong><br>
+    Adjunct Faculty, Department of Architectural Engineering<br>
+    Sep. 2024 – Dec. 2024
+  </li>
+  <li style="margin-bottom:10px;">
+    <strong>Hanyang University</strong><br>
+    Teaching Fellow, Graduate School of Engineering<br>
+    Mar. 2021 – Jun. 2021
+  </li>
+  <li>
+    <strong>SEN Structural Engineers Co., Ltd.</strong><br>
+    Structural Engineer<br>
+    Mar. 2019 – Sep. 2020
+  </li>
+</ul>
 
 ## Technical Activity
 
