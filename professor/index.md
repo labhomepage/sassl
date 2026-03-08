@@ -69,7 +69,7 @@ nav:
 {% include section.html %}
 
 ## Experience
-<ul style="margin-top:0; margin-bottom:0; padding-left:22px; line-height:1.45;">
+<ul style="margin-top:0; margin-bottom:0; padding-left:0px; line-height:1.45;">
   <li style="margin-bottom:10px;">
     <strong>Korea National University of Transportation</strong><br>
     Assistant Professor, Department of Architectural Engineering<br>
