@@ -69,59 +69,38 @@ nav:
 {% include section.html %}
 
 ## Experience
-<ul style="margin-top:0; margin-bottom:0; padding-left:0px; line-height:1.45;">
-  <li style="margin-bottom:10px;">
-    <strong>Korea National University of Transportation</strong><br>
-    Assistant Professor, Department of Architectural Engineering<br>
-    Mar. 2025 – Present
-  </li>
-  <li style="margin-bottom:10px;">
-    <strong>The Research Institute of Industrial Science, Hanyang University</strong><br>
-    Postdoctoral Researcher, Department of Architectural Engineering<br>
-    Mar. 2024 – Feb. 2025
-  </li>
-  <li style="margin-bottom:10px;">
-    <strong>Kyonggi University</strong><br>
-    Adjunct Faculty, Department of Civil and Energy Engineering<br>
-    Mar. 2024 – Feb. 2025
-  </li>
-  <li style="margin-bottom:10px;">
-    <strong>Hanyang University</strong><br>
-    Adjunct Faculty, Department of Architectural Engineering<br>
-    Sep. 2024 – Dec. 2024
-  </li>
-  <li style="margin-bottom:10px;">
-    <strong>Hanyang University</strong><br>
-    Teaching Fellow, Graduate School of Engineering<br>
-    Mar. 2021 – Jun. 2021
-  </li>
-  <li>
-    <strong>SEN Structural Engineers Co., Ltd.</strong><br>
-    Structural Engineer<br>
-    Mar. 2019 – Sep. 2020
-  </li>
-</ul>
+- **Korea National University of Transportation**  
+  Assistant Professor, Department of Architectural Engineering  
+  Mar. 2025 – Present
+- **The Research Institute of Industrial Science, Hanyang University**  
+  Postdoctoral Researcher, Department of Architectural Engineering  
+  Mar. 2024 – Feb. 2025
+- **Kyonggi University**  
+  Adjunct Faculty, Department of Civil and Energy Engineering  
+  Mar. 2024 – Feb. 2025
+- **Hanyang University**  
+  Adjunct Faculty, Department of Architectural Engineering  
+  Sep. 2024 – Dec. 2024
+- **Hanyang University**  
+  Teaching Fellow, Graduate School of Engineering  
+  Mar. 2021 – Jun. 2021
+- **SEN Structural Engineers Co., Ltd.**  
+  Structural Engineer  
+  Mar. 2019 – Sep. 2020
 
 ## Technical Activity
-
 - **충청북도 건설기술심의위원회 위원**  
   Feb. 2026 – Feb. 2028
-
 - **한국토지주택공사(LH) 기술자문위원**  
   Mar. 2026 – Mar. 2027
-
 - **한국전력공사(KEPCO) 전력건축분야 기술자문위원**  
   Jun. 2025 – May. 2027
-
 - **한국콘크리트학회(KCI) 대의원**  
   Jul. 2025 – Jun. 2028
-
 - **한국콘크리트학회(KCI) 회원**  
   Jul. 2017 – Present
-
 - **대한건축학회(AIK) 회원**  
   Jul. 2017 – Present
-
 - **한국구조물진단유지관리공학회(KSMI) 회원**  
   Jul. 2017 – Present
 
@@ -129,52 +108,36 @@ nav:
 {% include section.html %}
 
 ## Honors and Awards
-
 - **Excellence Award in 2025 KNUT Rise Capstone X-Road Design Competition**  
   Korea National University of Transportation, 2025
-
 - **Idea Excellence Award in Seismic Design Competition**  
   Pusan National University Seismic Research and Test Center, 2025
-
 - **Bronze Award in Coursework Portfolio Competition**  
   Korea National University of Transportation, 2025
-
 - **Best Paper Award**  
   Spring Annual Conference of KSMI, 2025
-
 - **Outstanding Ph.D. Dissertation Award**  
   Hanyang University, 2024
-
 - **Future Construction Technology Talent Award**  
   Korea Construction Engineers Association, 2024
-
 - **Outstanding Research Achievement Award (Outstanding Paper Category)**  
   Hanyang University, 2023
-
 - **Best Paper Award**  
   Autumn Annual Conference of Architectural Institute of Korea, 2022
-
 - **Best Paper Award**  
   Autumn Annual Conference of KSMI, 2021
-
 - **Best Paper Award**  
   Spring Annual Conference of Architectural Institute of Korea, 2021
-
 - **15th Excellent Graduation Thesis Exhibition Encouragement Award (Master’s Category)**  
   Architectural Institute of Korea, 2019
-
 - **Best Paper Award**  
   Autumn Annual Conference of Korea Concrete Institute, 2019
-
 - **ISAIA 2018 Excellent Research Award (Academic Sessions, Oral Presentation)**  
   International Symposium on Architectural Interchanges in Asia, 2018
-
 - **Certification of Scholarship**  
   Hanyang University Association of Architectural Engineering Alumni, 2018
-
 - **13th Excellent Graduation Thesis Exhibition Encouragement Award (Bachelor’s Category)**  
   Architectural Institute of Korea, 2017
-
 - **Dean's Award**  
   Hanyang Architecture Symposium, Hanyang University, 2016
 
@@ -182,7 +145,6 @@ nav:
 {% include section.html %}
 
 ## Journal Reviewer
-
 - *ACI Structural Journal* — American Concrete Institute (ACI)
 - *Journal of Computing in Civil Engineering* — American Society of Civil Engineering (ASCE)
 - *Journal of Building Engineering* — Elsevier
