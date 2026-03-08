@@ -30,7 +30,7 @@ nav:
     <div style="font-size:0.98rem; margin-bottom:18px;">
       <div><strong>E-mail:</strong> <a href="mailto:dhson@ut.ac.kr">dhson@ut.ac.kr</a></div>
       <div><strong>Tel:</strong> 043-841-5210</div>
-      <div><strong>Address:</strong> (27469) 충북 충주시 대소원면 대학로 50, 한국교통대학교 건축공학과 323호<br>
+      <div><strong>Address:</strong> (27469) 충북 충주시 대소원면 대학로 50, 국립한국교통대학교 건축공학과 323호<br>
       50 Daehak-ro, Daesowon-myeon, Chungju-si, Korea National University of Transportation</div>
     </div>
 
