@@ -4,7 +4,7 @@ nav:
   order: 8
 ---
 
-# {% include icon.html icon="fa-regular fa-image" %}Gallery
+# {% include icon.html icon="fa-regular fa-image" %}News
 
 
 {% capture content %}
