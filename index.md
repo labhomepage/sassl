@@ -105,58 +105,54 @@ Stay updated with the latest news from SASSL, including awards, research grants,
 
 {% capture text %}
 
-<div style="display:flex; align-items:flex-start; gap:40px; margin-top:10px;">
+<div style="margin-top:40px;">
+  <div style="font-size:1.6rem; font-weight:600; margin-bottom:18px; text-align:center;">
+    About SASSL
+  </div>
 
-  <div style="flex:1; text-align:left; line-height:1.8;">
-    <div style="font-size:1.6rem; font-weight:600; margin-bottom:18px;">
-      About SASSL
+  <div style="display:flex; align-items:flex-start; gap:40px;">
+
+    <div style="flex:1; text-align:left; line-height:1.8;">
+      <p>
+        SASSL is located in the Department of Architectural Engineering at Korea National University of Transportation.<br>
+        Room 323, 50 Daehak-ro, Daesowon-myeon, Chungju-si, Chungcheongbuk-do, Republic of Korea
+      </p>
+
+      <p>
+        고성능건축구조시스템연구실은 학부연구생 및 석사과정 대학원생을 적극적으로 모집하고 있습니다.
+      </p>
+
+      <p>
+        <a href="https://maps.app.goo.gl/x6x8taoxeuBnGL9Y9" target="_blank">View on Google Maps</a>
+      </p>
+
+      {%
+        include button.html
+        link="team"
+        text="Meet our team"
+        icon="fa-solid fa-arrow-right"
+        flip=true
+        style="bare"
+      %}
     </div>
 
-    <p>
-      SASSL is located in the Department of Architectural Engineering at Korea National University of Transportation.<br>
-      Room 323, 50 Daehak-ro, Daesowon-myeon, Chungju-si, Chungcheongbuk-do, Republic of Korea
-    </p>
+    <div style="flex:0 0 420px; position:relative;">
+      <iframe
+        src="https://www.google.com/maps?q=Room%20323%2C%2050%20Daehak-ro%2C%20Daesowon-myeon%2C%20Chungju-si%2C%20Chungcheongbuk-do%2C%20Republic%20of%20Korea&z=17&output=embed"
+        width="100%"
+        height="320"
+        style="border:0; border-radius:12px; box-shadow: var(--shadow);"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
 
-    <p>
-      고성능건축구조시스템연구실은 학부연구생 및 석사과정 대학원생을 적극적으로 모집하고 있습니다.
-    </p>
+      <a
+        href="https://maps.app.goo.gl/x6x8taoxeuBnGL9Y9"
+        target="_blank"
+        style="position:absolute; inset:0; z-index:2;"
+        aria-label="Open Google Maps">
+      </a>
+    </div>
 
-    <p>
-      <a href="https://maps.app.goo.gl/x6x8taoxeuBnGL9Y9" target="_blank">View on Google Maps</a>
-    </p>
-
-    {%
-      include button.html
-      link="team"
-      text="Meet our team"
-      icon="fa-solid fa-arrow-right"
-      flip=true
-      style="bare"
-    %}
   </div>
-
-  <div style="flex:0 0 420px;">
-    <iframe
-      src="https://www.google.com/maps?q=Room%20323%2C%2050%20Daehak-ro%2C%20Daesowon-myeon%2C%20Chungju-si%2C%20Chungcheongbuk-do%2C%20Republic%20of%20Korea&z=17&output=embed"
-      width="100%"
-      height="320"
-      style="border:0; border-radius:12px; box-shadow: var(--shadow);"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </div>
-
 </div>
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image=""
-  link="team"
-  title=""
-  flip=true
-  style="bare"
-  text=text
-%}
