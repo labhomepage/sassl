@@ -71,21 +71,73 @@ nav:
 ## Experience
 - **Korea National University of Transportation**  
   Assistant Professor, Department of Architectural Engineering  
+  국립한국교통대학교 건축공학과 조교수
   Mar. 2025 – Present
 - **The Research Institute of Industrial Science, Hanyang University**  
-  Postdoctoral Researcher, Department of Architectural Engineering  
+  Postdoctoral Researcher, Department of Architectural Engineering
+  한양대학교 산업과학연구소 박사후연구원
   Mar. 2024 – Feb. 2025
 - **Kyonggi University**  
-  Adjunct Faculty, Department of Civil and Energy Engineering  
+  Adjunct Faculty, Department of Civil and Energy Engineering
+  경기대학교 사회에너지시스템공학과 시간강사   </div>
+
+    <div style="font-size:0.98rem;">
+      <div><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=0Q-GOQMAAAAJ&hl=ko&authuser=1" target="_blank">View Profile</a></div>
+      <div><strong>KNUT Homepage:</strong> <a href="https://www.ut.ac.kr/prog/professorInfo/9111104501/aec/sub02_01/view.do?cntno=688&pageIndex=1" target="_blank">Visit Page</a></div>
+    </div>
+
+  </div>
+
+</div>
+{% endcapture %}
+
+{% include cols.html col1=col1 %}
+
+{% include section.html %}
+
+## Education
+
+- **Ph.D. in Architectural Engineering**, Hanyang University  
+  Sep. 2020 – Feb. 2024  
+  Dissertation: *Stiffness Reduction Model of Vertically Divided Reinforced Concrete Structural Walls Under Lateral Loading*  
+  <span style="color:#666;">       횡하중을 받는 수직분할된 철근콘크리트 구조벽체의 강성저감모델
+
+- **M.S. in Architectural Engineering**, Hanyang University  
+  Mar. 2017 – Feb. 2019  
+  Thesis: *Evaluation of Shear Strength of Reinforced Concrete Beam with Steel Plate Type Shear Reinforcement*  
+  <span style="color:#666;">       강판형 전단보강재로 보강된 철근콘크리트 보의 전단강도 평가
+                          
+- **B.S. in Architectural Engineering**, Hanyang University  
+  Mar. 2010 – Feb. 2017
+
+
+
+
+{% include section.html %}
+
+## Experience
+- **Korea National University of Transportation**  
+  Assistant Professor, Department of Architectural Engineering  
+  국립한국교통대학교 건축공학과 조교수
+  Mar. 2025 – Present
+- **The Research Institute of Industrial Science, Hanyang University**  
+  Postdoctoral Researcher, Department of Architectural Engineering
+  한양대학교 산업과학연구소 박사후연구원
+  Mar. 2024 – Feb. 2025
+- **Kyonggi University**  
+  Adjunct Faculty, Department of Civil and Energy System Engineering
+  경기대학교 사회에너지시스템공학과 강사
   Mar. 2024 – Feb. 2025
 - **Hanyang University**  
   Adjunct Faculty, Department of Architectural Engineering  
   Sep. 2024 – Dec. 2024
 - **Hanyang University**  
-  Teaching Fellow, Graduate School of Engineering  
+  Teaching Fellow, Department of Architectural Engineering
+  한양대학교 건축공학과 Teaching Fellow
   Mar. 2021 – Jun. 2021
 - **SEN Structural Engineers Co., Ltd.**  
-  Structural Engineer  
+  Structural Engineer
+  (주)센구조 연구소 사원
   Mar. 2019 – Sep. 2020
 
 {% include section.html %}
