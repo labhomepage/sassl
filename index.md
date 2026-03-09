@@ -119,9 +119,6 @@ Stay updated with the latest news from SASSL, including awards, research grants,
       고성능건축구조시스템연구실은 학부연구생 및 석사과정 대학원생을 적극적으로 모집하고 있습니다.
     </p>
 
-    <p style="margin-bottom:18px;">
-      <a href="https://maps.app.goo.gl/NGLzrpuvu2tq8zA16" target="_blank">View on Google Maps</a>
-    </p>
 
     {%
       include button.html
