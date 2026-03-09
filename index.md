@@ -135,7 +135,7 @@ Stay updated with the latest news from SASSL, including awards, research grants,
 
   <div style="flex:0 0 520px; max-width:520px; position:relative;">
     <iframe
-      src="https://www.google.com/maps?q=50%20Daehak-ro%2C%20Daesowon-myeon%2C%20Chungju-si%2C%20Chungcheongbuk-do%2C%20Republic%20of%20Korea&z=17&output=embed"
+      src="https://maps.app.goo.gl/NGLzrpuvu2tq8zA16"
       width="100%"
       height="360"
       style="border:0; border-radius:12px; box-shadow: var(--shadow);"
