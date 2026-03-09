@@ -72,26 +72,27 @@ nav:
 ## Experience
 - **Korea National University of Transportation**  
   Assistant Professor, Department of Architectural Engineering  
-  국립한국교통대학교 건축공학과 조교수
+  국립한국교통대학교 건축공학과 조교수  
   Mar. 2025 – Present
 - **The Research Institute of Industrial Science, Hanyang University**  
-  Postdoctoral Researcher, Department of Architectural Engineering
-  한양대학교 산업과학연구소 박사후연구원
+  Postdoctoral Researcher, Department of Architectural Engineering  
+  한양대학교 산업과학연구소 박사후연구원  
   Mar. 2024 – Feb. 2025
 - **Kyonggi University**  
-  Adjunct Faculty, Department of Civil and Energy System Engineering
-  경기대학교 사회에너지시스템공학과 강사
+  Adjunct Faculty, Department of Civil and Energy System Engineering  
+  경기대학교 사회에너지시스템공학과 강사  
   Mar. 2024 – Feb. 2025
 - **Hanyang University**  
-  Adjunct Faculty, Department of Architectural Engineering  
+  Adjunct Faculty, Graduate School of Engineering  
+  한양대학교 공학대학원 건축공학전공 강사  
   Sep. 2024 – Dec. 2024
 - **Hanyang University**  
-  Teaching Fellow, Department of Architectural Engineering
-  한양대학교 건축공학과 Teaching Fellow
+  Teaching Fellow, Department of Architectural Engineering  
+  한양대학교 건축공학과 Teaching Fellow  
   Mar. 2021 – Jun. 2021
 - **SEN Structural Engineers Co., Ltd.**  
-  Structural Engineer
-  (주)센구조 연구소 사원
+  Structural Engineer  
+  (주)센구조 연구소 사원  
   Mar. 2019 – Sep. 2020
 
 {% include section.html %}
