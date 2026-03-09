@@ -88,6 +88,8 @@ nav:
   Structural Engineer  
   Mar. 2019 – Sep. 2020
 
+{% include section.html %}
+
 ## Technical Activity
 - **충청북도 건설기술심의위원회 위원**  
   Feb. 2026 – Feb. 2028
