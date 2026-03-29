@@ -211,7 +211,7 @@ nav:
   }
 </style>
 
-<div class="projects-wrapper">
+<div class="projects-wrapper" markdown="0">
 
   <div class="project-item">
     <div class="project-title">18. 신·구 콘크리트 접합부에 대한 이종 보강재 적용 연구</div>
