@@ -135,7 +135,7 @@ nav:
     <h3 class="research-title">노후 건축물 리모델링 및 내진보강기술 개발</h3>
     <div class="research-content">
       <div class="research-img">
-        <img src="images/research_1.png" alt="내진실험">
+        <img src="images/Research_1.png" alt="내진실험">
       </div>
       <div class="research-text">
         <ul>
@@ -152,7 +152,7 @@ nav:
     <h3 class="research-title">고성능 콘크리트 개발 및 내진성능평가</h3>
     <div class="research-content">
       <div class="research-img">
-        <img src="images/research_2.png" alt="콘크리트 배합">
+        <img src="images/Research_2.png" alt="콘크리트 배합">
       </div>
       <div class="research-text">
         <ul>
@@ -171,7 +171,7 @@ nav:
     <h3 class="research-title">유한요소해석 기반 컴퓨터 시뮬레이션</h3>
     <div class="research-content">
       <div class="research-img">
-        <img src="images/research_3.png" alt="유한요소해석">
+        <img src="images/Research_3.png" alt="유한요소해석">
       </div>
       <div class="research-text">
         <ul>
@@ -188,7 +188,7 @@ nav:
     <h3 class="research-title">인공지능 활용 구조설계기법 개발</h3>
     <div class="research-content">
       <div class="research-img">
-        <img src="images/research_4.png" alt="AI 구조설계">
+        <img src="images/Research_4.png" alt="AI 구조설계">
       </div>
       <div class="research-text">
         <ul>
@@ -204,23 +204,6 @@ nav:
 
 {% include section.html %}
 
-## Research Topics(연구 주제)
-
-<style> .gallery-row { display: flex; justify-content: space-between; gap: 20px; } .gallery-row .figure { width: 100%; max-width: 24%; /* 사진 4개가 한 줄에 정렬되도록 */ } 
-
-</style> 
-
-<div class="gallery-row"> 
-{% include figure.html image="images/jpg1.png" %} 
-{% include figure.html image="images/jpg2.png" %} 
-{% include figure.html image="images/jpg3.png" %} 
-{% include figure.html image="images/jpg4.png" %} 
-</div>
-
-
-# {% include icon.html icon="fa-solid fa-wrench" %} PROJECTS
-
-{% include section.html %}
 
 ## Research Projects
 
