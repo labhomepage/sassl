@@ -169,104 +169,90 @@ nav:
 
 ## Research Projects
 
-<style>
-.projects-wrapper { margin-top: 30px; margin-bottom: 50px; text-align: left; }
-.p-item { margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px dashed #e0e0e0; }
-.p-item:last-child { border-bottom: none; }
-.p-title { font-size: 1.1rem; font-weight: 700; color: #222; margin-bottom: 6px; }
-.p-meta { font-size: 0.9rem; color: #666; }
-</style>
+### 18. 신·구 콘크리트 접합부에 대한 이종 보강재 적용 연구
+연구원 | 한국구조물진단유지관리공학회 | 2025.09.01 ~ 2025.11.30
 
-<div class="projects-wrapper">
+---
 
-<div class="p-item">
-<div class="p-title">18. 신·구 콘크리트 접합부에 대한 이종 보강재 적용 연구</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 한국구조물진단유지관리공학회 &nbsp;|&nbsp; 2025.09.01 ~ 2025.11.30</div>
-</div>
+### 17. 딥러닝 활용 노후 철근콘크리트 구조물의 균열 계측 및 잔존 내진성능 기반 보강기술 개발
+**연구책임자** | 한양대학교 | 2024.09.01 ~ 2025.02.28
 
-<div class="p-item">
-<div class="p-title">17. 딥러닝 활용 노후 철근콘크리트 구조물의 균열 계측 및 잔존 내진성능 기반 보강기술 개발</div>
-<div class="p-meta"><b style="color:#0056b3;">연구책임자</b> &nbsp;|&nbsp; 한양대학교 &nbsp;|&nbsp; 2024.09.01 ~ 2025.02.28</div>
-</div>
+---
 
-<div class="p-item">
-<div class="p-title">16. 안정커뮤니티광장 지하주차장 사고 후 대책 및 보강방안</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 대한건축학회 &nbsp;|&nbsp; 2024.07.01 ~ 2024.12.31</div>
-</div>
+### 16. 안정커뮤니티광장 지하주차장 사고 후 대책 및 보강방안
+연구원 | 대한건축학회 | 2024.07.01 ~ 2024.12.31
 
-<div class="p-item">
-<div class="p-title">15. 건축구조기사 국가기술자격 신설 및 활용방안 마련을 위한 연구</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 국토교통부 &nbsp;|&nbsp; 2024.05.22 ~ 2025.01.16</div>
-</div>
+---
 
-<div class="p-item">
-<div class="p-title">14. 인천검단 AA13-1BL, 2BL 공동주택 특별정밀안전진단</div>
-<div class="p-meta"><b>연구보조원</b> &nbsp;|&nbsp; 대한건축학회 &nbsp;|&nbsp; 2023.05.25 ~ 2023.10.13</div>
-</div>
+### 15. 건축구조기사 국가기술자격 신설 및 활용방안 마련을 위한 연구
+연구원 | 국토교통부 | 2024.05.22 ~ 2025.01.16
 
-<div class="p-item">
-<div class="p-title">13. 딥러닝 기반 노후 철근콘크리트 구조물의 성능예측 기술개발</div>
-<div class="p-meta"><b style="color:#0056b3;">연구책임자</b> &nbsp;|&nbsp; 한국연구재단 &nbsp;|&nbsp; 2022.06.01 ~ 2024.02.16</div>
-</div>
+---
 
-<div class="p-item">
-<div class="p-title">12. 고성능 프리캐스트 콘크리트 구조물의 성능기반 내진설계기술 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 한국연구재단 &nbsp;|&nbsp; 2022.03.01 ~ 2025.02.28</div>
-</div>
+### 14. 인천검단 AA13-1BL, 2BL 공동주택 특별정밀안전진단
+연구보조원 | 대한건축학회 | 2023.05.25 ~ 2023.10.13
 
-<div class="p-item">
-<div class="p-title">11. 개선된 강재 단면상세가 적용된 CFT 기둥 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 한우물중공업 &nbsp;|&nbsp; 2021.02.01 ~ 2022.12.15</div>
-</div>
+---
 
-<div class="p-item">
-<div class="p-title">10. 다기능·멀티스케일 건축재료 기반 성능설계 융합기술 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 한국연구재단 &nbsp;|&nbsp; 2020.09.01 ~ 2025.02.28</div>
-</div>
+### 13. 딥러닝 기반 노후 철근콘크리트 구조물의 성능예측 기술개발
+**연구책임자** | 한국연구재단 | 2022.06.01 ~ 2024.02.16
 
-<div class="p-item">
-<div class="p-title">9. 수직증축 리모델링 최적 상부보강기술 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 국토교통부 &nbsp;|&nbsp; 2020.09.01 ~ 2022.12.31</div>
-</div>
+---
 
-<div class="p-item">
-<div class="p-title">8. Macro Fiber로 보강된 데크플레이트 슬래브 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 매크로테크 &nbsp;|&nbsp; 2020.09.01 ~ 2021.08.31</div>
-</div>
+### 12. 고성능 프리캐스트 콘크리트 구조물의 성능기반 내진설계기술 개발
+연구원 | 한국연구재단 | 2022.03.01 ~ 2025.02.28
 
-<div class="p-item">
-<div class="p-title">7. 고성능 재료를 사용한 철근콘크리트 병렬전단벽과 연결보의 내진성능 및 변형기반 설계기술 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 한국연구재단 &nbsp;|&nbsp; 2020.09.01 ~ 2021.02.28</div>
-</div>
+---
 
-<div class="p-item">
-<div class="p-title">6. 비내진 상세를 가진 철근콘크리트 골조의 내진보강용 벽체형 마찰댐퍼 성능시험</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 아라스틸산업 &nbsp;|&nbsp; 2018.10.11 ~ 2019.02.28</div>
-</div>
+### 11. 개선된 강재 단면상세가 적용된 CFT 기둥 개발
+연구원 | 한우물중공업 | 2021.02.01 ~ 2022.12.15
 
-<div class="p-item">
-<div class="p-title">5. 국가표준 한국건축규정 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 국토교통부 &nbsp;|&nbsp; 2017.08.01 ~ 2018.12.31</div>
-</div>
+---
 
-<div class="p-item">
-<div class="p-title">4. YG-데크플레이트 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 중소벤처기업부 &nbsp;|&nbsp; 2017.12.01 ~ 2018.11.30</div>
-</div>
+### 10. 다기능·멀티스케일 건축재료 기반 성능설계 융합기술 개발
+연구원 | 한국연구재단 | 2020.09.01 ~ 2025.02.28
 
-<div class="p-item">
-<div class="p-title">3. 재하실험에 의한 LYS 슬래브의 구조성능에 관한 연구</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 연구피씨엔지니어링 &nbsp;|&nbsp; 2017.12.01 ~ 2018.04.22</div>
-</div>
+---
 
-<div class="p-item">
-<div class="p-title">2. 고강도 철근의 보완성능실험을 통한 설계기술기준 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 한국콘크리트학회 &nbsp;|&nbsp; 2017.01.16 ~ 2018.01.15</div>
-</div>
+### 9. 수직증축 리모델링 최적 상부보강기술 개발
+연구원 | 국토교통부 | 2020.09.01 ~ 2022.12.31
 
-<div class="p-item">
-<div class="p-title">1. 초고성능 재료의 기계적특성을 반영한 철근콘크리트 성능기반 설계기술 개발</div>
-<div class="p-meta"><b>연구원</b> &nbsp;|&nbsp; 한국연구재단 &nbsp;|&nbsp; 2017.07.01 ~ 2017.10.31</div>
-</div>
+---
 
-</div>
+### 8. Macro Fiber로 보강된 데크플레이트 슬래브 개발
+연구원 | 매크로테크 | 2020.09.01 ~ 2021.08.31
+
+---
+
+### 7. 고성능 재료를 사용한 철근콘크리트 병렬전단벽과 연결보의 내진성능 및 변형기반 설계기술 개발
+연구원 | 한국연구재단 | 2020.09.01 ~ 2021.02.28
+
+---
+
+### 6. 비내진 상세를 가진 철근콘크리트 골조의 내진보강용 벽체형 마찰댐퍼 성능시험
+연구원 | 아라스틸산업 | 2018.10.11 ~ 2019.02.28
+
+---
+
+### 5. 국가표준 한국건축규정 개발
+연구원 | 국토교통부 | 2017.08.01 ~ 2018.12.31
+
+---
+
+### 4. YG-데크플레이트 개발
+연구원 | 중소벤처기업부 | 2017.12.01 ~ 2018.11.30
+
+---
+
+### 3. 재하실험에 의한 LYS 슬래브의 구조성능에 관한 연구
+연구원 | 연구피씨엔지니어링 | 2017.12.01 ~ 2018.04.22
+
+---
+
+### 2. 고강도 철근의 보완성능실험을 통한 설계기술기준 개발
+연구원 | 한국콘크리트학회 | 2017.01.16 ~ 2018.01.15
+
+---
+
+### 1. 초고성능 재료의 기계적특성을 반영한 철근콘크리트 성능기반 설계기술 개발
+연구원 | 한국연구재단 | 2017.07.01 ~ 2017.10.31
