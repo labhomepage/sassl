@@ -23,11 +23,7 @@ nav:
 
 </style>
 
-## Professor {#professor} 
 
-<div class="professor-card"> 
-{% include figure.html image="images/professor.jpg" caption="<b>손동희</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6<br>텍스트7" %} 
-</div> 
 
 ## Members 
 <div id="members-wrapper"> 
