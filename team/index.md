@@ -77,7 +77,7 @@ nav:
     <div class="member-info">
       <h3 class="member-name">정성훈 (Chung, Sunghun)</h3>
       <p class="member-role">Master's Course</p>
-      <p class="member-detail"><span class="detail-label">Email:</span> email@address.com</p>
+      <p class="member-detail"><span class="detail-label">Email:</span> wjdtjdgns404@naver.com</p>
       <p class="member-detail"><span class="detail-label">Research:</span> Bond performance of GFRP rebar in carbonated recycled aggregate concrete</p>
     </div>
   </div>
