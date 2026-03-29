@@ -250,16 +250,16 @@ nav:
 </style>
 
 <div class="projects-wrapper">
-<div class="project-item">
-<div class="project-title">18. 신·구 콘크리트 접합부에 대한 이종 보강재 적용 연구</div>
-<div class="project-meta">
-<span class="meta-role">연구원</span>
-<span class="meta-divider">|</span>
-<span>한국구조물진단유지관리공학회</span>
-<span class="meta-divider">|</span>
-<span>2025.09.01 ~ 2025.11.30</span>
-</div>
-</div>
+  <div class="project-item">
+    <div class="project-title">18. 신·구 콘크리트 접합부에 대한 이종 보강재 적용 연구</div>
+    <div class="project-meta">
+      <span class="meta-role">연구원</span>
+      <span class="meta-divider">|</span>
+      <span>한국구조물진단유지관리공학회</span>
+      <span class="meta-divider">|</span>
+      <span>2025.09.01 ~ 2025.11.30</span>
+    </div>
+  </div>
 
   <div class="project-item">
     <div class="project-title">17. 딥러닝 활용 노후 철근콘크리트 구조물의 균열 계측 및 잔존 내진성능 기반 보강기술 개발</div>
