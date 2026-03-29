@@ -6,7 +6,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-### Current research topics(주요 연구 분야)
+###Research Topics
 
 <div style="line-height:1.9; text-align:left;">
 
@@ -44,18 +44,167 @@ nav:
 
 {% include section.html %}
 
+## Research Areas
+<style>
+  /* 2x2 그리드 설정 (PC에서는 2열, 모바일에서는 1열) */
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
 
-### Research Areas(연구 수행 내용)
+  /* 각 연구 주제 블록 */
+  .research-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 
-- Development of remodeling and seismic retrofitting technologies for aging buildings
+  /* 제목 (네이비 사각형 + 밑줄) */
+  .research-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #111;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin: 0;
+  }
+  .research-title::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #003399; /* 네이비색 사각형 */
+  }
 
-- Development of high-performance concrete and evaluation of seismic performance
+  /* 본문 영역 (좌측 이미지, 우측 텍스트) */
+  .research-content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
 
-- Finite element–based computer simulation for structural analysis
+  /* 이미지 영역 */
+  .research-img {
+    flex: 0 0 180px; /* 이미지 너비 고정 */
+  }
+  .research-img img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
 
-- Development of artificial intelligence–based structural design methodologies
+  /* 텍스트(리스트) 영역 */
+  .research-text {
+    flex: 1;
+  }
+  .research-text ul {
+    margin: 0;
+    padding-left: 20px;
+    color: #333;
+  }
+  .research-text li {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    word-break: keep-all; /* 단어 단위로 줄바꿈 (가독성 향상) */
+  }
 
-### Research Topics(연구 주제)
+  /* 모바일 화면 대응 (이미지와 텍스트를 위아래로 배치) */
+  @media (max-width: 600px) {
+    .research-content {
+      flex-direction: column;
+    }
+    .research-img {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+</style>
+
+<div class="research-grid">
+
+  <!-- 1. 노후 건축물 리모델링 -->
+  <div class="research-item">
+    <h3 class="research-title">노후 건축물 리모델링 및 내진보강기술 개발</h3>
+    <div class="research-content">
+      <div class="research-img">
+        <img src="images/research_1.png" alt="내진실험">
+      </div>
+      <div class="research-text">
+        <ul>
+          <li>공동주택 벽식구조 실규모 내진실험</li>
+          <li>하중 재분배 기술 제안 및 기술인증</li>
+          <li>RC 전단벽 보강설계기법 제안</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. 고성능 콘크리트 -->
+  <div class="research-item">
+    <h3 class="research-title">고성능 콘크리트 개발 및 내진성능평가</h3>
+    <div class="research-content">
+      <div class="research-img">
+        <img src="images/research_2.png" alt="콘크리트 배합">
+      </div>
+      <div class="research-text">
+        <ul>
+          <li>삼중 나노콘크리트 배합기술 개발</li>
+          <li>삼중 나노콘크리트 역학적 성능 향상 규명</li>
+          <li>나노 콘크리트-철근 부착성능 평가</li>
+          <li>강섬유 보강 콘크리트 (SFRC) 구조부재 내진실험</li>
+          <li>접합부 정착성능 및 내진성능평가</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. 컴퓨터 시뮬레이션 -->
+  <div class="research-item">
+    <h3 class="research-title">유한요소해석 기반 컴퓨터 시뮬레이션</h3>
+    <div class="research-content">
+      <div class="research-img">
+        <img src="images/research_3.png" alt="유한요소해석">
+      </div>
+      <div class="research-text">
+        <ul>
+          <li>DIANA FEA 활용 철근콘크리트 전단벽 내진성능 시뮬레이션 수행</li>
+          <li>VecTor2 활용 벽식구조 휨보강 설계</li>
+          <li>MIDAS GEN 선형동적해석을 통한 철근콘크리트 공동주택 리모델링 구조설계</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. 인공지능 구조설계 -->
+  <div class="research-item">
+    <h3 class="research-title">인공지능 활용 구조설계기법 개발</h3>
+    <div class="research-content">
+      <div class="research-img">
+        <img src="images/research_4.png" alt="AI 구조설계">
+      </div>
+      <div class="research-text">
+        <ul>
+          <li>디지털 이미지 상관법 (DIC) 활용 콘크리트 응력분포 및 균열계측</li>
+          <li>머신러닝을 활용한 강섬유 보강 콘크리트 대형 보의 전단설계 메커니즘 규명</li>
+          <li>데이터 필터링 알고리즘 구축 및 비선형 회귀분석을 통한 SFRC 전단설계식 제안</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% include section.html %}
+
+## Research Topics(연구 주제)
 
 <style> .gallery-row { display: flex; justify-content: space-between; gap: 20px; } .gallery-row .figure { width: 100%; max-width: 24%; /* 사진 4개가 한 줄에 정렬되도록 */ } 
 
@@ -72,6 +221,8 @@ nav:
 # {% include icon.html icon="fa-solid fa-wrench" %} PROJECTS
 
 {% include section.html %}
+
+## Research Projects
 
 <style>
   .projects-wrapper {
