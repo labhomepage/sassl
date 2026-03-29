@@ -8,21 +8,40 @@ nav:
 
 ### Current research topics(주요 연구 분야)
 
-- Repair and strengthening technologies for aging reinforced concrete structures
+<div style="line-height:1.9; text-align:left;">
 
-- Seismic design and performance evaluation methods for high-performance    
-   reinforced concrete structures
+  <div style="margin-bottom:5px;">
+    <div>✓ <strong>Repair and strengthening of aging RC structures</strong></div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">노후 RC 구조물의 보수·보강기술</div>
+  </div>
 
-- Performance-based seismic design of reinforced concrete and composite   
-   structural systems
+  <div style="margin-bottom:5px;">
+    <div>✓ <strong>FEA-based performance evaluation of RC structures</strong></div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">FEA 기반 RC 구조물의 성능평가</div>
+  </div>
 
-- Non-destructive measurement and monitoring technologies for reinforced   
-   concrete structures
+  <div style="margin-bottom:5px;">
+    <div>✓ <strong>Non-destructive measurement and monitoring of RC structures</strong></div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">RC 구조물의 비파괴 계측 및 모니터링 기술</div>
+  </div>
 
-- Performance evaluation and simulation of reinforced concrete structures using 
-   finite element analysis
+  <div style="margin-bottom:5px;">
+    <div>✓ <strong>Seismic design of high-performance RC structures</strong></div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">고성능 RC 구조물의 내진설계 및 성능평가기법</div>
+  </div>
 
-- Structural design methods using artificial intelligence
+  <div style="margin-bottom:5px;">
+    <div>✓ <strong>Performance-based seismic design of RC and composite structures</strong></div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">RC 및 합성구조 시스템의 성능기반 내진설계</div>
+  </div>
+
+  <div style="margin-bottom:10px;">
+    <div>✓ <strong>AI-based structural design methods</strong></div>
+    <div style="color:#777; font-size:0.75em; margin-left:18px; margin-top:-3px;">인공지능 기반 구조설계기법</div>
+  </div>
+
+</div>
+
 
 
 ### Research Areas(연구 수행 내용)
