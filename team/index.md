@@ -27,7 +27,7 @@ nav:
 
 ## Members 
 <div id="members-wrapper"> 
-{% include figure.html image="images/members1.jpg" caption="<b>정성훈</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
+{% include figure.html image="images/members1.jpg" caption="<b>정성훈 Chung Sunghun</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 {% include figure.html image="images/members2.jpg" caption="<b>Member2</b>  <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 {% include figure.html image="images/members3.jpg" caption="<b>Member2</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
 {% include figure.html image="images/members4.jpg" caption="<b>Member2</b> <br>텍스트2<br>텍스트3<br>텍스트4<br>텍스트5<br>텍스트6" %} 
