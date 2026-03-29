@@ -79,7 +79,7 @@ nav:
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-color: #003399; /* 네이비색 사각형 */
+    background-color: #000000; /* 네이비색 사각형 */
   }
 
   /* 본문 영역 (좌측 이미지, 우측 텍스트) */
