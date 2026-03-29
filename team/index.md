@@ -6,7 +6,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %} Team
 
-{% include section.html %}
 
 <!-- 공통 CSS 스타일 -->
 <style>
@@ -76,7 +75,7 @@ nav:
     <img src="images/members1.jpg" alt="석사연구생" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">정성훈 (Chung, Sunghun)</h3>
-      <p class="member-role">Master's Course</p>
+      <p class="member-role">M.S. Student</p>
       <p class="member-detail"><span class="detail-label">Email:</span> wjdtjdgns404@naver.com</p>
       <p class="member-detail"><span class="detail-label">Research:</span> Bond performance of GFRP rebar in carbonated recycled aggregate concrete</p>
     </div>
@@ -87,7 +86,7 @@ nav:
     <img src="images/members2.jpg" alt="학부 4학년 1" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">학부생 1 (Name)</h3>
-      <p class="member-role">Bachelor's Course (Senior)</p>
+      <p class="member-role">Undergraduate Researcher(Senior)</p>
       <p class="member-detail"><span class="detail-label">Email:</span> email@address.com</p>
       <p class="member-detail"><span class="detail-label">Research:</span> GFRP Bond Behavior</p>
     </div>
@@ -97,7 +96,7 @@ nav:
     <img src="images/members3.jpg" alt="학부 4학년 2" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">학부생 2 (Name)</h3>
-      <p class="member-role">Bachelor's Course (Senior)</p>
+      <p class="member-role">Undergraduate Researcher(Senior)</p>
       <p class="member-detail"><span class="detail-label">Email:</span> email@address.com</p>
       <p class="member-detail"><span class="detail-label">Research:</span> Recycled Aggregates</p>
     </div>
@@ -107,7 +106,7 @@ nav:
     <img src="images/members4.jpg" alt="학부 4학년 3" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">학부생 3 (Name)</h3>
-      <p class="member-role">Bachelor's Course (Senior)</p>
+      <p class="member-role">Undergraduate Researcher(Senior)</p>
       <p class="member-detail"><span class="detail-label">Email:</span> email@address.com</p>
       <p class="member-detail"><span class="detail-label">Research:</span> FEM Modeling</p>
     </div>
@@ -117,7 +116,7 @@ nav:
     <img src="images/members5.jpg" alt="학부 4학년 4" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">학부생 4 (Name)</h3>
-      <p class="member-role">Bachelor's Course (Senior)</p>
+      <p class="member-role">Undergraduate Researcher(Senior)</p>
       <p class="member-detail"><span class="detail-label">Email:</span> email@address.com</p>
       <p class="member-detail"><span class="detail-label">Research:</span> Structural Testing</p>
     </div>
@@ -127,7 +126,7 @@ nav:
     <img src="images/members6.jpg" alt="학부 4학년 5" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">학부생 5 (Name)</h3>
-      <p class="member-role">Bachelor's Course (Senior)</p>
+      <p class="member-role">Undergraduate Researcher(Senior)</p>
       <p class="member-detail"><span class="detail-label">Email:</span> email@address.com</p>
       <p class="member-detail"><span class="detail-label">Research:</span> UTM Simulation</p>
     </div>
@@ -167,13 +166,15 @@ nav:
 </div>
 
 
+{% include section.html %}
+
 ## Collaborating Researchers
 <div class="team-grid">
   <!-- 공동 연구자 1 -->
   <div class="member-card">
     <img src="images/collab1.jpg" alt="공동연구자1" class="member-photo">
     <div class="member-info">
-      <h3 class="member-name">홍길동 (Gildong Hong)</h3>
+      <h3 class="member-name">이장재 (Lee, Jangjae)</h3>
       <p class="member-role">Collaborating Researcher</p>
       <p class="member-detail"><span class="detail-label">Affiliation:</span> Pusan National Univ.</p>
       <p class="member-detail"><span class="detail-label">Research:</span> Material Science</p>
