@@ -172,7 +172,7 @@ nav:
 <div class="team-grid">
   <!-- 공동 연구자 1 -->
   <div class="member-card">
-    <img src="sassl/images/collab1.JPG" alt="공동연구자1" class="member-photo">
+    <img src="https://labhomepage.github.io/sassl/images/collab1.JPG" alt="공동연구자1" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">이장재 (Lee, Jangjae)</h3>
       <p class="member-role">Postdoctoral Researchear</p>
