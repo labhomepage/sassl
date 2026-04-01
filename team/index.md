@@ -172,12 +172,12 @@ nav:
 <div class="team-grid">
   <!-- 공동 연구자 1 -->
   <div class="member-card">
-    <img src="images/collab1.jpg" alt="공동연구자1" class="member-photo">
+    <img src="/sassl/images/collab1.jpg" alt="공동연구자1" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">이장재 (Lee, Jangjae)</h3>
-      <p class="member-role">Collaborating Researcher</p>
-      <p class="member-detail"><span class="detail-label">Affiliation:</span> Pusan National Univ.</p>
-      <p class="member-detail"><span class="detail-label">Research:</span> Material Science</p>
+      <p class="member-role">Postdoctoral Researchear</p>
+      <p class="member-detail"><span class="detail-label">Affiliation:</span> University of Houston</p>
+      <p class="member-detail"><span class="detail-label">Research:</span> Community/infrastructure resilience, application of machine learning to concrete structure, mitigation of damage from natural hazard </p>
     </div>
   </div>
 </div>
