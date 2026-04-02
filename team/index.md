@@ -63,14 +63,6 @@ nav:
     list-style-type: disc; /* 작은 원형 점 */
   }
 
-  .member-research-list li {
-    font-size: 0.85rem;
-    color: #555;
-    margin-bottom: 4px;
-    line-height: 1.4;
-    word-break: keep-all;
-  }
-  
 </style>
 
 ## M.S. Students
