@@ -530,13 +530,7 @@
 
 <h2 id="research-areas">Research Areas</h2>
 
-<h1 id="research-1">
-<i class="icon fa-solid fa-microscope"></i>Research</h1>
-
-<h2 id="research-areas-1">Research Areas</h2>
-
 <style>
-  /* 전체 컨테이너: 각 연구 주제를 세로로 나열 */
   .research-container {
     display: flex;
     flex-direction: column;
@@ -551,9 +545,9 @@
     gap: 20px;
   }
 
-  /* 제목 스타일: 검은색 사각형 + 하단 밑줄 + 검은색 글자 */
+  /* 제목: 검은색 사각형 + 검은색 글자 + 밑줄 */
   .research-title {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: #000;
     display: flex;
@@ -569,19 +563,19 @@
     display: inline-block;
     width: 14px;
     height: 14px;
-    background-color: #000; /* 검은색 사각형 */
+    background-color: #000;
   }
 
-  /* 본문 영역: 이미지와 텍스트 배치 */
+  /* 본문 배치: 이미지(좌) + 텍스트(우) */
   .research-content {
     display: flex;
     gap: 30px;
     align-items: flex-start;
   }
 
-  /* 이미지 영역: 크기를 기존보다 줄임 */
+  /* 이미지 크기 조정 */
   .research-img {
-    flex: 0 0 300px; /* 이미지 너비를 300px로 고정 */
+    flex: 0 0 260px; /* 기존 300px에서 조금 더 줄였습니다 */
   }
 
   .research-img img {
@@ -592,7 +586,6 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   }
 
-  /* 텍스트(리스트) 영역 */
   .research-text {
     flex: 1;
   }
@@ -604,14 +597,13 @@
   }
 
   .research-text li {
-    font-size: 1rem;
-    line-height: 1.7;
-    margin-bottom: 10px;
+    font-size: 0.98rem;
+    line-height: 1.65;
+    margin-bottom: 8px;
     color: #333;
     word-break: keep-all;
   }
 
-  /* 모바일 대응 */
   @media (max-width: 768px) {
     .research-content {
       flex-direction: column;
@@ -626,6 +618,22 @@
 <div class="research-container">
 
   <div class="research-item">
+    <h3 class="research-title">노후 건축물 리모델링 및 내진보강기술 개발</h3>
+    <div class="research-content">
+      <div class="research-img">
+        <img src="/sassl/images/Research_1.png" alt="노후 건축물 리모델링">
+      </div>
+      <div class="research-text">
+        <ul>
+          <li>공동주택 벽식구조 실규모 내진실험</li>
+          <li>하중 재분배 기술 제안 및 기술인증</li>
+          <li>RC 전단벽 보강설계기법 제안</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-item">
     <h3 class="research-title">고성능 콘크리트 개발 및 내진성능평가</h3>
     <div class="research-content">
       <div class="research-img">
@@ -633,10 +641,11 @@
       </div>
       <div class="research-text">
         <ul>
-          <li>삼중 나노콘크리트 배합기술 개발 및 역학적 성능 향상 규명</li>
+          <li>삼중 나노콘크리트 배합기술 개발</li>
+          <li>삼중 나노콘크리트 역학적 성능 향상 규명</li>
           <li>나노 콘크리트-철근 부착성능 평가</li>
-          <li>강섬유 보강 콘크리트 (SFRC) 구조부재 내진실험 및 접합부 평가</li>
-          <li>노후 건축물 리모델링을 위한 RC 전단벽 보강설계기법 제안</li>
+          <li>강섬유 보강 콘크리트 (SFRC) 구조부재 내진실험</li>
+          <li>접합부 정착성능 및 내진성능평가</li>
         </ul>
       </div>
     </div>
@@ -662,7 +671,7 @@
     <h3 class="research-title">인공지능 활용 구조설계기법 개발</h3>
     <div class="research-content">
       <div class="research-img">
-        <img src="/sassl/images/Research_4.png" alt="AI 구조설계">
+        <img src="/sassl/images/Research_4.png" alt="인공지능 구조설계">
       </div>
       <div class="research-text">
         <ul>
@@ -675,21 +684,6 @@
   </div>
 
 </div>
-<blockquote>
-
-</blockquote>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
 
 <h2 id="research-projects">Research Projects</h2>
 
