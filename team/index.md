@@ -126,7 +126,7 @@ nav:
   </div>
 </div>
 
-{% comment %}
+
 {% include section.html %}
 
 ## Alumni {#alumni}
@@ -139,4 +139,4 @@ nav:
     </div>
   </div>
 </div>
-{% endcomment %}
+
