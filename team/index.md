@@ -114,7 +114,7 @@ nav:
   </div>
 </div>
 
-**'
+/*
 {% include section.html %}
 
 ## Alumni {#alumni}
@@ -126,5 +126,4 @@ nav:
       <p class="member-role">M.S. Class of 2023</p>
     </div>
   </div>
-</div>
-'**
+</div> */
