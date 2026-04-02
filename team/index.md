@@ -41,14 +41,13 @@ nav:
     padding: 15px;
   }
   .member-name {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 700;
     margin: 0 0 5px 0;
   }
   .member-role {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 600;
-    color: #555;
     margin-bottom: 10px;
   }
   .member-detail {
@@ -57,6 +56,21 @@ nav:
     margin: 3px 0;
     line-height: 1.4;
   }
+/* 연구 주제 리스트 스타일 */
+  .member-research-list {
+    margin: 5px 0 0 0;
+    padding-left: 18px; /* 점이 들어갈 왼쪽 여백 */
+    list-style-type: disc; /* 작은 원형 점 */
+  }
+
+  .member-research-list li {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 4px;
+    line-height: 1.4;
+    word-break: keep-all;
+  }
+  
 </style>
 
 ## M.S. Students
@@ -67,7 +81,9 @@ nav:
       <h3 class="member-name">정성훈 (Chung, Sunghun)</h3>
       <p class="member-role">M.S. Student</p>
       <p class="member-detail"><b>Email:</b> wjdtjdgns404@naver.com</p>
-      <p class="member-detail"><b>Research:</b> Bond performance of GFRP rebar</p>
+      <p class="member-detail"><b>Research:</b></p>
+      <ul class="member-research-list">
+        <li>Bond performance of GFRP rebar and CO2 cured concrete</li>
     </div>
   </div>
 </div>
@@ -110,11 +126,15 @@ nav:
       <h3 class="member-name">이장재 (Lee, Jangjae)</h3>
       <p class="member-role">Postdoctoral Researcher</p>
       <p class="member-detail"><b>Affiliation:</b> University of Houston</p>
+      <ul class="member-research-list">
+      <li>Community/infrastructure resilience</li>
+      <li>Application of machine learning to RC structure</li>
+      <li>Mitigation of damage from natural hazard </li>
     </div>
   </div>
 </div>
 
-/*
+{% comment %}
 {% include section.html %}
 
 ## Alumni {#alumni}
@@ -126,4 +146,5 @@ nav:
       <p class="member-role">M.S. Class of 2023</p>
     </div>
   </div>
-</div> */
+</div>
+{% endcomment %}
