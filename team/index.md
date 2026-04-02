@@ -9,8 +9,8 @@ nav:
 <style>
   .team-grid {
     display: grid;
-    /* 카드 최소 너비를 220px -> 260px로 늘려 이름 줄바꿈 방지 */
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    /* 카드 너비를 280px로 더 늘려서 이름이 옆으로 길게 들어갈 공간 확보 */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 30px;
     margin-top: 20px;
   }
@@ -21,11 +21,6 @@ nav:
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 3px 6px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
-  }
-
-  .member-card:hover {
-    transform: translateY(-5px);
   }
 
   .member-photo {
@@ -39,23 +34,25 @@ nav:
   }
 
   .member-info {
-    padding: 20px; /* 여백을 조금 더 주어 시원하게 배치 */
+    padding: 20px;
   }
 
+  /* 이름 부분: 모두 검은색 */
   .member-name {
-    font-size: 1.2rem; /* 한국어 이름 크기 */
+    font-size: 1.3rem;
     font-weight: 700;
-    margin: 0 0 8px 0;
-    color: #000; /* 검은색 */
+    margin: 0 0 10px 0;
+    color: #000;
+    white-space: nowrap; /* 이름이 카드 안에서 강제로 줄바꿈되지 않게 함 */
   }
 
-  /* 영어 이름을 위한 스타일 추가 */
+  /* 영어 이름: 한국어 옆에 붙고, 크기만 작게 */
   .member-name-en {
-    font-size: 0.95rem; /* 영어 이름은 살짝 작게 */
-    font-weight: 400;
-    color: #333;
-    display: block; /* 이름 아래로 배치하거나 한 줄로 두려면 inline 사용 */
-    margin-top: 2px;
+    font-size: 1.0rem; /* 영어 이름 크기 축소 */
+    font-weight: 600;
+    color: #000;
+    margin-left: 8px; /* 한국어 이름과의 간격 */
+    display: inline-block; /* 옆으로 나란히 배치 */
   }
 
   .member-role {
@@ -67,12 +64,12 @@ nav:
 
   .member-detail {
     font-size: 0.9rem;
-    color: #000; /* 모두 검은색 */
+    color: #000;
     margin: 4px 0;
     line-height: 1.5;
   }
 
-  /* 연구 주제 리스트: 줄간격과 글씨 크기 축소 */
+  /* 연구 주제: 글씨 크기 줄이고 줄간격 좁게 조정 */
   .member-research-list {
     margin: 5px 0 0 0;
     padding-left: 18px; 
@@ -81,8 +78,8 @@ nav:
   }
 
   .member-research-list li {
-    font-size: 0.85rem; /* 리스트 글씨 크기 줄임 */
-    line-height: 1.3;   /* 줄간격 좁게 설정 */
+    font-size: 0.9rem; 
+    line-height: 1.3;   /* 줄간격 좁게 */
     margin-bottom: 4px;
     word-break: keep-all;
   }
