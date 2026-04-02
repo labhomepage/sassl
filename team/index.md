@@ -125,18 +125,3 @@ nav:
     </div>
   </div>
 </div>
-
-
-{% include section.html %}
-
-## Alumni {#alumni}
-<div class="team-grid">
-  <div class="member-card">
-    <img src="images/alumni1.jpg" alt="Alumni" class="member-photo">
-    <div class="member-info">
-      <h3 class="member-name">졸업생 1 (Name)</h3>
-      <p class="member-role">M.S. Class of 2023</p>
-    </div>
-  </div>
-</div>
-
