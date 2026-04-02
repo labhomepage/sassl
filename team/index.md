@@ -40,7 +40,7 @@ nav:
   /* 🖼️ 증명사진 설정: 잘리지 않고 전체가 나오도록 함 */
   .member-photo {
     width: 100%;
-    height: 180px; /* 사진 크기를 약간 줄임 */
+    height: 250px; /* 사진 크기를 약간 줄임 */
     object-fit: contain; /* 사진 전체를 유지 */
     background-color: #fcfcfc; 
     border-bottom: 1px solid #eee;
