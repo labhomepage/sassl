@@ -23,6 +23,11 @@ nav:
     box-shadow: 0 3px 6px rgba(0,0,0,0.05);
   }
 
+  .member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  }
+
   .member-photo {
     width: 100%;
     height: 250px; 
@@ -71,17 +76,25 @@ nav:
 
   /* 연구 주제: 글씨 크기 줄이고 줄간격 좁게 조정 */
   .member-research-list {
-    margin: 5px 0 0 0;
-    padding-left: 18px; 
+    margin: 0;
+    padding-left: 12px; 
     list-style-type: disc;
-    color: #000;
+    color: #333;
   }
 
   .member-research-list li {
     font-size: 0.9rem; 
     line-height: 1.3;   /* 줄간격 좁게 */
-    margin-bottom: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     word-break: keep-all;
+  }
+
+  /* 세부 항목 라벨 스타일 (추가) */
+  .member-detail b {
+    color: #555;      /* 라벨 색상을 약간 흐리게 */
+    font-weight: 600; /* 너무 두껍지 않게 조정 */
+    margin-right: 5px;
   }
 </style>
 
@@ -95,10 +108,12 @@ nav:
       </h3>
       <p class="member-role">M.S. Student</p>
       <p class="member-detail"><b>Email:</b> wjdtjdgns404@naver.com</p>
-      <p class="member-detail"><b>Research:</b></p>
-      <ul class="member-research-list">
-        <li>Bond performance of GFRP rebar and CO2 cured concrete</li>
-      </ul></div>
+      <div class="member-detail">
+        <b>Research:</b>
+        <ul class="member-research-list">
+          <li>Bond performance of GFRP rebar and CO2 cured concrete</li>
+        </ul>
+      </div>
   </div>
 </div>
 
