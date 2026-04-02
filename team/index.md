@@ -4,17 +4,6 @@ nav:
   order: 4
 ---
 
-맞네요, 복잡하게 생각할 것 없이 기존에 쓰시던 {% include section.html %}을 넣는 게 가장 깔끔하죠.
-
-증명사진이 잘리지 않게 **object-fit: contain**을 적용하고, 요청하신 구성원 순서대로 섹션을 나눈 전체 코드입니다.
-
-HTML
----
-title: Team
-nav:
-  order: 4
----
-
 # {% include icon.html icon="fa-solid fa-users" %} Team
 
 <style>
