@@ -530,78 +530,93 @@
 
 <h2 id="research-areas">Research Areas</h2>
 
+<h1 id="research-1">
+<i class="icon fa-solid fa-microscope"></i>Research</h1>
+
+<h2 id="research-areas-1">Research Areas</h2>
+
 <style>
-  /* 전체 레이아웃: 세로로 길게 배치 */
+  /* 전체 컨테이너: 각 연구 주제를 세로로 나열 */
   .research-container {
     display: flex;
     flex-direction: column;
-    gap: 60px; /* 섹션 간 간격 */
+    gap: 50px;
     margin-top: 30px;
     margin-bottom: 50px;
   }
 
-  /* 각 연구 주제 블록 */
-  .research-section {
+  .research-item {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
 
-  /* 제목 스타일 (첫 번째 이미지 느낌) */
-  .research-header {
+  /* 제목 스타일: 검은색 사각형 + 하단 밑줄 + 검은색 글자 */
+  .research-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #000;
     display: flex;
     align-items: center;
-    gap: 10px;
-  }
-
-  .research-header h3 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #8B7355; /* 첫 번째 이미지의 브라운 계열 포인트 컬러 */
+    gap: 12px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
     margin: 0;
   }
 
-  /* 본문 영역 (이미지 5.5 : 텍스트 4.5 비율) */
-  .research-body {
+  .research-title::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #000; /* 검은색 사각형 */
+  }
+
+  /* 본문 영역: 이미지와 텍스트 배치 */
+  .research-content {
     display: flex;
     gap: 30px;
     align-items: flex-start;
   }
 
-  /* 이미지 영역: 더 크게 강조 */
-  .research-visual {
-    flex: 0 0 55%; 
+  /* 이미지 영역: 크기를 기존보다 줄임 */
+  .research-img {
+    flex: 0 0 300px; /* 이미지 너비를 300px로 고정 */
   }
-  .research-visual img {
+
+  .research-img img {
     width: 100%;
     height: auto;
+    border: 1px solid #eee;
     border-radius: 4px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   }
 
   /* 텍스트(리스트) 영역 */
-  .research-desc {
+  .research-text {
     flex: 1;
   }
-  .research-desc ul {
+
+  .research-text ul {
     margin: 0;
-    padding-left: 18px;
-    list-style-type: square; /* 사각형 불렛 */
+    padding-left: 20px;
+    list-style-type: disc;
   }
-  .research-desc li {
-    font-size: 1.05rem;
+
+  .research-text li {
+    font-size: 1rem;
     line-height: 1.7;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     color: #333;
     word-break: keep-all;
   }
 
-  /* 모바일 대응: 이미지 아래로 텍스트 배치 */
-  @media (max-width: 850px) {
-    .research-body {
+  /* 모바일 대응 */
+  @media (max-width: 768px) {
+    .research-content {
       flex-direction: column;
     }
-    .research-visual {
+    .research-img {
       flex: 0 0 auto;
       width: 100%;
     }
@@ -610,56 +625,50 @@
 
 <div class="research-container">
 
-  <div class="research-section">
-    <div class="research-header">
-      <h3>고성능 콘크리트 개발 및 내진성능평가</h3>
-    </div>
-    <div class="research-body">
-      <div class="research-visual">
-        <img src="/sassl/images/Research_2.png" alt="고성능 콘크리트 연구">
+  <div class="research-item">
+    <h3 class="research-title">고성능 콘크리트 개발 및 내진성능평가</h3>
+    <div class="research-content">
+      <div class="research-img">
+        <img src="/sassl/images/Research_2.png" alt="고성능 콘크리트">
       </div>
-      <div class="research-desc">
+      <div class="research-text">
         <ul>
           <li>삼중 나노콘크리트 배합기술 개발 및 역학적 성능 향상 규명</li>
           <li>나노 콘크리트-철근 부착성능 평가</li>
-          <li>강섬유 보강 콘크리트(SFRC) 구조부재 내진실험 및 접합부 평가</li>
+          <li>강섬유 보강 콘크리트 (SFRC) 구조부재 내진실험 및 접합부 평가</li>
           <li>노후 건축물 리모델링을 위한 RC 전단벽 보강설계기법 제안</li>
         </ul>
       </div>
     </div>
   </div>
 
-  <div class="research-section">
-    <div class="research-header">
-      <h3>유한요소해석 기반 컴퓨터 시뮬레이션</h3>
-    </div>
-    <div class="research-body">
-      <div class="research-visual">
+  <div class="research-item">
+    <h3 class="research-title">유한요소해석 기반 컴퓨터 시뮬레이션</h3>
+    <div class="research-content">
+      <div class="research-img">
         <img src="/sassl/images/Research_3.png" alt="유한요소해석">
       </div>
-      <div class="research-desc">
+      <div class="research-text">
         <ul>
-          <li>DIANA FEA 활용 철근콘크리트 전단벽 내진성능 시뮬레이션</li>
-          <li>VecTor2를 활용한 벽식구조 휨보강 설계 기술</li>
-          <li>MIDAS GEN 선형동적해석 기반 공동주택 리모델링 구조설계</li>
+          <li>DIANA FEA 활용 철근콘크리트 전단벽 내진성능 시뮬레이션 수행</li>
+          <li>VecTor2 활용 벽식구조 휨보강 설계</li>
+          <li>MIDAS GEN 선형동적해석을 통한 철근콘크리트 공동주택 리모델링 구조설계</li>
         </ul>
       </div>
     </div>
   </div>
 
-  <div class="research-section">
-    <div class="research-header">
-      <h3>인공지능 활용 구조설계기법 개발</h3>
-    </div>
-    <div class="research-body">
-      <div class="research-visual">
+  <div class="research-item">
+    <h3 class="research-title">인공지능 활용 구조설계기법 개발</h3>
+    <div class="research-content">
+      <div class="research-img">
         <img src="/sassl/images/Research_4.png" alt="AI 구조설계">
       </div>
-      <div class="research-desc">
+      <div class="research-text">
         <ul>
-          <li>디지털 이미지 상관법(DIC) 기반 응력분포 및 균열 계측</li>
-          <li>머신러닝 활용 강섬유 보강 콘크리트 대형 보의 전단설계 메커니즘 규명</li>
-          <li>데이터 필터링 및 비선형 회귀분석 기반 SFRC 전단설계식 제안</li>
+          <li>디지털 이미지 상관법 (DIC) 활용 콘크리트 응력분포 및 균열계측</li>
+          <li>머신러닝을 활용한 강섬유 보강 콘크리트 대형 보의 전단설계 메커니즘 규명</li>
+          <li>데이터 필터링 알고리즘 구축 및 비선형 회귀분석을 통한 SFRC 전단설계식 제안</li>
         </ul>
       </div>
     </div>
