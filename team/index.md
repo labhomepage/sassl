@@ -4,16 +4,25 @@ nav:
   order: 4
 ---
 
+맞네요, 복잡하게 생각할 것 없이 기존에 쓰시던 {% include section.html %}을 넣는 게 가장 깔끔하죠.
+
+증명사진이 잘리지 않게 **object-fit: contain**을 적용하고, 요청하신 구성원 순서대로 섹션을 나눈 전체 코드입니다.
+
+HTML
+---
+title: Team
+nav:
+  order: 4
+---
+
 # {% include icon.html icon="fa-solid fa-users" %} Team
 
 <style>
-  /* 그리드 레이아웃 */
   .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 25px;
     margin-top: 20px;
-    margin-bottom: 40px;
   }
 
   .member-card {
@@ -23,64 +32,41 @@ nav:
     overflow: hidden;
     box-shadow: 0 3px 6px rgba(0,0,0,0.05);
     transition: transform 0.2s ease;
-    display: flex;
-    flex-direction: column;
   }
-
   .member-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
   }
 
-  /* 🖼️ 증명사진 최적화: 잘리지 않고 전체 출력 */
+  /* 🖼️ 증명사진 설정: 잘리지 않고 전체가 나오도록 함 */
   .member-photo {
     width: 100%;
-    height: 180px; 
-    object-fit: contain; 
-    background-color: #f8f9fa; 
+    height: 180px; /* 사진 크기를 약간 줄임 */
+    object-fit: contain; /* 사진 전체를 유지 */
+    background-color: #fcfcfc; 
     border-bottom: 1px solid #eee;
-    padding: 15px; 
+    padding: 10px; 
     box-sizing: border-box;
   }
 
   .member-info {
     padding: 15px;
-    flex-grow: 1;
   }
-
   .member-name {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 700;
     margin: 0 0 5px 0;
-    color: #111;
   }
-
   .member-role {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #004488; 
-    margin: 0 0 10px 0;
+    color: #555;
+    margin-bottom: 10px;
   }
-
   .member-detail {
     font-size: 0.85rem;
-    color: #555;
+    color: #666;
     margin: 3px 0;
     line-height: 1.4;
-    word-break: keep-all;
-  }
-
-  .detail-label {
-    font-weight: 600;
-    color: #333;
-  }
-
-  /* 섹션 구분선 스타일 */
-  h2 {
-    margin-top: 50px;
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    font-size: 1.6rem;
   }
 </style>
 
@@ -91,37 +77,39 @@ nav:
     <div class="member-info">
       <h3 class="member-name">정성훈 (Chung, Sunghun)</h3>
       <p class="member-role">M.S. Student</p>
-      <p class="member-detail"><span class="detail-label">Email:</span> wjdtjdgns404@naver.com</p>
-      <p class="member-detail"><span class="detail-label">Research:</span> Bond performance of GFRP rebar in carbonated recycled aggregate concrete</p>
+      <p class="member-detail"><b>Email:</b> wjdtjdgns404@naver.com</p>
+      <p class="member-detail"><b>Research:</b> Bond performance of GFRP rebar</p>
     </div>
   </div>
 </div>
 
+{% include section.html %}
+
 ## Undergraduate Researchers (Senior)
 <div class="team-grid">
   <div class="member-card">
-    <img src="images/members2.jpg" alt="학부 4학년" class="member-photo">
+    <img src="images/members2.jpg" alt="Senior" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">학부생 1 (Name)</h3>
       <p class="member-role">Senior</p>
-      <p class="member-detail"><span class="detail-label">Email:</span> email@address.com</p>
-      <p class="member-detail"><span class="detail-label">Research:</span> GFRP Bond Behavior</p>
+      <p class="member-detail"><b>Email:</b> email@address.com</p>
     </div>
   </div>
-  </div>
+</div>
+
+{% include section.html %}
 
 ## Undergraduate Researchers (Junior)
 <div class="team-grid">
   <div class="member-card">
-    <img src="images/members7.jpg" alt="학부 3학년" class="member-photo">
+    <img src="images/members7.jpg" alt="Junior" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">학부생 6 (Name)</h3>
       <p class="member-role">Junior</p>
-      <p class="member-detail"><span class="detail-label">Email:</span> email@address.com</p>
-      <p class="member-detail"><span class="detail-label">Research:</span> Data Analysis</p>
+      <p class="member-detail"><b>Email:</b> email@address.com</p>
     </div>
   </div>
-  </div>
+</div>
 
 {% include section.html %}
 
@@ -132,20 +120,21 @@ nav:
     <div class="member-info">
       <h3 class="member-name">이장재 (Lee, Jangjae)</h3>
       <p class="member-role">Postdoctoral Researcher</p>
-      <p class="member-detail"><span class="detail-label">Affiliation:</span> University of Houston</p>
-      <p class="member-detail"><span class="detail-label">Research:</span> Community/infrastructure resilience, Machine learning</p>
+      <p class="member-detail"><b>Affiliation:</b> University of Houston</p>
     </div>
   </div>
 </div>
 
+-->
+{% include section.html %}
+
 ## Alumni {#alumni}
 <div class="team-grid">
   <div class="member-card">
-    <img src="images/alumni1.jpg" alt="졸업생" class="member-photo">
+    <img src="images/alumni1.jpg" alt="Alumni" class="member-photo">
     <div class="member-info">
       <h3 class="member-name">졸업생 1 (Name)</h3>
       <p class="member-role">M.S. Class of 2023</p>
-      <p class="member-detail"><span class="detail-label">Current:</span> Dasan Enterprise</p>
     </div>
   </div>
 </div>
