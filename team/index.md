@@ -157,10 +157,14 @@ nav:
       </h3>
       <p class="member-role">Postdoctoral Researcher</p>
       <p class="member-detail"><b>Affiliation:</b> University of Houston</p>
-      <ul class="member-research-list">
-        <li>Community/infrastructure resilience</li>
-        <li>Application of machine learning to RC structure</li>
-        <li>Mitigation of damage from natural hazard </li>
-      </ul></div>
+      <div class="member-detail">
+        <b>Research:</b>
+        <ul class="member-research-list">
+          <li>Community/infrastructure resilience</li>
+          <li>Application of machine learning to RC structure</li>
+          <li>Mitigation of damage from natural hazard </li>
+        </ul>
+      </div>
   </div>
 </div>
+    
