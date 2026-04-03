@@ -61,7 +61,7 @@ nav:
   }
 
   .member-role {
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: #000;
     margin-bottom: 10px;
