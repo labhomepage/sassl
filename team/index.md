@@ -59,7 +59,7 @@ nav:
     margin-left: 5px; /* 한국어 이름과의 간격 */
     display: inline-block; /* 옆으로 나란히 배치 */
     /* 자간(글자 사이 간격)을 미세하게 좁힘 */
-  letter-spacing: -0.02em; /* -0.02em ~ -0.05em 사이에서 조절해 보세요 */
+    letter-spacing: -0.01em; /* -0.02em ~ -0.05em 사이에서 조절해 보세요 */
   }
 
   .member-role {
