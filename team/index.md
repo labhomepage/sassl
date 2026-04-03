@@ -46,7 +46,7 @@ nav:
   .member-name {
     font-size: 1.3rem;
     font-weight: 700;
-    margin: 0 0 10px 0;
+    margin: 0 0 3px 0;
     color: #000;
     white-space: nowrap; /* 이름이 카드 안에서 강제로 줄바꿈되지 않게 함 */
   }
@@ -64,7 +64,7 @@ nav:
     font-size: 1.0rem;
     font-weight: 700;
     color: #000;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
 
   .member-detail {
@@ -72,6 +72,7 @@ nav:
     color: #000;
     margin: 4px 0;
     line-height: 1.5;
+    text-align: left;
   }
 
   /* 연구 주제: 글씨 크기 줄이고 줄간격 좁게 조정 */
