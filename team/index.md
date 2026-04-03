@@ -114,6 +114,7 @@ nav:
           <li>Bond performance of GFRP rebar and CO2 cured concrete</li>
         </ul>
       </div>
+    </div>
   </div>
 </div>
 
@@ -165,6 +166,6 @@ nav:
           <li>Mitigation of damage from natural hazard </li>
         </ul>
       </div>
+    </div>
   </div>
 </div>
-    
