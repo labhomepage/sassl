@@ -23,10 +23,8 @@ Through this interdisciplinary research approach, SASSL aims to advance sustaina
 우리 연구실은 대형 구조실험, 유한요소해석(FEM), 인공지능(AI) 기반 구조설계기법을 통합하여 건축구조의 거동을 다각도로 분석하고, 성능 향상 및 설계기법 개발을 목표로 합니다.<br></div>
 
 SASSL은 융합적 연구를 통해 지속가능한 건축 구조시스템의 고도화, 건축구조 설계기준 재·개정 그리고 차세대 구조공학 리더 양성을 이끌어갑니다.
-
 </div>
 
-{% include section.html %}
 <div style="line-height:1.8; margin-bottom:45px; text-align:left;">
   <h3 style="display: inline-block; border-bottom: 2px solid #333; padding-bottom: 5px; margin-bottom: 25px;">
     Recent News
