@@ -52,6 +52,7 @@ Domestic Conference : 56 Paper
   }
 </style>
 
+{% include section.html %}
 
 <div id="section-scie" class="pub-content">
   ## Highlighted
@@ -66,12 +67,12 @@ Domestic Conference : 56 Paper
 
 </div>
 <div id="section-scopus" class="pub-content" style="display:none;">
+<div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+  <div style="width:25px;">13.</div>
+    <div>여기에 Scopus 논문 13번 내용</div>
+  </div>
+  
 
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="scopuslist" component="citation" style="rich" %}
 
 </div>
 <div id="section-domestic" class="pub-content" style="display:none;">
