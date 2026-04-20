@@ -52,23 +52,17 @@ Domestic Conference : 56 Paper
   }
 </style>
 
-{% include section.html %}
-
-## Highlighted
-
-{% assign sorted = site.data.citations | sort: "date" | reverse %} 
-{% assign latest = sorted[0] %} 
-{% include citation.html lookup=latest.id style="rich" %}
-
-{% include section.html %}
 
 <div id="section-scie" class="pub-content">
+  ## Highlighted
+  {% assign sorted = site.data.citations | sort: "date" | reverse %}
+  {% assign latest = sorted[0] %}
+  {% include citation.html lookup=latest.id style="rich" %}
 
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+  {% include section.html %}
+  {% include search-box.html %}
+  {% include search-info.html %}
+  {% include list.html data="citations" component="citation" style="rich" %}
 
 </div>
 <div id="section-scopus" class="pub-content" style="display:none;">
