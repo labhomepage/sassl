@@ -1,7 +1,7 @@
 ---
 title: Team
 nav:
-  order: 4
+  order: 5
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %} Team
