@@ -1,7 +1,7 @@
 ---
 title: Professor
 nav:
-  order: 3
+  order: 4
 ---
 # {% include icon.html icon="fa-solid fa-user-tie" %} Professor
 
