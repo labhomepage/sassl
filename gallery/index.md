@@ -1,5 +1,5 @@
 ---
-title: News
+title: Gallery
 nav:
   order: 8
 ---
