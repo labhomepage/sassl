@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: Activity
 nav:
   order: 8
 ---
