@@ -5,8 +5,8 @@ logo-text: false
 url: "https://labhomepage.github.io"
 baseurl: "/sassl"
 description: Sustainable and Advanced Structural System Laboratory.
-header: images/Background.png
-footer: images/Background.png
+header: images/background.png
+footer: images/background.png
 proofer: false
 
 # site social media and other links
