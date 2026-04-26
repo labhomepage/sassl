@@ -1,11 +1,12 @@
 # site properties and page defaults
-title: 
-subtitle: 
+title: 고성능구조시스템연구실
+subtitle: Sustainable and Advanced Structural System Laboratory
+logo-text: false
 url: "https://labhomepage.github.io"
 baseurl: "/sassl"
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
-header: images/background.jpg
-footer: images/background.jpg
+description: Sustainable and Advanced Structural System Laboratory.
+header: images/Labhompage logo.png
+footer: images/Labhompage logo simple.png
 proofer: false
 
 # site social media and other links
