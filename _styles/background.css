@@ -1,12 +1,35 @@
 .background {
   position: relative;
-  background: rgba(0, 0, 0, 0);
-  color: #fff;
+  background: var(--background);
+  color: var(--text);
   z-index: 1;
 }
 
 .background:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  opacity: 0.25;
+  z-index: -1;
+}
+
+header.background {
+  position: relative;
+  background: #000;
+  color: #fff;
+  z-index: 1;
+}
+
+header.background:before {
   content: none;
+}
+
+main {
+  color: var(--text);
 }
 
 /*# sourceMappingURL=background.css.map */
