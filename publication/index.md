@@ -175,20 +175,14 @@ nav:
 </div>
 
 <div id="section-scie" class="pub-content">
-  {% include search-box.html %}
-  {% include search-info.html %}
   {% include list.html data="citations" component="citation" style="rich" %}
 </div>
 
 <div id="section-scopus" class="pub-content" style="display:none;">
-  {% include search-box.html %}
-  {% include search-info.html %}
   {% include list.html data="scopuslist" component="citation" style="rich" %}
 </div>
 
 <div id="section-domestic" class="pub-content" style="display:none;">
-  {% include search-box.html %}
-  {% include search-info.html %}
   {% include list.html data="domesticlist" component="citation" style="rich" %}
 </div>
 
