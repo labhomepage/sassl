@@ -15,6 +15,7 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Baek-Il Bae
+  image: /images/Structures_SFRC Size effect.jpg
 - id: doi:10.1002/suco.70517
   title: "Experimental and analytical evaluation of shear strength in steel\u2010\
     fiber\u2010reinforced concrete conventional coupling beams"
