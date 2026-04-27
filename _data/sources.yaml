@@ -1,6 +1,7 @@
 - id: doi:10.1016/j.istruc.2026.111242
   corresponding: "Baek-Il Bae"
- 
+  image: /images/Structures_SFRC Size effect.jpg
+  
 - id: doi:10.1002/suco.70517
   corresponding: "Dong-Hee Son"
   authors:
@@ -43,7 +44,7 @@
 
 - id: doi:10.1016/j.cscm.2023.e02206
   corresponding: "Dong-Hee Son"
-
+  image: /images/CSCM_Nano_bond.jpg
 
 - id: doi:10.1016/j.cscm.2022.e01603
   corresponding:  "Chang-Sik Choi"
