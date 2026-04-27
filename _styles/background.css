@@ -32,4 +32,25 @@ main {
   color: var(--text);
 }
 
+/* Home header spacing */
+header.background[data-big] {
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+
+/* Home logo size */
+header.background[data-big] .home .logo {
+  display: block;
+  width: min(90vw, 420px);
+  height: auto;
+  margin: 0 auto 24px;
+}
+
+header.background[data-big] .home .logo img,
+header.background[data-big] .home .logo svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=background.css.map */
