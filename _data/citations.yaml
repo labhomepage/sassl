@@ -200,7 +200,6 @@
   plugin: sources.py
   file: sources.yaml
   corresponding: Dong-Hee Son
-  image: /images/CSCM_Nano_bond.jpg
 - id: doi:10.1016/j.cscm.2022.e01603
   title: Mechanical properties of mortar and concrete incorporated with concentrated
     graphene oxide, functionalized carbon nanotube, nano silica hybrid aqueous solution
