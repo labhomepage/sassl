@@ -37,14 +37,14 @@ main {
 }
 /* Home header spacing */
 header.background[data-big] {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 /* Home logo size */
 header.background[data-big] .home .logo {
   display: block;
-  width: min(90vw, 420px);
+  width: min(90vw, 580px);
   height: auto;
   margin: 0 auto 24px;
 }
