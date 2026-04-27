@@ -9,7 +9,7 @@ nav:
 <div class="pub-summary-wrap">
   <div class="pub-stat-card">
     <div class="pub-stat-label">SCI(E)</div>
-    <div class="pub-stat-value">19</div>
+    <div class="pub-stat-value">18</div>
     <div class="pub-stat-sub">Journal Papers</div>
   </div>
 
