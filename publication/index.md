@@ -139,12 +139,12 @@ nav:
 
   .pub-current-tab strong {
     color: #111827;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   .latest-sci-title {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 18px;
     color: #111827;
   }
