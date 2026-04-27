@@ -47,9 +47,6 @@ nav:
     <button onclick="showPub('domconf', this)" data-pub="domconf" class="custom-btn">Domestic Conf.</button>
   </div>
 
-  <div class="pub-current-tab">
-    Now Viewing: <strong id="current-tab-label">SCI(E)</strong>
-  </div>
 </div>
 
 <style>
