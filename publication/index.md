@@ -159,18 +159,6 @@ nav:
   }
 </style>
 
-<div id="latest-sci-section">
-  {% include section.html %}
-
-  <div class="latest-sci-title">Latest SCI Publication</div>
-
-  {% assign sorted = site.data.citations | sort: "date" | reverse %}
-  {% assign latest = sorted[0] %}
-  {% include citation.html lookup=latest.id style="rich" %}
-
-  {% include section.html %}
-</div>
-
 <div id="section-scie" class="pub-content">
   {% include list.html data="citations" component="citation" style="rich" %}
 </div>
