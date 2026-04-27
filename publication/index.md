@@ -165,7 +165,7 @@ nav:
 <div id="latest-sci-section">
   {% include section.html %}
 
-  <h2 class="latest-sci-title">Latest SCI Publication</h2>
+  <div class="latest-sci-title">Latest SCI Publication</div>
 
   {% assign sorted = site.data.citations | sort: "date" | reverse %}
   {% assign latest = sorted[0] %}
