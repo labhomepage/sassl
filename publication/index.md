@@ -122,7 +122,7 @@ nav:
     <h3 style="margin:10px 0 16px;">Under Review</h3>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
       <div style="width:25px;">3.</div>
-      <div><strong><u>Son, D. H.</u></strong>, Bae, B. I.* (2026). Theoretical Modeling of Stiffness Reduction Mechanisms in Vertically Divided RC Shear Walls by Finite Element Analysis. <em>Results in Engineering</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 9.4 (Q1)]</span> (Under Review).</div>
+      <div><strong><u>Son, D. H.</u></strong>, Bae, B. I.* (2026). Theoretical Modeling of Stiffness Reduction Mechanisms in Vertically Divided RC Shear Walls by Finite Element Analysis. <em>Journal of Building Engineering</em> <span style="color:#b03a2e; font-weight:bold;">[IF: 8.1 (Q1)]</span> (Under Review).</div>
     </div>
     <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
       <div style="width:25px;">2.</div>
