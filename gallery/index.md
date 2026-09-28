@@ -255,7 +255,7 @@ nav:
    <div class="photo-source">
       <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 8.jpg" alt="사진1" loading="lazy">
       <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 1.jpg" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2026 봄 콘학 2.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 2.jpg" alt="사진2" loading="lazy">
   </div>
     <!-- ▲▲▲ 여기까지 삭제 ▲▲▲ -->
 
