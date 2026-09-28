@@ -234,30 +234,32 @@ nav:
        ============================================================ -->
   <div class="activity-item">
 
-   <div class="activity-row">
-      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 8.jpg" alt="2026 내진설계경진대회 7">
+    <div class="activity-row">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 8.jpg" alt="2026 내진설계경진대회">
       <div class="activity-text">
         <span class="activity-year">2026</span>
         <h3 class="activity-title">2026 구조물 내진설계 경진대회 참가 및 입상</h3>
         <p class="activity-date">2026.07.24(금)</p>
         <p class="activity-desc">
-          부산대학교 지진방재연구센터에서 진행된 2026 구조물 내진설계 경진대회에 참가하였으며 신지수(팀장) 김호수, 전희경, 임효성 학생이 장려상을 수상하였습니다.
+          부산대학교 지진방재연구센터에서 진행된 2026 구조물 내진설계 경진대회에 참가하였으며
+          신지수(팀장), 김호수, 전희경, 임효성 학생이 장려상을 수상하였습니다.
         </p>
       </div>
     </div>
- </div>
- 
+
     <!-- ▼▼▼ 추가 사진 블록 (없으면 아래 두 div 를 통째로 삭제) ▼▼▼ -->
-   <div class="more-photo-wrap">
+    <div class="more-photo-wrap">
       <button class="more-photo-btn" onclick="openPhotos(this)">More photo <span class="arrow">→</span></button>
     </div>
 
-   <div class="photo-source">
+    <div class="photo-source">
       <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 7.jpg" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 1.jpg" alt="사진1" loading="lazy">
-      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 2.jpg" alt="사진2" loading="lazy">
-  </div>
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 1.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 2.jpg" alt="사진3" loading="lazy">
+    </div>
     <!-- ▲▲▲ 여기까지 삭제 ▲▲▲ -->
+
+  </div>  <!-- ★ 카드 닫는 태그는 반드시 사진블록 다음에 -->
 
   <!-- ============================================================
        카드 1 : 2026 국토교통기술대전 코엑스
