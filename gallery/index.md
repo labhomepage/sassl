@@ -235,7 +235,7 @@ nav:
   <div class="activity-item">
 
    <div class="activity-row">
-      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 7.jpg" alt="2026 내진설계경진대회 7">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 8.jpg" alt="2026 내진설계경진대회 7">
       <div class="activity-text">
         <span class="activity-year">2026</span>
         <h3 class="activity-title">2026 구조물 내진설계 경진대회 참가 및 입상</h3>
@@ -253,7 +253,7 @@ nav:
     </div>
 
    <div class="photo-source">
-      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 8.jpg" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 7.jpg" alt="사진1" loading="lazy">
       <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 1.jpg" alt="사진1" loading="lazy">
       <img src="https://labhomepage.github.io/sassl/images/2026 내진설계경진대회 2.jpg" alt="사진2" loading="lazy">
   </div>
