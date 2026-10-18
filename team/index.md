@@ -157,6 +157,7 @@ nav:
   </div>
 
   <div class="member-card">
+    <img src="https://labhomepage.github.io/sassl/images/박채영.jpg" alt="박채영" class="member-photo"> 
     <div class="member-info">
       <h3 class="member-name">박채영 <span class="member-name-en-block">(Park, Chaeyoung)</span></h3>
       <p class="member-role">Senior</p>
@@ -183,6 +184,7 @@ nav:
   </div>
 
   <div class="member-card">
+    <img src="https://labhomepage.github.io/sassl/images/황해원.jpg" alt="황해원" class="member-photo"> 
     <div class="member-info">
       <h3 class="member-name">황해원 <span class="member-name-en-block">(Hwang, Haewon)</span></h3>
       <p class="member-role">Senior</p>
