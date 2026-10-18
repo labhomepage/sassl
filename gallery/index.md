@@ -230,6 +230,41 @@ nav:
 
 <div class="activity-list" markdown="0">
   <!-- ============================================================
+       카드 1 : 2026 가을 구조물 진단
+       ============================================================ -->
+  <div class="activity-item">
+
+    <div class="activity-row">
+      <img src="https://labhomepage.github.io/sassl/images/2026 가을 진단학회4.jpg" alt="2026 내진설계경진대회">
+      <div class="activity-text">
+        <span class="activity-year">2026</span>
+        <h3 class="activity-title">2026 가을 한국구조물진단유지관리공학회 학술발표회</h3>
+        <p class="activity-date">2026.09.30(수) ~ 2026.10.02(금) </p>
+        <p class="activity-desc">
+          제주 휘닉스아일랜드에서 개최된 2026 가을 한국구조물진단유지관리공학회 학술발표회에 
+          참석하여 손동희 교수, 정성훈 석사과정이 학술논문 발표를 하였습니다.
+          <strong>발표논문 :</strong> 손동희, 공동주택 수직증축 리모델링을 위한 기존 철근콘크리트 전단벽 보강기술
+          <strong>발표논문 :</strong> 정성훈, 손동희, CO2 반응경화에 따른 굵은 순환골재 콘크리트의 역학적 특성 평가
+        </p>
+      </div>
+    </div>
+
+    <!-- ▼▼▼ 추가 사진 블록 (없으면 아래 두 div 를 통째로 삭제) ▼▼▼ -->
+    <div class="more-photo-wrap">
+      <button class="more-photo-btn" onclick="openPhotos(this)">More photo <span class="arrow">→</span></button>
+    </div>
+
+    <div class="photo-source">
+      <img src="https://labhomepage.github.io/sassl/images/2026 가을 진단학회6.jpg" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 가을 진단학회7.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 가을 진단학회9.jpg" alt="사진3" loading="lazy">
+    </div>
+    <!-- ▲▲▲ 여기까지 삭제 ▲▲▲ -->
+
+  </div>  <!-- ★ 카드 닫는 태그는 반드시 사진블록 다음에 -->
+
+  
+  <!-- ============================================================
        카드 1 : 2026 내진설계경진대회
        ============================================================ -->
   <div class="activity-item">
@@ -462,7 +497,7 @@ nav:
         <p class="activity-date">2025.05.07(수) ~ 2025.05.09(금)</p>
         <p class="activity-desc">
           2025년 콘크리트학회 봄 학술대회에 참석하여 손동희 교수가 콘크리트연구회 특별세션 발표를 하였습니다.<br>
-          발표주제 : 수직분할공법을 적용한 기존 철근콘크리트 벽식구조의 하중 재분배 효과
+          <strong>발표논문 :</strong> 수직분할공법을 적용한 기존 철근콘크리트 벽식구조의 하중 재분배 효과
         </p>
       </div>
     </div>
