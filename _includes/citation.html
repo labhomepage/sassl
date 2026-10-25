@@ -10,6 +10,91 @@
 
 {% assign source_entry = site.data.sources | where: "id", citation.id | first %}
 
+{%- comment -%}
+  ============================================================
+  [인용문 자동 생성] "Copy citation" 버튼이 복사할 문장 (APA 형식)
+  예) Son, D. H., Bae, B. I., & Choi, C. S. (2022). 제목. 저널명, 권(호), 페이지. https://doi.org/...
+  ============================================================
+{%- endcomment -%}
+
+{%- comment -%} 권·호·페이지는 citations.yaml에서 같은 id를 찾아서 가져옴 {%- endcomment -%}
+{%- assign cite_data = nil -%}
+{%- if citation.id -%}
+  {%- assign cite_data = site.data.citations | where: "id", citation.id | first -%}
+{%- endif -%}
+{%- unless cite_data -%}
+  {%- assign cite_data = citation -%}
+{%- endunless -%}
+
+{%- comment -%} 1) 저자: "Dong-Hee Son" → "Son, D. H." / 마지막 저자 앞에 "&" {%- endcomment -%}
+{%- assign cite_authors = "" -%}
+{%- for author in citation.authors -%}
+  {%- assign name_parts = author | replace: "‐", "-" | replace: "‑", "-" | strip | split: " " -%}
+  {%- assign family_name = name_parts | last -%}
+  {%- assign initials = "" -%}
+  {%- for part in name_parts -%}
+    {%- unless forloop.last -%}
+      {%- assign pieces = part | split: "-" -%}
+      {%- for piece in pieces -%}
+        {%- if piece != "" -%}
+          {%- assign first_letter = piece | slice: 0 | upcase -%}
+          {%- assign initials = initials | append: first_letter | append: ". " -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endunless -%}
+  {%- endfor -%}
+  {%- assign initials = initials | strip -%}
+  {%- if initials == "" -%}
+    {%- assign one_author = family_name -%}
+  {%- else -%}
+    {%- assign one_author = family_name | append: ", " | append: initials -%}
+  {%- endif -%}
+  {%- if forloop.first -%}
+    {%- assign cite_authors = one_author -%}
+  {%- elsif forloop.last -%}
+    {%- assign cite_authors = cite_authors | append: ", & " | append: one_author -%}
+  {%- else -%}
+    {%- assign cite_authors = cite_authors | append: ", " | append: one_author -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} 2) 연도 {%- endcomment -%}
+{%- assign cite_year = citation.date | date: "%Y" | default: "n.d." -%}
+
+{%- comment -%} 3) 제목 (끝에 마침표가 없으면 붙임) {%- endcomment -%}
+{%- assign cite_title = citation.title | default: "" | strip -%}
+{%- assign title_end = cite_title | slice: -1 -%}
+{%- unless title_end == "." or title_end == "?" or title_end == "!" -%}
+  {%- assign cite_title = cite_title | append: "." -%}
+{%- endunless -%}
+
+{%- comment -%} 4) 저널명, 권(호), 페이지 {%- endcomment -%}
+{%- assign cite_source = citation.publisher | default: "" -%}
+{%- if cite_data.volume -%}
+  {%- assign cite_source = cite_source | append: ", " | append: cite_data.volume -%}
+  {%- if cite_data.issue -%}
+    {%- assign cite_source = cite_source | append: "(" | append: cite_data.issue | append: ")" -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if cite_data.page -%}
+  {%- assign cite_page = cite_data.page | replace: "-", "–" -%}
+  {%- assign cite_source = cite_source | append: ", " | append: cite_page -%}
+{%- endif -%}
+{%- assign cite_source = cite_source | append: "." -%}
+
+{%- comment -%} 5) DOI 주소 (id가 doi:로 시작하면 전체 DOI 주소로 변환) {%- endcomment -%}
+{%- assign cite_link = citation.link | default: "" -%}
+{%- assign id_head = citation.id | default: "" | slice: 0, 4 | downcase -%}
+{%- if id_head == "doi:" -%}
+  {%- assign cite_link = citation.id | remove_first: "doi:" | prepend: "https://doi.org/" -%}
+{%- endif -%}
+
+{%- comment -%} 6) 최종 인용문 {%- endcomment -%}
+{%- assign cite_text = cite_authors | append: " (" | append: cite_year | append: "). " | append: cite_title | append: " " | append: cite_source -%}
+{%- if cite_link != "" -%}
+  {%- assign cite_text = cite_text | append: " " | append: cite_link -%}
+{%- endif -%}
+
 <div class="citation-container" style="font-family: Arial, sans-serif;">
   <div class="citation">
     {% if include.style == "rich" %}
@@ -50,9 +135,9 @@
           data-tooltip="{{ citation.authors | join: ', ' | xml_escape }}"
         {% endif %}
         tabindex="0">
-        
+
         {% assign cor_name = source_entry.corresponding %}
-      
+
         {% for author in citation.authors %}
           {%- assign display_name = author -%}
           {%- if author contains "Dong-Hee Son" -%}
@@ -89,6 +174,16 @@
           {{- citation.id | default: "[no id info]" -}}
         </span>
       </div>
+
+      {%- comment -%} [추가] 인용문 복사 버튼 (누르면 위에서 만든 APA 인용문이 복사됨) {%- endcomment -%}
+      {% if citation.title %}
+        <div class="citation-actions">
+          <button type="button" class="cite-copy-btn" data-cite="{{ cite_text | strip | escape }}">
+            <i class="fa-regular fa-copy"></i>
+            <span class="cite-copy-label" aria-live="polite">Copy citation</span>
+          </button>
+        </div>
+      {% endif %}
 
       {% if include.style == "rich" %}
         {% if citation.description %}
