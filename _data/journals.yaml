@@ -1,3 +1,7 @@
+- name: "Buildings"
+  if: "3.4"
+  quartile: "Q2"
+
 - name: "Journal of Building Engineering"
   if: "8.1"
   quartile: "Q1"
