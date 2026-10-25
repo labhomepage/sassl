@@ -1,5 +1,23 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.3390/buildings16214195
+  title: "Effect of Steel Fiber Volume Fraction on Cover Damage Control and Ductile\
+    \ Rod Development in Precast Concrete Beam\u2013Column Ductile Connections"
+  authors:
+  - Munhee Kim
+  - Chang-Sik Choi
+  - Dong-Hee Son
+  - Baek-Il Bae
+  - Moon-Seok Lee
+  publisher: Buildings
+  date: '2026-10-22'
+  link: https://doi.org/hcpssm
+  volume: '16'
+  issue: '21'
+  page: '4195'
+  orcid: 0000-0002-3501-8265
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.istruc.2026.112818
   title: "Experimental study on the behavior and strength of 180 \xB0 hooked bar lap\
     \ splices in precast concrete slabs"
@@ -11,6 +29,8 @@
   publisher: Structures
   date: '2026-10-01'
   link: https://doi.org/hcgk82
+  volume: '92'
+  page: '112818'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -29,6 +49,9 @@
   publisher: Structural Concrete
   date: '2026-02-12'
   link: https://doi.org/hbp6ss
+  volume: '27'
+  issue: '2'
+  page: 1747-1766
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -45,6 +68,8 @@
   publisher: Structures
   date: '2026-03-01'
   link: https://doi.org/hbp6sr
+  volume: '85'
+  page: '111242'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -63,6 +88,8 @@
   publisher: International Journal of Concrete Structures and Materials
   date: '2026-02-10'
   link: https://doi.org/hbp6st
+  volume: '20'
+  issue: '1'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -79,6 +106,8 @@
   publisher: International Journal of Concrete Structures and Materials
   date: '2025-04-17'
   link: https://doi.org/hbp6sv
+  volume: '19'
+  issue: '1'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -100,6 +129,8 @@
   publisher: Cement and Concrete Composites
   date: '2025-03-01'
   link: https://doi.org/hbp6sw
+  volume: '157'
+  page: '105918'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -117,6 +148,8 @@
   publisher: Structures
   date: '2024-11-01'
   link: https://doi.org/hbqg8v
+  volume: '69'
+  page: '107324'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -134,6 +167,8 @@
   publisher: Structures
   date: '2024-07-01'
   link: https://doi.org/hbqg8w
+  volume: '65'
+  page: '106733'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -151,6 +186,8 @@
   publisher: Structures
   date: '2024-03-01'
   link: https://doi.org/hbqg8x
+  volume: '61'
+  page: '106027'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -167,6 +204,8 @@
   publisher: Structures
   date: '2024-03-01'
   link: https://doi.org/hbqg8z
+  volume: '61'
+  page: '105940'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -189,6 +228,8 @@
   publisher: Construction and Building Materials
   date: '2023-10-01'
   link: https://doi.org/gsn4wp
+  volume: '401'
+  page: '132856'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -203,6 +244,8 @@
   publisher: Journal of Building Engineering
   date: '2023-10-01'
   link: https://doi.org/hbqg82
+  volume: '76'
+  page: '107188'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -223,6 +266,8 @@
   publisher: Case Studies in Construction Materials
   date: '2023-07-01'
   link: https://doi.org/hbqg83
+  volume: '18'
+  page: e02206
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -241,6 +286,8 @@
   publisher: Case Studies in Construction Materials
   date: '2023-07-01'
   link: https://doi.org/hbqg84
+  volume: '18'
+  page: e01603
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -256,6 +303,8 @@
   publisher: ACI Structural Journal
   date: '2022-07-01'
   link: https://doi.org/hbqg85
+  volume: '119'
+  issue: '4'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -272,6 +321,8 @@
   publisher: Journal of Building Engineering
   date: '2022-07-01'
   link: https://doi.org/hbqg86
+  volume: '52'
+  page: '104468'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -289,6 +340,9 @@
   publisher: Materials
   date: '2021-07-20'
   link: https://doi.org/hbp6sx
+  volume: '14'
+  issue: '14'
+  page: '4052'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -306,6 +360,9 @@
   publisher: Applied Sciences
   date: '2021-02-12'
   link: https://doi.org/hbqg87
+  volume: '11'
+  issue: '4'
+  page: '1662'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
@@ -323,6 +380,9 @@
   publisher: Sustainability
   date: '2020-12-27'
   link: https://doi.org/gwhtn9
+  volume: '13'
+  issue: '1'
+  page: '182'
   orcid: 0000-0002-3501-8265
   plugin: sources.py
   file: sources.yaml
