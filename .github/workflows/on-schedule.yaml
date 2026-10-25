@@ -3,8 +3,9 @@ run-name: on schedule
 
 on:
   schedule:
-    # weekly
-    - cron: "0 0 * * 1"
+    # 매일 1회: 한국시간 06:23 (= UTC 21:23)
+    # ※ 정각(00분)은 GitHub 서버가 붐벼서 몇 시간씩 늦게 돌기 때문에 일부러 23분으로 설정
+    - cron: "23 21 * * *"
 
   # run if user manually requests it
   workflow_dispatch:
