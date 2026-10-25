@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* ============================================================
+   [Copy citation 버튼] 모양
+   - 꼭 _styles 폴더에 있어야 적용됨 (_styles 안의 scss는 모든 페이지에 자동 적용)
+   ============================================================ */
+.citation-actions {
+  width: 100%;
+}
+
+.cite-copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 14px;
+  border: 1px solid rgba(128, 128, 128, 0.28);
+  border-radius: 999px;
+  background: rgba(128, 128, 128, 0.06);
+  color: var(--dark-gray);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.cite-copy-btn i {
+  font-size: 13px;
+}
+
+.cite-copy-btn:hover {
+  border-color: #007bff;
+  background: rgba(0, 123, 255, 0.08);
+  color: #007bff;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 123, 255, 0.18);
+}
+
+.cite-copy-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.cite-copy-btn.is-copied,
+.cite-copy-btn.is-copied:hover {
+  border-color: #16a34a;
+  background: #16a34a;
+  color: #ffffff;
+  box-shadow: 0 6px 14px rgba(22, 163, 74, 0.25);
+}
+
+.cite-copy-btn.is-copied i {
+  --fa: "";
+  font-weight: 900;
+}
+
+.cite-copy-btn.is-copied i::before {
+  content: "\f00c";
+}
+
+/*# sourceMappingURL=copy-citation.css.map */
