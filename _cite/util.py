@@ -184,7 +184,8 @@ def save_data(path, data):
 
 
 @log_cache
-@cache.memoize(name="manubot", expire=90 * (60 * 60 * 24))
+# [수정] 권·호·페이지를 새로 저장하므로 캐시 이름을 바꿔서 예전 캐시 대신 전부 새로 받아오게 함
+@cache.memoize(name="manubot-v2", expire=90 * (60 * 60 * 24))
 def cite_with_manubot(_id):
     """
     generate citation data for source id with Manubot
@@ -247,6 +248,21 @@ def cite_with_manubot(_id):
 
     # link
     citation["link"] = get_safe(manubot, "URL", "").strip()
+
+    # [추가] 권(volume)·호(issue)·페이지(page) → "Copy citation" 버튼용
+    #   - 페이지가 없는 저널(Springer 등)은 논문번호(article-number)를 대신 사용
+    #   - 값이 있을 때만 저장
+    volume = str(get_safe(manubot, "volume", "")).strip()
+    issue = str(get_safe(manubot, "issue", "")).strip()
+    page = str(
+        get_safe(manubot, "page", "") or get_safe(manubot, "article-number", "")
+    ).strip()
+    if volume:
+        citation["volume"] = volume
+    if issue:
+        citation["issue"] = issue
+    if page:
+        citation["page"] = page
 
     # return citation data
     return citation
