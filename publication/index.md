@@ -255,6 +255,10 @@ nav:
 
 <div id="section-domconf" class="pub-content pub-left" style="display:none; text-align:left;">
   <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
+    <div style="width:25px;">57.</div>
+    <div>Cheon, W. J., Jeong, S. H., Toor, M. H. Y., Seo, S. Y., <strong><u>Son, D. H.</u></strong>, (2026) Analysis of Acoustic Emission Characteristics during Damage Progress in FRP Sheet-Strengthened Reinforced Concrete Columns, Proceedings of Korea Institute for Structural Maintenance and Inspection, 30(2), 132.</div>
+  </div>  
+  <div style="display:flex; align-items:flex-start; margin-bottom:18px;">
     <div style="width:25px;">56.</div>
     <div><strong><u>Son, D. H.</u></strong>, (2025) Load Redistribution Effect of Existing Reinforced Concrete Structural Wall System Applying Vertical Division Technique Concrete Research Committee, 2025 Spring Conference of the Korea Concrete Institute.</div>
   </div>
