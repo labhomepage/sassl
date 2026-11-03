@@ -165,15 +165,15 @@ nav:
 
 ## Journal Reviewer
 - *ACI Structural Journal* — American Concrete Institute (ACI)
-- *Journal of Computing in Civil Engineering* — American Society of Civil Engineering (ASCE)
+- *Journal of Computing in Civil Engineering* — American Society of Civil Engineers (ASCE)
 - *Engineering Structures* — Elsevier
 - *Structures* — Elsevier
 - *Journal of Building Engineering* — Elsevier
 - *Case Studies in Construction Materials* — Elsevier
 - *International Journal of Concrete Structures and Materials* — Springer
-- *Scientific Reports* — Springer
+- *Scientific Reports* — Springer Nature
 - *Materials* — MDPI
 - *Buildings* — MDPI
-- *Journal of Korea Concrete Institute* — Korea Koncrete Institute (KCI)
-- *Journal of Korea Institute for Structural Maintenance and Inspection* — Korea Institute for Structural Maintenance and Inspection(KSMI)
+- *Journal of the Korea Concrete Institute* — Korea Concrete Institute (KCI)
+- *Journal of the Korea Institute for Structural Maintenance and Inspection* — Korea Institute for Structural Maintenance and Inspection (KSMI)
   
