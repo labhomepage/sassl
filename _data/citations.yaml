@@ -16,8 +16,10 @@
   issue: '21'
   page: '4195'
   orcid: 0000-0002-3501-8265
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  corresponding: Moon-Seok Lee
+  image: /images/Buildings_PC joint.jpg
 - id: doi:10.1016/j.istruc.2026.112818
   title: "Experimental study on the behavior and strength of 180 \xB0 hooked bar lap\
     \ splices in precast concrete slabs"
