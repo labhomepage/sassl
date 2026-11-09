@@ -33,6 +33,13 @@ SASSL은 융합적 연구를 통해 지속가능한 건축 구조시스템의 �
   <div style="margin-bottom:18px; display: flex; align-items: flex-start;">
     <span style="margin-right:8px;">🏆</span>
     <div>
+      <strong>[2026.10]</strong> Team Jongwoo Baek (and 5 others) won <strong>Bronze Award</strong> at 「2026 KNUT Creative Design Program (CDP) Competition」.
+    </div>
+  </div>
+  
+  <div style="margin-bottom:18px; display: flex; align-items: flex-start;">
+    <span style="margin-right:8px;">🏆</span>
+    <div>
       <strong>[2026.07]</strong> Team Jisoo Shin (and 3 others) won <strong>Encouragement Award</strong> at 「2026 Seismic Structural Design Contest」.
     </div>
   </div>
