@@ -225,36 +225,37 @@ nav:
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
   }
-  /* =====================================================
+}   /* ← 모바일 대응 끝 : 이 닫는 괄호가 꼭 있어야 함 */
+
+/* =====================================================
    [5] 수상 배지  ★ 색상/크기 수정은 여기 ★
    사용법 : 카드 1 의 award-badge 줄을 복사해서 상 이름만 바꾸기
    ===================================================== */
-  .award-badge {
-    display: inline-block;
-    background: #fff7e0;          /* ← 배지 배경색 (연한 금색) */
-    border: 1px solid #f0cf6e;    /* ← 테두리색 */
-    color: #a66a00;               /* ← 글자·트로피 색 (진한 금색) */
-    font-size: 0.8rem;            /* ← 글자 크기 */
-    font-weight: 700;
-    line-height: 1.5;
-    padding: 1px 10px;
-    border-radius: 12px;          /* ← 0 으로 하면 각진 배지 */
-    margin: 0 4px 0 2px;
-    white-space: nowrap;          /* 배지 글자가 두 줄로 쪼개지지 않게 */
-    vertical-align: 1px;
-  }
+.award-badge {
+  display: inline-block;
+  background: #fff7e0;          /* ← 배지 배경색 (연한 금색) */
+  border: 1px solid #f0cf6e;    /* ← 테두리색 */
+  color: #a66a00;               /* ← 글자·트로피 색 (진한 금색) */
+  font-size: 0.8rem;            /* ← 글자 크기 */
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 1px 10px;
+  border-radius: 12px;          /* ← 0 으로 하면 각진 배지 */
+  margin: 0 4px 0 2px;
+  white-space: nowrap;          /* 배지 글자가 두 줄로 쪼개지지 않게 */
+  vertical-align: 1px;
+}
 
 /* 트로피 아이콘과 글자 사이 간격 */
-  .award-badge i {
-    margin-right: 5px;
-  }
+.award-badge i {
+  margin-right: 5px;
+}
 
 /* 설명글 한글이 단어 중간에서 줄바꿈되지 않게 (모든 카드에 적용) */
-  .activity-desc {
-    word-break: keep-all;
-  }
+.activity-desc {
+  word-break: keep-all;
+}
 </style>
-
 
 
 
