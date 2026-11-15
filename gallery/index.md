@@ -260,6 +260,38 @@ nav:
 
 
 <div class="activity-list" markdown="0">
+   <!-- ============================================================
+       카드 1 : 2026 가을 건춛ㄱ학회
+       ============================================================ -->
+  <div class="activity-item">
+
+    <div class="activity-row">
+      <img src="https://labhomepage.github.io/sassl/images/2026 건축공학과 학술제_0.jpg" alt="2026 가을 건축학회_2">
+      <div class="activity-text">
+        <span class="activity-year">2026</span>
+        <h3 class="activity-title">2026 건축공학과 학술제 </h3>
+        <p class="activity-date">2026.11.11(수) ~ 2026.11.12(목) </p>
+        <p class="activity-desc">
+          2026 국립한국교통대학교 건축공학과 50주년 기념 학술제가 진행되어 4학년 학부연구생이 발표를 하였습니다.<br>
+         
+        </p>
+      </div>
+    </div>
+
+    <!-- ▼▼▼ 추가 사진 블록 (없으면 아래 두 div 를 통째로 삭제) ▼▼▼ -->
+    <div class="more-photo-wrap">
+      <button class="more-photo-btn" onclick="openPhotos(this)">More photo <span class="arrow">→</span></button>
+    </div>
+
+    <div class="photo-source">
+      <img src="https://labhomepage.github.io/sassl/images/2026 건축공학과 학술제_0.jpg" alt="사진1" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 건축공학과 학술제_1.jpg" alt="사진2" loading="lazy">
+      <img src="https://labhomepage.github.io/sassl/images/2026 건축공학과 학술제_2.jpg" alt="사진3" loading="lazy">
+    </div>
+    <!-- ▲▲▲ 여기까지 삭제 ▲▲▲ -->
+
+  </div>  <!-- ★ 카드 닫는 태그는 반드시 사진블록 다음에 -->
+  
   <!-- ============================================================
        카드 1 : 2026 가을 콘크리트학회
        ============================================================ -->
