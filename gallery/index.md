@@ -333,10 +333,15 @@ nav:
 <div class="year-filter" id="yearFilter"></div>
 
 <script>
+/* ※ 주의 : 이 .md 파일 안의 스크립트에는 세로막대(파이프) 문자를 쓰면 안 됨
+   - 사이트 플러그인(jekyll-spaceship)이 그 줄을 표(table)로 오해해서
+     괄호·따옴표 앞에 역슬래시를 끼워 넣음 → 스크립트 전체가 멈춤
+   - 그래서 "또는(OR)" 조건은 if 문을 두 줄로 나눠서 작성함 */
 document.addEventListener('DOMContentLoaded', function () {
   var bar   = document.getElementById('yearFilter');
   var cards = document.querySelectorAll('.activity-list > .activity-item');
-  if (!bar || cards.length === 0) return;
+  if (!bar) return;                  /* 버튼 자리가 없으면 중단 */
+  if (cards.length === 0) return;    /* 카드가 없으면 중단 */
 
   /* 1) 카드마다 연도 읽어서 연도별 개수 세기 */
   var counts = {};
@@ -344,7 +349,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var tag  = card.querySelector('.activity-year');
     var year = tag ? tag.textContent.trim() : '';
     card.setAttribute('data-year', year);
-    if (year) counts[year] = (counts[year] || 0) + 1;
+    if (year) {
+      if (!counts[year]) counts[year] = 0;   /* 처음 나온 연도면 0 부터 */
+      counts[year] += 1;
+    }
   });
 
   /* 2) 버튼 만들기 : Total + 연도 (최신 연도가 앞) */
@@ -357,7 +365,13 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.type = 'button';
     btn.className = 'year-btn' + (value === 'all' ? ' active' : '');
     btn.setAttribute('data-filter', value);
-    btn.innerHTML = label + '<span class="year-count">' + count + '</span>';
+    btn.textContent = label;
+
+    var num = document.createElement('span');   /* 버튼 안 개수 숫자 */
+    num.className = 'year-count';
+    num.textContent = count;
+    btn.appendChild(num);
+
     btn.addEventListener('click', function () { applyFilter(value); });
     bar.appendChild(btn);
   }
@@ -368,7 +382,8 @@ document.addEventListener('DOMContentLoaded', function () {
       b.classList.toggle('active', b.getAttribute('data-filter') === value);
     });
     cards.forEach(function (card) {
-      var show = (value === 'all' || card.getAttribute('data-year') === value);
+      var show = (value === 'all');                                  /* Total 이면 전부 보이기 */
+      if (!show) show = (card.getAttribute('data-year') === value);  /* 아니면 같은 연도만 */
       card.classList.toggle('is-hidden', !show);
       if (show) {                        /* 나타나는 효과 다시 실행 */
         card.classList.remove('fade-in');
@@ -379,7 +394,6 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 </script>
-
 <div class="activity-list" markdown="0">
    <!-- ============================================================
        카드 1 : 2026 가을 건춛ㄱ학회
