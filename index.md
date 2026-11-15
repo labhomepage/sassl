@@ -29,7 +29,29 @@ SASSL은 융합적 연구를 통해 지속가능한 건축 구조시스템의 �
   <h3 style="display: inline-block; border-bottom: 2px solid #333; padding-bottom: 5px; margin-bottom: 25px;">
     Recent News
   </h3>
+    <!-- 2026.11 한국콘크리트학회 콘크리트기술경연대회 : 한국콘크리트학회장상 (팀장 금승우 외 4명) -->
+  <div style="margin-bottom:18px; display: flex; align-items: flex-start;">
+    <span style="margin-right:8px;">🏆</span>
+    <div>
+      <strong>[2026.11]</strong> Team Seungwoo Geum (and 4 others) won <strong>KCI President's Award</strong> at 「2026 Concrete Technology Competition」.
+    </div>
+  </div>
 
+  <!-- 2026.11 한국콘크리트학회 캡스톤디자인 : 우수상 (김주영, 허진영) -->
+  <div style="margin-bottom:18px; display: flex; align-items: flex-start;">
+    <span style="margin-right:8px;">🏆</span>
+    <div>
+      <strong>[2026.11]</strong> Juyoung Kim and Jinyoung Heo won <strong>Excellence Award</strong> at 「2026 KCI Capstone Design Competition」.
+    </div>
+  </div>
+
+  <!-- 2026.11 한국콘크리트학회 우수졸업논문전 : 최우수상 (정민경, 박채영, 황해원) -->
+  <div style="margin-bottom:18px; display: flex; align-items: flex-start;">
+    <span style="margin-right:8px;">🏆</span>
+    <div>
+      <strong>[2026.11]</strong> Minkyung Jung, Chaeyoung Park, and Haewon Hwang won <strong>Grand Prize</strong> at 「2026 KCI Excellent Graduation Thesis Competition」.
+    </div>
+  </div>
   <div style="margin-bottom:18px; display: flex; align-items: flex-start;">
     <span style="margin-right:8px;">🏆</span>
     <div>
