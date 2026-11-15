@@ -257,7 +257,128 @@ nav:
 }
 </style>
 
+<!-- ================================================================
+     연도 필터 : Total / 연도 버튼 (스타일 + 버튼 자리 + 동작 한 묶음)
+     - 버튼은 카드의 연도 배지(activity-year)를 읽어서 자동으로 만들어짐
+     - 새 연도 카드를 추가해도 여기는 수정할 필요 없음
+     ================================================================ -->
+<style>
+/* 버튼 줄 */
+.year-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;      /* ← 가운데 정렬 (왼쪽 정렬은 flex-start) */
+  gap: 10px;
+  margin: 10px 0 4px 0;
+}
 
+/* 버튼 기본 모양 */
+.year-btn {
+  background: #ffffff;
+  border: 1px solid #d5dce8;    /* ← 기본 테두리색 */
+  color: #555555;               /* ← 기본 글자색 */
+  font-family: inherit;
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 7px 18px;
+  border-radius: 22px;          /* ← 0 으로 하면 각진 버튼 */
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.year-btn:hover {
+  border-color: #1b5fc1;
+  color: #1b5fc1;
+}
+
+/* 선택된 버튼 */
+.year-btn.active {
+  background: #1b5fc1;          /* ← 선택 버튼 배경색 */
+  border-color: #1b5fc1;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(27, 95, 193, 0.3);
+}
+
+/* 버튼 안 개수 숫자 */
+.year-count {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 7px;
+  border-radius: 10px;
+  background: #eef2f8;
+  color: #1b5fc1;
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+.year-btn.active .year-count {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+/* 선택 안 된 연도의 카드는 숨김 */
+.activity-item.is-hidden {
+  display: none;
+}
+
+/* 카드가 다시 나타날 때 살짝 올라오는 효과 */
+.activity-item.fade-in {
+  animation: activityFade 0.35s ease;
+}
+@keyframes activityFade {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
+}
+</style>
+
+<!-- 버튼이 들어갈 자리 (비어 있어도 됨 : 아래 스크립트가 채움) -->
+<div class="year-filter" id="yearFilter"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var bar   = document.getElementById('yearFilter');
+  var cards = document.querySelectorAll('.activity-list > .activity-item');
+  if (!bar || cards.length === 0) return;
+
+  /* 1) 카드마다 연도 읽어서 연도별 개수 세기 */
+  var counts = {};
+  cards.forEach(function (card) {
+    var tag  = card.querySelector('.activity-year');
+    var year = tag ? tag.textContent.trim() : '';
+    card.setAttribute('data-year', year);
+    if (year) counts[year] = (counts[year] || 0) + 1;
+  });
+
+  /* 2) 버튼 만들기 : Total + 연도 (최신 연도가 앞) */
+  var years = Object.keys(counts).sort(function (a, b) { return b - a; });
+  addButton('all', 'Total', cards.length);
+  years.forEach(function (y) { addButton(y, y, counts[y]); });
+
+  function addButton(value, label, count) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'year-btn' + (value === 'all' ? ' active' : '');
+    btn.setAttribute('data-filter', value);
+    btn.innerHTML = label + '<span class="year-count">' + count + '</span>';
+    btn.addEventListener('click', function () { applyFilter(value); });
+    bar.appendChild(btn);
+  }
+
+  /* 3) 버튼 클릭 → 선택한 연도 카드만 보이기 */
+  function applyFilter(value) {
+    bar.querySelectorAll('.year-btn').forEach(function (b) {
+      b.classList.toggle('active', b.getAttribute('data-filter') === value);
+    });
+    cards.forEach(function (card) {
+      var show = (value === 'all' || card.getAttribute('data-year') === value);
+      card.classList.toggle('is-hidden', !show);
+      if (show) {                        /* 나타나는 효과 다시 실행 */
+        card.classList.remove('fade-in');
+        void card.offsetWidth;
+        card.classList.add('fade-in');
+      }
+    });
+  }
+});
+</script>
 
 <div class="activity-list" markdown="0">
    <!-- ============================================================
