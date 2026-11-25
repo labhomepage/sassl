@@ -50,7 +50,7 @@
 }
 
 .cite-copy-btn.is-copied i {
-  --fa: "";
+  --fa: "\f00c";
   font-weight: 900;
 }
 
